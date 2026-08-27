@@ -1,0 +1,37 @@
+Build 8.9 · 26 Ago 2026
+- Añadida columna Leads del mes en Pipeline generado por mes y país.
+- Añadida columna Ticket promedio por mes.
+- Ambas métricas responden dinámicamente a Año, Mes comercial, País y Comercial.
+- Ticket promedio se calcula sobre oportunidades con valor comercial, evitando dividir pipeline entre leads sin propuesta.
+- La fila TOTAL muestra leads acumulados y ticket promedio ponderado.
+- Sin cambios en cifras fuente ni en el resto del dashboard.
+
+Build 8.8 · 26 Ago 2026
+- Ajuste de composición en Resumen comercial.
+- Pipeline activo y Cierres quedan inmediatamente debajo de Funnel de conversión.
+- Pipeline generado por mes y país se mantiene a continuación.
+- No se modifican datos, cálculos, filtros ni demás secciones.
+
+Build 8.7 · 26 Ago 2026
+- Añadido Pipeline generado por mes y país.
+- Visualización apilada por país con total mensual y tabla de auditoría.
+- Responde dinámicamente a Año, Mes comercial, País y Comercial.
+- El mes se atribuye por fecha de envío a comercial, única fecha mensual disponible en la fuente actual.
+- CSV comercial ampliado con pipeline generado, activo y perdido.
+
+BUILD 8.5 · 26 AGO 2026
+
+- Reprocesado 100% del archivo Listado de Leads entregados.
+- Pipeline activo: USD 669,339.
+- Pipeline generado: USD 1,257,839.
+- Pipeline perdido: USD 567,600.
+- Funnel comercial: 252 leads fuente, 151 reuniones, 132 propuestas, 103 propuestas finales, 65 activas, 42 perdidos, 3 cierres.
+- Ventas cerradas: USD 20,900.
+- Tabla de control: 252 leads calificados en 2026; agosto 43.
+- Inversión agosto consolidada: USD 2,648.85.
+- Inversión 2026 consolidada: USD 19,239.44.
+- CPL agosto consolidado: USD 61.60.
+- CPL 2026 consolidado: USD 76.35.
+- Añadido filtro Mes comercial a Resumen comercial.
+- Añadido filtro Mes a Performance ADS.
+- Se preservan discrepancias reales de las fuentes en vez de modificarlas manualmente.

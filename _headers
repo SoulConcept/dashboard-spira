@@ -1,0 +1,14 @@
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+/ads.html
+  Cache-Control: no-cache, no-store, must-revalidate
+/inversion.html
+  Cache-Control: no-cache, no-store, must-revalidate
+/assets/js/data.js
+  Cache-Control: no-cache, no-store, must-revalidate
+/assets/js/dashboard.js
+  Cache-Control: public, max-age=3600
+/assets/css/*
+  Cache-Control: public, max-age=3600
+/assets/images/*
+  Cache-Control: public, max-age=86400

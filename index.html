@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard comercial, ADS y resultados de canales digitales de SPIRA, desarrollado por Soul Concept sobre la plantilla WowDash.">
+  <meta name="theme-color" content="#E10613">
+  <title>SPIRA | Dashboard 2026</title>
+  <link rel="icon" href="assets/images/spira-logo.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/remixicon.css">
+  <link rel="stylesheet" href="assets/css/lib/apexcharts.css">
+  <link rel="stylesheet" href="assets/css/wowdash.css">
+  <link rel="stylesheet" href="assets/css/spira-wowdash.css?v=8.9.0">
+</head>
+<body>
+  <div class="spira-app">
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+
+    <aside class="spira-sidebar" id="sidebar" aria-label="Navegación principal">
+      <div class="sidebar-brand">
+        <div class="brand-logos">
+          <img src="assets/images/soul-concept-logo.png" alt="Soul Concept" class="logo-soul">
+          <span class="brand-separator" aria-hidden="true"></span>
+          <img src="assets/images/spira-logo.png" alt="SPIRA" class="logo-spira">
+        </div>
+        <button class="sidebar-close mobile-only" id="sidebarClose" type="button" aria-label="Cerrar navegación"><i class="ri-close-line"></i></button>
+      </div>
+
+      <div class="client-card">
+        <span class="client-card-label">Dashboard ejecutivo</span>
+        <strong>SPIRA 2026</strong>
+        <small>Corte: 26 de agosto de 2026</small>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Secciones del dashboard">
+        <p class="nav-section-label">ANÁLISIS</p>
+        <button class="nav-link active" type="button" data-view="overview">
+          <span class="nav-link-icon"><i class="ri-dashboard-3-line"></i></span>
+          <span><strong>Resumen comercial</strong><small>Funnel, pipeline y cierres</small></span>
+        </button>
+        <button class="nav-link" type="button" data-view="ads">
+          <span class="nav-link-icon"><i class="ri-line-chart-line"></i></span>
+          <span><strong>Performance ADS</strong><small>Leads, inversión y eficiencia</small></span>
+        </button>
+        <button class="nav-link" type="button" data-view="investment">
+          <span class="nav-link-icon"><i class="ri-funds-box-line"></i></span>
+          <span><strong>Inversión ADS</strong><small>Presupuesto y consumo por país</small></span>
+        </button>
+        <button class="nav-link" type="button" data-view="digital">
+          <span class="nav-link-icon"><i class="ri-global-line"></i></span>
+          <span><strong>Canales digitales</strong><small>Web, YouTube y LinkedIn</small></span>
+        </button>
+      </nav>
+
+      <div class="sidebar-source">
+        <div class="source-icon"><i class="ri-notion-fill"></i></div>
+        <div><span>Fuente de inversión</span><strong>Notion</strong><small>Snapshot estático</small></div>
+        <a href="https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link" target="_blank" rel="noopener" aria-label="Abrir fuente en Notion"><i class="ri-external-link-line"></i></a>
+      </div>
+
+      <div class="sidebar-footer">
+        <span>Diseñado por</span>
+        <strong>SOUL CONCEPT</strong>
+        <small>Build 8.9 · WowDash UI</small>
+      </div>
+    </aside>
+
+    <main class="spira-main">
+      <header class="spira-topbar">
+        <div class="topbar-title-group">
+          <button class="menu-toggle mobile-only" id="menuToggle" type="button" aria-label="Abrir navegación"><i class="ri-menu-2-line"></i></button>
+          <div>
+            <div class="breadcrumb"><span>SPIRA</span><i class="ri-arrow-right-s-line"></i><span id="breadcrumbCurrent">Resumen comercial</span></div>
+            <h1 id="pageTitle">Resumen comercial</h1>
+            <p id="pageSubtitle">Conversión, pipeline y ventas acumuladas en 2026.</p>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <label class="control-field" id="yearControl">
+            <span>Año</span>
+            <select id="yearFilter" aria-label="Filtrar por año"></select>
+          </label>
+          <label class="control-field" id="monthControl">
+            <span>Mes</span>
+            <select id="monthFilter" aria-label="Filtrar por mes"></select>
+          </label>
+          <label class="control-field" id="countryControl">
+            <span>País</span>
+            <select id="countryFilter" aria-label="Filtrar por país">
+              <option value="all">Todos</option>
+              <option value="Colombia">Colombia</option>
+              <option value="México">México</option>
+              <option value="Perú">Perú</option>
+              <option value="CAM">CAM</option>
+            </select>
+          </label>
+          <label class="control-field" id="commercialControl">
+            <span>Comercial</span>
+            <select id="commercialFilter" aria-label="Filtrar por comercial"><option value="all">Todos</option></select>
+          </label>
+          <button class="topbar-button" id="exportButton" type="button" title="Exportar datos visibles"><i class="ri-download-2-line"></i><span>Exportar</span></button>
+          <button class="topbar-button icon-only" id="printButton" type="button" title="Imprimir o guardar como PDF"><i class="ri-printer-line"></i></button>
+        </div>
+      </header>
+
+      <div class="spira-content">
+        <section class="view-section active" id="overviewView" data-view-panel="overview">
+          <div class="section-intro">
+            <div><span class="section-kicker">VISIÓN EJECUTIVA</span><h2>Estado del negocio</h2><p>Lectura rápida del funnel y el potencial comercial por mercado. El filtro de mes usa la fecha de envío a comercial del Listado de Leads.</p></div>
+            <div class="source-chip"><i class="ri-file-chart-line"></i><span>Fuente comercial: Listado de Leads · 26 Ago 2026</span></div>
+          </div>
+          <div class="metric-grid" id="overviewMetrics"></div>
+          <div class="dashboard-grid">
+            <article class="panel span-12 funnel-panel">
+              <div class="panel-header"><div><span class="panel-kicker">FUNNEL DE CONVERSIÓN</span><h3>De lead entregado a cierre</h3><p class="panel-support">Volumen acumulado y conversión por etapa en una sola visualización.</p></div><span class="panel-badge" id="funnelPeriodBadge">Todos los años</span></div>
+              <div class="funnel-single-view">
+                <div id="funnelChart" class="chart-box chart-funnel"></div>
+                <p class="interaction-hint funnel-hint"><i class="ri-cursor-line"></i>El ancho representa participación sobre leads; el porcentaje visible mantiene la fórmula de conversión definida para cada etapa. Con filtro de comercial, los leads corresponden a registros asignados en Notion.</p>
+              </div>
+            </article>
+            <article class="panel span-7">
+              <div class="panel-header"><div><span class="panel-kicker">PIPELINE ACTIVO</span><h3>Valor potencial por país</h3><p class="panel-support" id="pipelineSupport">Pipeline generado: USD 1.257.839 · Pipeline perdido: USD 567.600</p></div><span class="panel-badge" id="pipelineTotalBadge"></span></div>
+              <div id="pipelineChart" class="chart-box"></div>
+            </article>
+            <article class="panel span-5">
+              <div class="panel-header"><div><span class="panel-kicker">CIERRES</span><h3>Ventas por mercado</h3></div></div>
+              <div id="salesChart" class="chart-box"></div>
+              <div id="salesLegend" class="compact-legend"></div>
+            </article>
+            <article class="panel span-12 pipeline-generated-panel">
+              <div class="panel-header"><div><span class="panel-kicker">PIPELINE GENERADO</span><h3>Pipeline generado por mes y país</h3><p class="panel-support" id="pipelineGeneratedSupport">Mes = fecha de envío a comercial. Leads = registros enviados en el período. Ticket promedio = pipeline generado / oportunidades con valor comercial.</p></div><span class="panel-badge" id="pipelineGeneratedTotalBadge">—</span></div>
+              <div id="pipelineGeneratedChart" class="chart-box pipeline-generated-chart"></div>
+              <div class="responsive-table pipeline-generated-table-wrap">
+                <table>
+                  <thead><tr id="pipelineGeneratedTableHead"><th>Mes</th><th>Leads del mes</th><th>Colombia</th><th>México</th><th>Perú</th><th>CAM</th><th>Total generado</th><th>Ticket promedio</th></tr></thead>
+                  <tbody id="pipelineGeneratedTable"></tbody>
+                  <tfoot id="pipelineGeneratedTableFoot"></tfoot>
+                </table>
+              </div>
+            </article>
+            <article class="panel span-12">
+              <div class="panel-header"><div><span class="panel-kicker">DETALLE COMERCIAL</span><h3>Pipeline y ticket promedio</h3><p class="panel-support">El total por fila suma únicamente valores monetarios compatibles: pipeline activo + ventas cerradas. Ticket promedio y participación se recalculan en el total regional.</p></div></div>
+              <div class="responsive-table pipeline-detail-wrap"><table><thead><tr><th>País</th><th>Pipeline activo</th><th>% participación Pipe Line regional</th><th>Propuestas</th><th>Ticket promedio</th><th>Cierres</th><th>Ventas</th><th>Total valor comercial</th></tr></thead><tbody id="pipelineTable"></tbody><tfoot id="pipelineTableFoot"></tfoot></table></div>
+            </article>
+            <article class="panel span-12">
+              <div class="panel-header"><div><span class="panel-kicker">GESTIÓN POR COMERCIAL</span><h3>Oportunidades activas y pipeline asignado</h3><p class="panel-support" id="commercialBreakdownNote">Las columnas por país muestran propuestas activas por comercial. El total regional concilia directamente con el pipeline activo.</p></div><span class="panel-badge">Notion · 26 Ago</span></div>
+              <div class="responsive-table commercial-breakdown-wrap"><table><thead><tr><th>Comercial</th><th>Colombia</th><th>México</th><th>Perú</th><th>CAM</th><th>Total activas</th><th>Pipeline</th><th>Ticket promedio</th><th>Cierres</th><th>Ventas</th></tr></thead><tbody id="commercialBreakdownTable"><tr><td colspan="10">Cargando datos comerciales actualizados…</td></tr></tbody><tfoot id="commercialBreakdownFoot"></tfoot></table></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="view-section" id="adsView" data-view-panel="ads" hidden>
+          <div class="section-intro">
+            <div><span class="section-kicker">GENERACIÓN DE DEMANDA</span><h2>Performance de campañas</h2><p>Comportamiento mensual de leads, inversión y eficiencia. El filtro de mes aplica al mismo período en leads e inversión.</p></div>
+            <div class="source-chip"><i class="ri-database-2-line"></i><span>Inversión: Notion · Leads: Tabla de control Leads # · 26 Ago</span></div>
+          </div>
+          <div class="metric-grid" id="adsMetrics"></div>
+          <div class="dashboard-grid">
+            <article class="panel span-7">
+              <div class="panel-header"><div><span class="panel-kicker">LEADS VS. META</span><h3>Evolución mensual</h3></div><span class="panel-badge">Meta: 25 leads</span></div>
+              <div id="leadsTrendChart" class="chart-box"></div>
+            </article>
+            <article class="panel span-5">
+              <div class="panel-header"><div><span class="panel-kicker">EFICIENCIA</span><h3>Costo por lead</h3></div></div>
+              <div id="cplChart" class="chart-box"></div>
+            </article>
+            <article class="panel span-8">
+              <div class="panel-header"><div><span class="panel-kicker">INVERSIÓN ADS</span><h3>Consumo mensual por plataforma</h3></div><span class="panel-badge">Autorizado: USD 3.000/mes</span></div>
+              <div id="adsInvestmentChart" class="chart-box chart-lg"></div>
+              <p class="interaction-hint"><i class="ri-cursor-line"></i>Pasa el cursor por las barras para ver el valor exacto en USD.</p>
+            </article>
+            <article class="panel span-4">
+              <div class="panel-header"><div><span class="panel-kicker">MIX DE MEDIOS</span><h3>Distribución por plataforma</h3></div></div>
+              <div id="adsPlatformChart" class="chart-box"></div>
+              <div id="adsPlatformLegend" class="compact-legend"></div>
+            </article>
+            <article class="panel span-12">
+              <div class="panel-header"><div><span class="panel-kicker">LEADS CALIFICADOS</span><h3>Desempeño por país y mes</h3></div><div class="view-toggle" role="group" aria-label="Cambiar visualización"><button class="toggle-option active" data-country-mode="chart" type="button">Gráfico</button><button class="toggle-option" data-country-mode="table" type="button">Tabla</button></div></div>
+              <div id="countryLeadsChart" class="chart-box"></div>
+              <div id="countryLeadsTableWrap" class="responsive-table" hidden><table><thead id="countryLeadsTableHead"></thead><tbody id="countryLeadsTable"></tbody><tfoot id="countryLeadsTableFoot"></tfoot></table></div><p class="data-footnote">Nota de fuente: en junio, la fila TOTAL de la Tabla de control registra 35 leads calificados y el detalle por país suma 36. El dashboard conserva el total consolidado y el detalle territorial exactamente como aparecen en el archivo.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="view-section" id="investmentView" data-view-panel="investment" hidden>
+          <div class="section-intro">
+            <div><span class="section-kicker">CONTROL PRESUPUESTARIO</span><h2>Inversión ADS</h2><p>Presupuesto aprobado, ejecución por plataforma y distribución por país.</p></div>
+            <a class="source-chip source-link" href="https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link" target="_blank" rel="noopener"><i class="ri-notion-fill"></i><span>Abrir fuente en Notion</span><i class="ri-external-link-line"></i></a>
+          </div>
+          <div class="metric-grid" id="investmentMetrics"></div>
+          <div class="dashboard-grid">
+            <article class="panel span-8">
+              <div class="panel-header"><div><span class="panel-kicker">PRESUPUESTO VS. INVERSIÓN</span><h3>Consumo mensual consolidado</h3></div><span class="panel-badge" id="investmentYearBadge"></span></div>
+              <div id="investmentTrendChart" class="chart-box chart-lg"></div>
+              <p class="interaction-hint"><i class="ri-cursor-line"></i>Haz clic en un mes para actualizar automáticamente el detalle por país.</p>
+            </article>
+            <article class="panel span-4">
+              <div class="panel-header"><div><span class="panel-kicker">MIX DE INVERSIÓN</span><h3>Plataformas</h3></div></div>
+              <div id="investmentPlatformChart" class="chart-box"></div>
+              <div id="investmentPlatformLegend" class="compact-legend"></div>
+            </article>
+            <article class="panel span-12">
+              <div class="panel-header stack-mobile"><div><span class="panel-kicker">DISTRIBUCIÓN POR PAÍS</span><h3 id="countryBudgetTitle">Presupuesto individual y consumo</h3></div><div class="panel-filters"><label><span>Mes analizado</span><select id="countryMonthFilter"></select></label><label><span>Visualización</span><select id="countryMetricFilter"><option value="spent">Invertido</option><option value="consumption">% consumido</option><option value="remaining">Saldo</option></select></label></div></div>
+              <div id="countryBudgetChart" class="chart-box"></div>
+              <div id="countryBudgetCards" class="country-budget-grid"></div>
+            </article>
+            <article class="panel span-7">
+              <div class="panel-header"><div><span class="panel-kicker">TENDENCIA POR PAÍS</span><h3>Inversión mensual</h3></div></div>
+              <div id="countryTrendChart" class="chart-box"></div>
+            </article>
+            <article class="panel span-5">
+              <div class="panel-header"><div><span class="panel-kicker">ALERTAS</span><h3>Desviaciones de presupuesto</h3></div></div>
+              <div id="budgetAlerts" class="alert-list"></div>
+            </article>
+            <article class="panel span-12">
+              <div class="panel-header stack-mobile"><div><span class="panel-kicker">HISTÓRICO NOTION</span><h3>Detalle mensual consolidado</h3></div><div class="table-tools"><button id="investmentCsvButton" class="small-action" type="button"><i class="ri-file-excel-2-line"></i>CSV</button></div></div>
+              <div class="responsive-table"><table><thead><tr><th>Mes</th><th>Presupuesto</th><th>LinkedIn</th><th>Google</th><th>Total invertido</th><th>Consumo</th><th>Saldo</th><th>Leads</th></tr></thead><tbody id="investmentTable"></tbody><tfoot id="investmentTableFoot"></tfoot></table></div>
+              <p class="data-footnote">Fuente exclusiva de esta sección: bases consolidadas y por país de Notion. Snapshot: 26 de agosto de 2026. Las bases por país pueden presentar diferencias de conciliación frente al consolidado por plataforma; se conservan los valores fuente.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="view-section" id="digitalView" data-view-panel="digital" hidden>
+          <div class="section-intro">
+            <div><span class="section-kicker">ECOSISTEMA DIGITAL</span><h2>Resultados de canales digitales</h2><p>Evolución de Web, YouTube y LinkedIn desde la línea base hasta la gestión actual.</p></div>
+            <div class="source-chip"><i class="ri-bar-chart-grouped-line"></i><span>Fuentes: GA4 · YouTube Analytics · LinkedIn Analytics</span></div>
+          </div>
+
+          <div class="digital-filter-bar digital-filter-bar-history" aria-label="Filtros de resultados digitales">
+            <label class="digital-filter-field"><span>Canal</span><select id="digitalChannelFilter"><option value="all">Todos</option><option value="Web">Web</option><option value="YouTube">YouTube</option><option value="LinkedIn">LinkedIn</option></select></label>
+            <label class="digital-filter-field"><span>Cobertura</span><select id="digitalStatusFilter"><option value="all">Todos los períodos</option><option value="Completo">Solo completos</option><option value="Parcial">Solo parciales</option><option value="Sin datos">Sin datos</option></select></label>
+            <div class="digital-period-summary"><span>Histórico visible</span><strong id="digitalPeriodSummary">Serie completa · todos los canales</strong></div>
+          </div>
+
+          <div class="digital-history-context" aria-label="Lectura de la serie histórica">
+            <span class="history-phase history-before"><i></i>Línea base previa</span>
+            <span class="history-marker"><i class="ri-flag-2-line"></i>Inicio de gestión: 01/08/2025</span>
+            <span class="history-phase history-after"><i></i>Gestión de la agencia</span>
+            <small>Los gráficos comparten un único eje temporal. Los períodos parciales permanecen visibles, mientras los comparativos automáticos usan únicamente meses completos.</small>
+          </div>
+
+          <div id="digitalCoverageStrip" class="coverage-strip"></div>
+
+          <article class="panel digital-comparison-panel">
+            <div class="panel-header stack-mobile"><div><span class="panel-kicker">COMPARATIVO AUTOMÁTICO</span><h3>Línea base vs. gestión</h3><p class="panel-support">Promedios mensuales calculados con períodos completos. Las métricas con definiciones distintas se identifican expresamente.</p></div><span class="panel-badge">Corte: 04/08/2026</span></div>
+            <div id="digitalComparisonGrid" class="digital-comparison-grid"></div>
+          </article>
+
+          <div class="metric-grid digital-metric-grid" id="digitalMetrics"></div>
+
+          <div class="dashboard-grid">
+            <article class="panel span-8 digital-channel-panel" data-digital-channel="Web">
+              <div class="panel-header"><div><span class="panel-kicker digital-web">WEB · TRÁFICO</span><h3>Sesiones, interacción y vistas</h3><p class="panel-support">La serie GA4 se muestra separada de la línea histórica cuando las definiciones no son comparables.</p></div><span class="panel-badge" id="webPeriodBadge"></span></div>
+              <div id="webTrafficChart" class="chart-box chart-lg"></div>
+            </article>
+            <article class="panel span-4 digital-channel-panel" data-digital-channel="Web">
+              <div class="panel-header"><div><span class="panel-kicker digital-web">WEB · CALIDAD</span><h3>Interacción y rebote</h3></div></div>
+              <div id="webQualityChart" class="chart-box"></div>
+              <div id="webInsight" class="digital-insight"></div>
+            </article>
+
+            <article class="panel span-8 digital-channel-panel" data-digital-channel="YouTube">
+              <div class="panel-header"><div><span class="panel-kicker digital-youtube">YOUTUBE · EVOLUCIÓN</span><h3>Horas y producción mensual</h3><p class="panel-support">Serie comparable de horas de visualización y videos publicados antes y durante la gestión.</p></div><span class="panel-badge" id="youtubePeriodBadge"></span></div>
+              <div id="youtubeConsumptionChart" class="chart-box chart-lg"></div>
+            </article>
+            <article class="panel span-4 digital-channel-panel" data-digital-channel="YouTube">
+              <div class="panel-header"><div><span class="panel-kicker digital-youtube">YOUTUBE · EFICIENCIA</span><h3>CTR y retención</h3></div></div>
+              <div id="youtubeEfficiencyChart" class="chart-box"></div>
+              <div id="youtubeInsight" class="digital-insight"></div>
+            </article>
+            <article class="panel span-12 digital-channel-panel" data-digital-channel="YouTube">
+              <div class="panel-header"><div><span class="panel-kicker digital-youtube">YOUTUBE · VISUALIZACIONES</span><h3>Rendimiento del contenido</h3></div><span class="panel-badge">Spira Talks desde 07/08/2025</span></div>
+              <div id="youtubeProductionChart" class="chart-box"></div>
+            </article>
+
+            <article class="panel span-8 digital-channel-panel" data-digital-channel="LinkedIn">
+              <div class="panel-header"><div><span class="panel-kicker digital-linkedin">LINKEDIN · ALCANCE</span><h3>Orgánico, patrocinado y total histórico</h3><p class="panel-support">El volumen patrocinado se mantiene separado para evitar atribuirlo al desempeño orgánico.</p></div><span class="panel-badge" id="linkedinPeriodBadge"></span></div>
+              <div id="linkedinReachChart" class="chart-box chart-lg"></div>
+            </article>
+            <article class="panel span-4 digital-channel-panel" data-digital-channel="LinkedIn">
+              <div class="panel-header"><div><span class="panel-kicker digital-linkedin">LINKEDIN · COMUNIDAD</span><h3>Seguidores y visitantes</h3></div></div>
+              <div id="linkedinCommunityChart" class="chart-box"></div>
+              <div id="linkedinInsight" class="digital-insight"></div>
+            </article>
+            <article class="panel span-7 digital-channel-panel" data-digital-channel="LinkedIn">
+              <div class="panel-header"><div><span class="panel-kicker digital-linkedin">LINKEDIN · RESPUESTA</span><h3>CTR y tasa real de interacción</h3></div></div>
+              <div id="linkedinResponseChart" class="chart-box"></div>
+            </article>
+            <article class="panel span-5 digital-channel-panel" data-digital-channel="LinkedIn">
+              <div class="panel-header"><div><span class="panel-kicker digital-linkedin">BENCHMARK</span><h3>Crecimiento de seguidores</h3></div><span class="panel-badge">03/08/2025–02/08/2026</span></div>
+              <div id="competitorChart" class="chart-box"></div>
+              <p class="data-footnote">Benchmark independiente. No se suma con los resultados de SPIRA.</p>
+            </article>
+
+
+            <article class="panel span-12 digital-history-table-panel">
+              <div class="panel-header stack-mobile"><div><span class="panel-kicker neutral">HISTÓRICO CONSOLIDADO</span><h3>Detalle mensual del período visible</h3><p class="panel-support">Una única tabla para revisar evolución, cobertura y principales métricas por mes.</p></div><span class="panel-badge" id="digitalHistoryBadge"></span></div>
+              <div class="responsive-table digital-history-table-wrap"><table><thead id="digitalHistoryHead"></thead><tbody id="digitalHistoryTable"></tbody><tfoot id="digitalHistoryFoot"></tfoot></table></div>
+            </article>
+
+            <article class="panel span-12 digital-quality-panel">
+              <div class="panel-header"><div><span class="panel-kicker neutral">CALIDAD Y COBERTURA</span><h3>Notas para interpretar los resultados</h3></div><span class="panel-badge">Corte: 04/08/2026</span></div>
+              <div id="digitalQualityGrid" class="quality-grid"></div>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <footer class="spira-footer"><span>SPIRA · Dashboard ejecutivo 2026</span><span>Desarrollado por Soul Concept · Build 8.9</span></footer>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/lib/apexcharts.min.js"></script>
+  <script src="assets/js/data.js?v=8.9.0"></script>
+  <script src="assets/js/digital-data.js?v=8.9.0"></script>
+  <script src="assets/js/dashboard.js?v=8.9.0"></script>
+</body>
+</html>
