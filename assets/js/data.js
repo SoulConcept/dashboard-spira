@@ -4,8 +4,8 @@ window.SPIRA_DATA = {
     "agency": "Soul Concept",
     "reportTitle": "Dashboard de performance comercial y ADS",
     "period": "2026",
-    "cutoff": "1 de septiembre de 2026 · actualización automática desde Notion (Listado de Leads entregados)",
-    "source": "Listado de Leads entregados + Tabla de control Leads # + USD Total Inversión de Publicidad 2025–2026 · archivos descargados de Notion el 26 de agosto de 2026"
+    "cutoff": "1 de septiembre de 2026 · actualización automática desde Notion (Listado de Leads entregados + USD Total Inversión de Publicidad)",
+    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado automáticamente desde Notion el 1 de septiembre de 2026 (Tabla de control Leads # no incluida, es un archivo de referencia manual)"
   },
   "brand": {
     "red": "#E10613",
@@ -173,8 +173,8 @@ window.SPIRA_DATA = {
       }
     },
     "kpis": {
-      "costPerMql": 76.35,
-      "totalAdsInvestment": 19239.44,
+      "costPerMql": 74.26,
+      "totalAdsInvestment": 20124.85,
       "bonus": 400,
       "bonusNote": "Gestionado para Google en enero"
     },
@@ -4247,7 +4247,7 @@ window.SPIRA_DATA = {
   "investment": {
     "sourceUrl": "https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link",
     "sourceLabel": "USD Total Inversión de Publicidad 2025–2026",
-    "snapshot": "26 de agosto de 2026",
+    "snapshot": "1 de septiembre de 2026",
     "defaultBudget": 3000,
     "history": [
       {
@@ -4258,7 +4258,7 @@ window.SPIRA_DATA = {
         "linkedin": 90.0,
         "google": 0.0,
         "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4268,7 +4268,7 @@ window.SPIRA_DATA = {
         "linkedin": 1192.93,
         "google": 21.35,
         "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4278,7 +4278,7 @@ window.SPIRA_DATA = {
         "linkedin": 824.57,
         "google": 791.01,
         "leads": 18,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4288,7 +4288,7 @@ window.SPIRA_DATA = {
         "linkedin": 757.7,
         "google": 964.66,
         "leads": 9,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4298,7 +4298,7 @@ window.SPIRA_DATA = {
         "linkedin": 1390.55,
         "google": 940.96,
         "leads": 17,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4308,7 +4308,7 @@ window.SPIRA_DATA = {
         "linkedin": 612.65,
         "google": 1960.48,
         "leads": 18,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4317,8 +4317,8 @@ window.SPIRA_DATA = {
         "budget": 3000.0,
         "linkedin": 750.11,
         "google": 1461.0,
-        "leads": 30,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": 32,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4328,7 +4328,7 @@ window.SPIRA_DATA = {
         "linkedin": 130.28,
         "google": 1649.03,
         "leads": 55,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4338,7 +4338,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 2985.84,
         "leads": 35,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4348,7 +4348,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 2987.33,
         "leads": 45,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4356,375 +4356,22 @@ window.SPIRA_DATA = {
         "monthIndex": 8,
         "budget": 3000.0,
         "linkedin": 0.0,
-        "google": 2648.85,
-        "leads": 43,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "google": 3515.73,
+        "leads": 61,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "year": 2026,
+        "month": "Septiembre",
+        "monthIndex": 9,
+        "budget": 3000.0,
+        "linkedin": 0.0,
+        "google": 18.53,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       }
     ],
     "countryHistory": [
-      {
-        "country": "Colombia",
-        "year": 2025,
-        "month": "Octubre",
-        "monthIndex": 10,
-        "budget": 1050.0,
-        "linkedin": 31.5,
-        "google": 0.0,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2025,
-        "month": "Noviembre",
-        "monthIndex": 11,
-        "budget": 1050.0,
-        "linkedin": 417.53,
-        "google": 21.35,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2025,
-        "month": "Diciembre",
-        "monthIndex": 12,
-        "budget": 1050.0,
-        "linkedin": 460.16,
-        "google": 333.72,
-        "leads": 7,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Enero",
-        "monthIndex": 1,
-        "budget": 1050.0,
-        "linkedin": 224.0,
-        "google": 407.07,
-        "leads": 3,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Febrero",
-        "monthIndex": 2,
-        "budget": 1050.0,
-        "linkedin": 422.0,
-        "google": 430.92,
-        "leads": 7,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Marzo",
-        "monthIndex": 3,
-        "budget": 1050.0,
-        "linkedin": 189.0,
-        "google": 657.44,
-        "leads": 8,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Abril",
-        "monthIndex": 4,
-        "budget": 1050.0,
-        "linkedin": 262.5,
-        "google": 640.6,
-        "leads": 10,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Mayo",
-        "monthIndex": 5,
-        "budget": 1050.0,
-        "linkedin": 45.5,
-        "google": 428.73,
-        "leads": 13,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Junio",
-        "monthIndex": 6,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 686.39,
-        "leads": 11,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Julio",
-        "monthIndex": 7,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 648.17,
-        "leads": 13,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Colombia",
-        "year": 2026,
-        "month": "Agosto",
-        "monthIndex": 8,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 862.1,
-        "leads": 14,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2025,
-        "month": "Octubre",
-        "monthIndex": 10,
-        "budget": 1050.0,
-        "linkedin": 31.5,
-        "google": 0.0,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2025,
-        "month": "Noviembre",
-        "monthIndex": 11,
-        "budget": 1050.0,
-        "linkedin": 417.53,
-        "google": 0.0,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2025,
-        "month": "Diciembre",
-        "monthIndex": 12,
-        "budget": 1050.0,
-        "linkedin": 122.79,
-        "google": 333.73,
-        "leads": 3,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Enero",
-        "monthIndex": 1,
-        "budget": 1050.0,
-        "linkedin": 289.0,
-        "google": 140.84,
-        "leads": 3,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Febrero",
-        "monthIndex": 2,
-        "budget": 1050.0,
-        "linkedin": 431.0,
-        "google": 159.63,
-        "leads": 5,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Marzo",
-        "monthIndex": 3,
-        "budget": 1050.0,
-        "linkedin": 186.0,
-        "google": 475.62,
-        "leads": 3,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Abril",
-        "monthIndex": 4,
-        "budget": 1050.0,
-        "linkedin": 262.5,
-        "google": 369.49,
-        "leads": 10,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Mayo",
-        "monthIndex": 5,
-        "budget": 1050.0,
-        "linkedin": 45.5,
-        "google": 535.44,
-        "leads": 19,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Junio",
-        "monthIndex": 6,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 1323.48,
-        "leads": 15,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Julio",
-        "monthIndex": 7,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 1211.04,
-        "leads": 16,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "México",
-        "year": 2026,
-        "month": "Agosto",
-        "monthIndex": 8,
-        "budget": 1050.0,
-        "linkedin": 0.0,
-        "google": 894.53,
-        "leads": 17,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2025,
-        "month": "Octubre",
-        "monthIndex": 10,
-        "budget": 600.0,
-        "linkedin": 18.0,
-        "google": 0.0,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2025,
-        "month": "Noviembre",
-        "monthIndex": 11,
-        "budget": 600.0,
-        "linkedin": 238.59,
-        "google": 0.0,
-        "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2025,
-        "month": "Diciembre",
-        "monthIndex": 12,
-        "budget": 600.0,
-        "linkedin": 153.51,
-        "google": 122.57,
-        "leads": 8,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Enero",
-        "monthIndex": 1,
-        "budget": 600.0,
-        "linkedin": 139.0,
-        "google": 273.87,
-        "leads": 2,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Febrero",
-        "monthIndex": 2,
-        "budget": 600.0,
-        "linkedin": 274.0,
-        "google": 191.07,
-        "leads": 3,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Marzo",
-        "monthIndex": 3,
-        "budget": 600.0,
-        "linkedin": 124.0,
-        "google": 600.61,
-        "leads": 5,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Abril",
-        "monthIndex": 4,
-        "budget": 600.0,
-        "linkedin": 150.0,
-        "google": 323.92,
-        "leads": 6,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Mayo",
-        "monthIndex": 5,
-        "budget": 600.0,
-        "linkedin": 26.0,
-        "google": 467.0,
-        "leads": 13,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Junio",
-        "monthIndex": 6,
-        "budget": 600.0,
-        "linkedin": 0.0,
-        "google": 591.08,
-        "leads": 6,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Julio",
-        "monthIndex": 7,
-        "budget": 600.0,
-        "linkedin": 0.0,
-        "google": 681.18,
-        "leads": 8,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
-      {
-        "country": "Perú",
-        "year": 2026,
-        "month": "Agosto",
-        "monthIndex": 8,
-        "budget": 600.0,
-        "linkedin": 0.0,
-        "google": 669.11,
-        "leads": 6,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
-      },
       {
         "country": "CAM",
         "year": 2025,
@@ -4734,7 +4381,7 @@ window.SPIRA_DATA = {
         "linkedin": 9.0,
         "google": 0.0,
         "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4745,7 +4392,7 @@ window.SPIRA_DATA = {
         "linkedin": 119.23,
         "google": 0.0,
         "leads": null,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4755,8 +4402,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 88.11,
         "google": 0.0,
-        "leads": 0,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4766,8 +4413,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 106.0,
         "google": 141.76,
-        "leads": 1,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4777,8 +4424,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 263.0,
         "google": 158.2,
-        "leads": 2,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4788,8 +4435,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 114.0,
         "google": 224.34,
-        "leads": 2,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4799,8 +4446,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 75.0,
         "google": 127.05,
-        "leads": 4,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4810,8 +4457,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 13.0,
         "google": 206.58,
-        "leads": 10,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4821,8 +4468,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 0.0,
         "google": 384.89,
-        "leads": 4,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4832,8 +4479,8 @@ window.SPIRA_DATA = {
         "budget": 300.0,
         "linkedin": 0.0,
         "google": 446.94,
-        "leads": 8,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4842,9 +4489,416 @@ window.SPIRA_DATA = {
         "monthIndex": 8,
         "budget": 300.0,
         "linkedin": 0.0,
-        "google": 225.77,
-        "leads": 6,
-        "source": "Exportaciones de Notion descargadas el 26 de agosto de 2026"
+        "google": 224.79,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "CAM",
+        "year": 2026,
+        "month": "Septiembre",
+        "monthIndex": 9,
+        "budget": 300.0,
+        "linkedin": 0.0,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2025,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 1050.0,
+        "linkedin": 31.5,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2025,
+        "month": "Noviembre",
+        "monthIndex": 11,
+        "budget": 1050.0,
+        "linkedin": 417.53,
+        "google": 21.35,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2025,
+        "month": "Diciembre",
+        "monthIndex": 12,
+        "budget": 1050.0,
+        "linkedin": 460.16,
+        "google": 333.72,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Enero",
+        "monthIndex": 1,
+        "budget": 1050.0,
+        "linkedin": 224.0,
+        "google": 407.07,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Febrero",
+        "monthIndex": 2,
+        "budget": 1050.0,
+        "linkedin": 422.0,
+        "google": 430.92,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Marzo",
+        "monthIndex": 3,
+        "budget": 1050.0,
+        "linkedin": 189.0,
+        "google": 657.44,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Abril",
+        "monthIndex": 4,
+        "budget": 1050.0,
+        "linkedin": 262.5,
+        "google": 640.6,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Mayo",
+        "monthIndex": 5,
+        "budget": 1050.0,
+        "linkedin": 45.5,
+        "google": 428.73,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Junio",
+        "monthIndex": 6,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 686.39,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Julio",
+        "monthIndex": 7,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 648.17,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Agosto",
+        "monthIndex": 8,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 1112.13,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Colombia",
+        "year": 2026,
+        "month": "Septiembre",
+        "monthIndex": 9,
+        "budget": 1000.0,
+        "linkedin": 0.0,
+        "google": 12.2,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2025,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 1050.0,
+        "linkedin": 31.5,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2025,
+        "month": "Noviembre",
+        "monthIndex": 11,
+        "budget": 1050.0,
+        "linkedin": 417.53,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2025,
+        "month": "Diciembre",
+        "monthIndex": 12,
+        "budget": 1050.0,
+        "linkedin": 122.79,
+        "google": 333.73,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Enero",
+        "monthIndex": 1,
+        "budget": 1050.0,
+        "linkedin": 289.0,
+        "google": 140.84,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Febrero",
+        "monthIndex": 2,
+        "budget": 1050.0,
+        "linkedin": 431.0,
+        "google": 159.63,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Marzo",
+        "monthIndex": 3,
+        "budget": 1050.0,
+        "linkedin": 186.0,
+        "google": 475.62,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Abril",
+        "monthIndex": 4,
+        "budget": 1050.0,
+        "linkedin": 262.5,
+        "google": 369.49,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Mayo",
+        "monthIndex": 5,
+        "budget": 1050.0,
+        "linkedin": 45.5,
+        "google": 535.44,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Junio",
+        "monthIndex": 6,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 1323.48,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Julio",
+        "monthIndex": 7,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 1211.04,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Agosto",
+        "monthIndex": 8,
+        "budget": 1050.0,
+        "linkedin": 0.0,
+        "google": 1198.94,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "México",
+        "year": 2026,
+        "month": "Septiembre",
+        "monthIndex": 9,
+        "budget": 1000.0,
+        "linkedin": 0.0,
+        "google": 0.66,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2025,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 600.0,
+        "linkedin": 18.0,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2025,
+        "month": "Noviembre",
+        "monthIndex": 11,
+        "budget": 600.0,
+        "linkedin": 238.59,
+        "google": 0.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2025,
+        "month": "Diciembre",
+        "monthIndex": 12,
+        "budget": 600.0,
+        "linkedin": 153.51,
+        "google": 122.57,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Enero",
+        "monthIndex": 1,
+        "budget": 600.0,
+        "linkedin": 139.0,
+        "google": 273.87,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Febrero",
+        "monthIndex": 2,
+        "budget": 600.0,
+        "linkedin": 274.0,
+        "google": 191.07,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Marzo",
+        "monthIndex": 3,
+        "budget": 600.0,
+        "linkedin": 124.0,
+        "google": 600.61,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Abril",
+        "monthIndex": 4,
+        "budget": 600.0,
+        "linkedin": 150.0,
+        "google": 323.92,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Mayo",
+        "monthIndex": 5,
+        "budget": 600.0,
+        "linkedin": 26.0,
+        "google": 467.0,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Junio",
+        "monthIndex": 6,
+        "budget": 600.0,
+        "linkedin": 0.0,
+        "google": 591.08,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Julio",
+        "monthIndex": 7,
+        "budget": 600.0,
+        "linkedin": 0.0,
+        "google": 681.18,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Agosto",
+        "monthIndex": 8,
+        "budget": 600.0,
+        "linkedin": 0.0,
+        "google": 979.92,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+      },
+      {
+        "country": "Perú",
+        "year": 2026,
+        "month": "Septiembre",
+        "monthIndex": 9,
+        "budget": 1000.0,
+        "linkedin": 0.0,
+        "google": 5.66,
+        "leads": null,
+        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
       }
     ]
   }
