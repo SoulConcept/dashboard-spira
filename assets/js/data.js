@@ -4,8 +4,8 @@ window.SPIRA_DATA = {
     "agency": "Soul Concept",
     "reportTitle": "Dashboard de performance comercial y ADS",
     "period": "2026",
-    "cutoff": "1 de septiembre de 2026 · actualización automática desde Notion (Listado de Leads entregados + USD Total Inversión de Publicidad)",
-    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado automáticamente desde Notion el 1 de septiembre de 2026 (Tabla de control Leads # no incluida, es un archivo de referencia manual)"
+    "cutoff": "2 de septiembre de 2026 · actualización automática desde Notion (Listado de Leads entregados + USD Total Inversión de Publicidad)",
+    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado automáticamente desde Notion el 2 de septiembre de 2026 (Tabla de control Leads # no incluida, es un archivo de referencia manual)"
   },
   "brand": {
     "red": "#E10613",
@@ -82,14 +82,14 @@ window.SPIRA_DATA = {
       {
         "key": "leads",
         "label": "Leads entregados",
-        "value": 271,
+        "value": 276,
         "rate": null,
         "tone": "neutral"
       },
       {
         "key": "meetings",
         "label": "Reuniones",
-        "value": 234,
+        "value": 239,
         "rate": null,
         "tone": "yellow"
       },
@@ -132,24 +132,24 @@ window.SPIRA_DATA = {
     ],
     "funnelByCountry": {
       "Colombia": {
-        "meetings": 81,
+        "meetings": 82,
         "proposals": 48,
         "final": 41,
         "active": 33,
         "lost": 18,
         "lostUsd": 83150.0,
         "closes": 1,
-        "trackedLeads": 93
+        "trackedLeads": 94
       },
       "México": {
-        "meetings": 79,
+        "meetings": 81,
         "proposals": 46,
         "final": 45,
         "active": 26,
         "lost": 38,
         "lostUsd": 199150.0,
         "closes": 1,
-        "trackedLeads": 92
+        "trackedLeads": 94
       },
       "Perú": {
         "meetings": 46,
@@ -173,8 +173,8 @@ window.SPIRA_DATA = {
       }
     },
     "kpis": {
-      "costPerMql": 74.26,
-      "totalAdsInvestment": 20124.85,
+      "costPerMql": 73.51,
+      "totalAdsInvestment": 20289.49,
       "bonus": 400,
       "bonusNote": "Gestionado para Google en enero"
     },
@@ -182,13 +182,13 @@ window.SPIRA_DATA = {
     "pipelineActive": 710555.27,
     "pipelineLost": 567600.0,
     "validation": {
-      "sourceRows": 271,
-      "usableLeadRows": 269,
-      "blankRows": 2,
-      "qualifiedLeads2026Control": 271,
-      "detailedRows2026": 271,
-      "numberedDetailedRows2026": 269,
-      "qualifiedVsNumberedDetailedGap": 0,
+      "sourceRows": 276,
+      "usableLeadRows": 272,
+      "blankRows": 4,
+      "qualifiedLeads2026Control": 276,
+      "detailedRows2026": 276,
+      "numberedDetailedRows2026": 271,
+      "qualifiedVsNumberedDetailedGap": 1,
       "quotedProposalRows": 107,
       "quotedProposalValue": 1293488.27,
       "closedRows": 3,
@@ -199,8 +199,8 @@ window.SPIRA_DATA = {
       "lostRows": 100,
       "lostQuotedRows": 36,
       "lostPipelineValue": 567600.0,
-      "commercialNamedRows": 268,
-      "commercialBlankFieldRows": 3,
+      "commercialNamedRows": 271,
+      "commercialBlankFieldRows": 5,
       "augustQualifiedLeads": 43,
       "augustCountryBreakdown": {
         "Colombia": 14,
@@ -209,9 +209,9 @@ window.SPIRA_DATA = {
         "CAM": 6
       },
       "qualifiedLeadsThroughAugust": 270,
-      "qualifiedLeads2026": 271,
+      "qualifiedLeads2026": 276,
       "investmentExportSnapshot": "26 de agosto de 2026",
-      "commercialRowsSnapshot": "1 de septiembre de 2026",
+      "commercialRowsSnapshot": "2 de septiembre de 2026",
       "juneControlTotal": 35,
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
@@ -3999,6 +3999,76 @@ window.SPIRA_DATA = {
         "sentDate": "31 de agosto de 2026"
       },
       {
+        "id": 270,
+        "year": 2026,
+        "monthIndex": 9,
+        "country": "México",
+        "rawCountry": "México",
+        "commercial": "Luis Medina",
+        "status": "Sin contacto",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": "Pago",
+        "company": "FLX LOGISTICS SOLUTIONS",
+        "sentDate": "1 de septiembre de 2026"
+      },
+      {
+        "id": 271,
+        "year": 2026,
+        "monthIndex": 9,
+        "country": "Colombia",
+        "rawCountry": "Colombia",
+        "commercial": "Stephanie Rincón Pulido",
+        "status": "Sin contacto",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": "Pago",
+        "company": "Seguros Bolivar",
+        "sentDate": "1 de septiembre de 2026"
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": 9,
+        "country": "México",
+        "rawCountry": "México",
+        "commercial": "Iván Jimenez",
+        "status": "",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": null,
+        "company": "Ejecutando ideas",
+        "sentDate": "2 de septiembre de 2026"
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": null,
+        "country": null,
+        "rawCountry": null,
+        "commercial": null,
+        "status": "",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": null,
+        "company": null,
+        "sentDate": null
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": null,
+        "country": null,
+        "rawCountry": null,
+        "commercial": null,
+        "status": "",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": null,
+        "company": null,
+        "sentDate": null
+      },
+      {
         "id": null,
         "year": 2026,
         "monthIndex": null,
@@ -4247,7 +4317,7 @@ window.SPIRA_DATA = {
   "investment": {
     "sourceUrl": "https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link",
     "sourceLabel": "USD Total Inversión de Publicidad 2025–2026",
-    "snapshot": "1 de septiembre de 2026",
+    "snapshot": "2 de septiembre de 2026",
     "defaultBudget": 3000,
     "history": [
       {
@@ -4258,7 +4328,7 @@ window.SPIRA_DATA = {
         "linkedin": 90.0,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4268,7 +4338,7 @@ window.SPIRA_DATA = {
         "linkedin": 1192.93,
         "google": 21.35,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4278,7 +4348,7 @@ window.SPIRA_DATA = {
         "linkedin": 824.57,
         "google": 791.01,
         "leads": 18,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4288,7 +4358,7 @@ window.SPIRA_DATA = {
         "linkedin": 757.7,
         "google": 964.66,
         "leads": 9,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4298,7 +4368,7 @@ window.SPIRA_DATA = {
         "linkedin": 1390.55,
         "google": 940.96,
         "leads": 17,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4308,7 +4378,7 @@ window.SPIRA_DATA = {
         "linkedin": 612.65,
         "google": 1960.48,
         "leads": 18,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4318,7 +4388,7 @@ window.SPIRA_DATA = {
         "linkedin": 750.11,
         "google": 1461.0,
         "leads": 32,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4328,7 +4398,7 @@ window.SPIRA_DATA = {
         "linkedin": 130.28,
         "google": 1649.03,
         "leads": 55,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4338,7 +4408,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 2985.84,
         "leads": 35,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4348,7 +4418,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 2987.33,
         "leads": 45,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4358,7 +4428,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 3515.73,
         "leads": 61,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4366,9 +4436,9 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 3000.0,
         "linkedin": 0.0,
-        "google": 18.53,
+        "google": 183.17,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       }
     ],
     "countryHistory": [
@@ -4381,7 +4451,7 @@ window.SPIRA_DATA = {
         "linkedin": 9.0,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4392,7 +4462,7 @@ window.SPIRA_DATA = {
         "linkedin": 119.23,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4403,7 +4473,7 @@ window.SPIRA_DATA = {
         "linkedin": 88.11,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4414,7 +4484,7 @@ window.SPIRA_DATA = {
         "linkedin": 106.0,
         "google": 141.76,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4425,7 +4495,7 @@ window.SPIRA_DATA = {
         "linkedin": 263.0,
         "google": 158.2,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4436,7 +4506,7 @@ window.SPIRA_DATA = {
         "linkedin": 114.0,
         "google": 224.34,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4447,7 +4517,7 @@ window.SPIRA_DATA = {
         "linkedin": 75.0,
         "google": 127.05,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4458,7 +4528,7 @@ window.SPIRA_DATA = {
         "linkedin": 13.0,
         "google": 206.58,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4469,7 +4539,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 384.89,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4480,7 +4550,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 446.94,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4491,7 +4561,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 224.79,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "CAM",
@@ -4502,7 +4572,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4513,7 +4583,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4524,7 +4594,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.53,
         "google": 21.35,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4535,7 +4605,7 @@ window.SPIRA_DATA = {
         "linkedin": 460.16,
         "google": 333.72,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4546,7 +4616,7 @@ window.SPIRA_DATA = {
         "linkedin": 224.0,
         "google": 407.07,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4557,7 +4627,7 @@ window.SPIRA_DATA = {
         "linkedin": 422.0,
         "google": 430.92,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4568,7 +4638,7 @@ window.SPIRA_DATA = {
         "linkedin": 189.0,
         "google": 657.44,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4579,7 +4649,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 640.6,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4590,7 +4660,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 428.73,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4601,7 +4671,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 686.39,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4612,7 +4682,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 648.17,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4623,7 +4693,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 1112.13,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Colombia",
@@ -4632,9 +4702,9 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000.0,
         "linkedin": 0.0,
-        "google": 12.2,
+        "google": 62.7,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4645,7 +4715,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4656,7 +4726,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.53,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4667,7 +4737,7 @@ window.SPIRA_DATA = {
         "linkedin": 122.79,
         "google": 333.73,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4678,7 +4748,7 @@ window.SPIRA_DATA = {
         "linkedin": 289.0,
         "google": 140.84,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4689,7 +4759,7 @@ window.SPIRA_DATA = {
         "linkedin": 431.0,
         "google": 159.63,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4700,7 +4770,7 @@ window.SPIRA_DATA = {
         "linkedin": 186.0,
         "google": 475.62,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4711,7 +4781,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 369.49,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4722,7 +4792,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 535.44,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4733,7 +4803,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 1323.48,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4744,7 +4814,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 1211.04,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4755,7 +4825,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 1198.94,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "México",
@@ -4764,9 +4834,9 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000.0,
         "linkedin": 0.0,
-        "google": 0.66,
+        "google": 54.23,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4777,7 +4847,7 @@ window.SPIRA_DATA = {
         "linkedin": 18.0,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4788,7 +4858,7 @@ window.SPIRA_DATA = {
         "linkedin": 238.59,
         "google": 0.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4799,7 +4869,7 @@ window.SPIRA_DATA = {
         "linkedin": 153.51,
         "google": 122.57,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4810,7 +4880,7 @@ window.SPIRA_DATA = {
         "linkedin": 139.0,
         "google": 273.87,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4821,7 +4891,7 @@ window.SPIRA_DATA = {
         "linkedin": 274.0,
         "google": 191.07,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4832,7 +4902,7 @@ window.SPIRA_DATA = {
         "linkedin": 124.0,
         "google": 600.61,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4843,7 +4913,7 @@ window.SPIRA_DATA = {
         "linkedin": 150.0,
         "google": 323.92,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4854,7 +4924,7 @@ window.SPIRA_DATA = {
         "linkedin": 26.0,
         "google": 467.0,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4865,7 +4935,7 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 591.08,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4876,18 +4946,18 @@ window.SPIRA_DATA = {
         "linkedin": 0.0,
         "google": 681.18,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
         "year": 2026,
         "month": "Agosto",
         "monthIndex": 8,
-        "budget": 600.0,
+        "budget": 1000.0,
         "linkedin": 0.0,
         "google": 979.92,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       },
       {
         "country": "Perú",
@@ -4896,9 +4966,9 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000.0,
         "linkedin": 0.0,
-        "google": 5.66,
+        "google": 66.25,
         "leads": null,
-        "source": "Notion (actualización automática) - 1 de septiembre de 2026"
+        "source": "Notion (actualización automática) - 2 de septiembre de 2026"
       }
     ]
   }
