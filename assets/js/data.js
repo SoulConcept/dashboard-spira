@@ -30,7 +30,7 @@ window.SPIRA_DATA = {
         "proposals": 26,
         "avgTicket": 10664,
         "year": 2026,
-        "generated": 479611.0,
+        "generated": 483950.0,
         "lost": 199150.0
       },
       {
@@ -48,7 +48,7 @@ window.SPIRA_DATA = {
         "proposals": 8,
         "avgTicket": 5629,
         "year": 2026,
-        "generated": 73815.27,
+        "generated": 73655.27,
         "lost": 18800.0
       }
     ],
@@ -61,7 +61,7 @@ window.SPIRA_DATA = {
       },
       {
         "country": "México",
-        "value": 3200.0,
+        "value": 7539.0,
         "closes": 1,
         "year": 2026
       },
@@ -73,7 +73,7 @@ window.SPIRA_DATA = {
       },
       {
         "country": "CAM",
-        "value": 1000.0,
+        "value": 840.0,
         "closes": 1,
         "year": 2026
       }
@@ -82,14 +82,14 @@ window.SPIRA_DATA = {
       {
         "key": "leads",
         "label": "Leads entregados",
-        "value": 277,
+        "value": 280,
         "rate": null,
         "tone": "neutral"
       },
       {
         "key": "meetings",
         "label": "Reuniones",
-        "value": 240,
+        "value": 243,
         "rate": null,
         "tone": "yellow"
       },
@@ -152,14 +152,14 @@ window.SPIRA_DATA = {
         "trackedLeads": 95
       },
       "Perú": {
-        "meetings": 46,
+        "meetings": 47,
         "proposals": 15,
         "final": 9,
         "active": 2,
         "lost": 36,
         "lostUsd": 266500.0,
         "closes": 0,
-        "trackedLeads": 50
+        "trackedLeads": 51
       },
       "CAM": {
         "meetings": 26,
@@ -173,34 +173,34 @@ window.SPIRA_DATA = {
       }
     },
     "kpis": {
-      "costPerMql": 73.55,
+      "costPerMql": 72.76,
       "totalAdsInvestment": 20372.26,
       "bonus": 400,
       "bonusNote": "Gestionado para Google en enero"
     },
-    "pipelineGenerated": 1314388.27,
+    "pipelineGenerated": 1318567.27,
     "pipelineActive": 710555.27,
     "pipelineLost": 567600.0,
     "validation": {
-      "sourceRows": 277,
-      "usableLeadRows": 274,
-      "blankRows": 3,
-      "qualifiedLeads2026Control": 277,
-      "detailedRows2026": 277,
-      "numberedDetailedRows2026": 274,
+      "sourceRows": 280,
+      "usableLeadRows": 275,
+      "blankRows": 5,
+      "qualifiedLeads2026Control": 280,
+      "detailedRows2026": 280,
+      "numberedDetailedRows2026": 275,
       "qualifiedVsNumberedDetailedGap": 0,
       "quotedProposalRows": 107,
       "quotedProposalValue": 1293488.27,
       "closedRows": 3,
-      "closedSalesValue": 20900.0,
+      "closedSalesValue": 25079.0,
       "activeProposalRows": 69,
       "activeQuotedRows": 68,
       "activeUnquotedRows": 1,
       "lostRows": 100,
       "lostQuotedRows": 36,
       "lostPipelineValue": 567600.0,
-      "commercialNamedRows": 273,
-      "commercialBlankFieldRows": 4,
+      "commercialNamedRows": 274,
+      "commercialBlankFieldRows": 6,
       "augustQualifiedLeads": 43,
       "augustCountryBreakdown": {
         "Colombia": 14,
@@ -209,7 +209,7 @@ window.SPIRA_DATA = {
         "CAM": 6
       },
       "qualifiedLeadsThroughAugust": 270,
-      "qualifiedLeads2026": 277,
+      "qualifiedLeads2026": 280,
       "investmentExportSnapshot": "26 de agosto de 2026",
       "commercialRowsSnapshot": "3 de septiembre de 2026",
       "juneControlTotal": 35,
@@ -493,7 +493,7 @@ window.SPIRA_DATA = {
         "commercial": "Iván Jimenez",
         "status": "Propuesta Cerrada",
         "proposalValue": 0.0,
-        "closeValue": 3200.0,
+        "closeValue": 7539.0,
         "origin": "Pago",
         "company": "Asociación Bosques de Santafé",
         "sentDate": "24 de febrero de 2026"
@@ -2593,7 +2593,7 @@ window.SPIRA_DATA = {
         "commercial": "Amelia Gonzalez",
         "status": "Propuesta Cerrada",
         "proposalValue": 0.0,
-        "closeValue": 1000.0,
+        "closeValue": 840.0,
         "origin": "Pago",
         "company": "COMBEX-IM",
         "sentDate": "9 de julio de 2026"
@@ -4067,6 +4067,48 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "Maper",
         "sentDate": "2 de septiembre de 2026"
+      },
+      {
+        "id": 275,
+        "year": 2026,
+        "monthIndex": 9,
+        "country": "Perú",
+        "rawCountry": "Perú",
+        "commercial": "Geraldine Palacios",
+        "status": "Sin contacto",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": "Pago",
+        "company": "Glexco Robotics Automation",
+        "sentDate": "3 de septiembre de 2026"
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": null,
+        "country": null,
+        "rawCountry": null,
+        "commercial": null,
+        "status": "",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": null,
+        "company": null,
+        "sentDate": null
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": null,
+        "country": null,
+        "rawCountry": null,
+        "commercial": null,
+        "status": "",
+        "proposalValue": 0.0,
+        "closeValue": 0.0,
+        "origin": null,
+        "company": null,
+        "sentDate": null
       },
       {
         "id": null,
