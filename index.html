@@ -29,7 +29,7 @@
       <div class="client-card">
         <span class="client-card-label">Dashboard ejecutivo</span>
         <strong>SPIRA 2026</strong>
-        <small>Corte: 26 de agosto de 2026</small>
+        <small>Corte: <span id="metaCutoffDate">26 de agosto de 2026</span></small>
       </div>
 
       <nav class="sidebar-nav" aria-label="Secciones del dashboard">
@@ -107,7 +107,7 @@
         <section class="view-section active" id="overviewView" data-view-panel="overview">
           <div class="section-intro">
             <div><span class="section-kicker">VISIÓN EJECUTIVA</span><h2>Estado del negocio</h2><p>Lectura rápida del funnel y el potencial comercial por mercado. El filtro de mes usa la fecha de envío a comercial del Listado de Leads.</p></div>
-            <div class="source-chip"><i class="ri-file-chart-line"></i><span>Fuente comercial: Listado de Leads · 26 Ago 2026</span></div>
+            <div class="source-chip"><i class="ri-file-chart-line"></i><span>Fuente comercial: Listado de Leads · <span id="overviewSourceDate">26 Ago 2026</span></span></div>
           </div>
           <div class="metric-grid" id="overviewMetrics"></div>
           <div class="dashboard-grid">
@@ -143,7 +143,7 @@
               <div class="responsive-table pipeline-detail-wrap"><table><thead><tr><th>País</th><th>Pipeline activo</th><th>% participación Pipe Line regional</th><th>Propuestas</th><th>Ticket promedio</th><th>Cierres</th><th>Ventas</th><th>Total valor comercial</th></tr></thead><tbody id="pipelineTable"></tbody><tfoot id="pipelineTableFoot"></tfoot></table></div>
             </article>
             <article class="panel span-12">
-              <div class="panel-header"><div><span class="panel-kicker">GESTIÓN POR COMERCIAL</span><h3>Oportunidades activas y pipeline asignado</h3><p class="panel-support" id="commercialBreakdownNote">Las columnas por país muestran propuestas activas por comercial. El total regional concilia directamente con el pipeline activo.</p></div><span class="panel-badge">Notion · 26 Ago</span></div>
+              <div class="panel-header"><div><span class="panel-kicker">GESTIÓN POR COMERCIAL</span><h3>Oportunidades activas y pipeline asignado</h3><p class="panel-support" id="commercialBreakdownNote">Las columnas por país muestran propuestas activas por comercial. El total regional concilia directamente con el pipeline activo.</p></div><span class="panel-badge" id="commercialBreakdownBadge">Notion · 26 Ago</span></div>
               <div class="responsive-table commercial-breakdown-wrap"><table><thead><tr><th>Comercial</th><th>Colombia</th><th>México</th><th>Perú</th><th>CAM</th><th>Total activas</th><th>Pipeline</th><th>Ticket promedio</th><th>Cierres</th><th>Ventas</th></tr></thead><tbody id="commercialBreakdownTable"><tr><td colspan="10">Cargando datos comerciales actualizados…</td></tr></tbody><tfoot id="commercialBreakdownFoot"></tfoot></table></div>
             </article>
           </div>
@@ -152,7 +152,7 @@
         <section class="view-section" id="adsView" data-view-panel="ads" hidden>
           <div class="section-intro">
             <div><span class="section-kicker">GENERACIÓN DE DEMANDA</span><h2>Performance de campañas</h2><p>Comportamiento mensual de leads, inversión y eficiencia. El filtro de mes aplica al mismo período en leads e inversión.</p></div>
-            <div class="source-chip"><i class="ri-database-2-line"></i><span>Inversión: Notion · Leads: Tabla de control Leads # · 26 Ago</span></div>
+            <div class="source-chip"><i class="ri-database-2-line"></i><span id="adsSourceChip">Inversión: Notion · Leads: Listado de Leads entregados · 26 Ago</span></div>
           </div>
           <div class="metric-grid" id="adsMetrics"></div>
           <div class="dashboard-grid">
@@ -215,7 +215,7 @@
             <article class="panel span-12">
               <div class="panel-header stack-mobile"><div><span class="panel-kicker">HISTÓRICO NOTION</span><h3>Detalle mensual consolidado</h3></div><div class="table-tools"><button id="investmentCsvButton" class="small-action" type="button"><i class="ri-file-excel-2-line"></i>CSV</button></div></div>
               <div class="responsive-table"><table><thead><tr><th>Mes</th><th>Presupuesto</th><th>LinkedIn</th><th>Google</th><th>Total invertido</th><th>Consumo</th><th>Saldo</th><th>Leads</th></tr></thead><tbody id="investmentTable"></tbody><tfoot id="investmentTableFoot"></tfoot></table></div>
-              <p class="data-footnote">Fuente exclusiva de esta sección: bases consolidadas y por país de Notion. Snapshot: 26 de agosto de 2026. Las bases por país pueden presentar diferencias de conciliación frente al consolidado por plataforma; se conservan los valores fuente.</p>
+              <p class="data-footnote">Fuente exclusiva de esta sección: bases consolidadas y por país de Notion. Snapshot: <span id="investmentSnapshotDate">26 de agosto de 2026</span>. Las bases por país pueden presentar diferencias de conciliación frente al consolidado por plataforma; se conservan los valores fuente.</p>
             </article>
           </div>
         </section>

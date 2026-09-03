@@ -845,8 +845,8 @@
     }).join('') || '<tr><td colspan="8">No se encontraron resultados.</td></tr>';
 
     const totalProposals = sum(rows,'proposals');
-    const totalCloses = [...salesMap.values()].reduce((total,row)=>total+(Number(row.closes)||0),0);
-    const totalSales = [...salesMap.values()].reduce((total,row)=>total+(Number(row.value)||0),0);
+    const totalCloses = Object.values(salesMap).reduce((total,row)=>total+(Number(row.closes)||0),0);
+    const totalSales = Object.values(salesMap).reduce((total,row)=>total+(Number(row.value)||0),0);
     const totalCommercialValue = overall + totalSales;
     const foot = $('#pipelineTableFoot');
     if (foot) foot.innerHTML = rows.length ? `<tr><td>TOTAL REGIONAL</td><td>${money(overall)}</td><td>${percent(overall?100:0)}</td><td>${number(totalProposals)}</td><td>${totalProposals?money(overall/totalProposals):'—'}</td><td>${number(totalCloses)}</td><td>${money(totalSales)}</td><td>${money(totalCommercialValue)}</td></tr>` : '';
@@ -1983,7 +1983,44 @@
     });
   }
 
+  // Convierte "3 de septiembre de 2026" en "3 Sep 2026" para badges compactos.
+  function shortDateEs(fullDateEs) {
+    const match = /^(\d{1,2}) de (\S+) de (\d{4})/.exec(fullDateEs || '');
+    if (!match) return fullDateEs || '';
+    const [, day, monthName, year] = match;
+    const idx = monthNames.findIndex(name => name && name.toLowerCase() === monthName.toLowerCase());
+    const short = idx > 0 ? monthShortNames[idx] : monthName.slice(0, 3);
+    return `${day} ${short} ${year}`;
+  }
+
+  // Las fechas "Corte"/"Snapshot" de la tarjeta de marca y los chips de fuente
+  // vivían como texto fijo en index.html y nunca se actualizaban. Ahora se
+  // toman de DATA.meta.cutoff / DATA.commercial.validation.commercialRowsSnapshot
+  // / DATA.investment.snapshot, que la sincronización diaria con Notion ya
+  // mantiene al día.
+  function renderMetaBadges() {
+    const cutoffFull = (DATA.meta && DATA.meta.cutoff) || '';
+    const cutoffDate = cutoffFull.split('·')[0].trim();
+    const cutoffEl = $('#metaCutoffDate');
+    if (cutoffEl && cutoffDate) cutoffEl.textContent = cutoffDate;
+
+    const commercialSnapshot = (DATA.commercial && DATA.commercial.validation && DATA.commercial.validation.commercialRowsSnapshot) || '';
+    const overviewDateEl = $('#overviewSourceDate');
+    if (overviewDateEl && commercialSnapshot) overviewDateEl.textContent = shortDateEs(commercialSnapshot);
+
+    const commercialBadge = $('#commercialBreakdownBadge');
+    if (commercialBadge && commercialSnapshot) commercialBadge.textContent = `Notion · ${shortDateEs(commercialSnapshot)}`;
+
+    const investmentSnapshot = (DATA.investment && DATA.investment.snapshot) || '';
+    const adsChip = $('#adsSourceChip');
+    if (adsChip && investmentSnapshot) adsChip.textContent = `Inversión: Notion · Leads: Listado de Leads entregados · ${shortDateEs(investmentSnapshot)}`;
+
+    const investmentSnapshotEl = $('#investmentSnapshotDate');
+    if (investmentSnapshotEl && investmentSnapshot) investmentSnapshotEl.textContent = investmentSnapshot;
+  }
+
   function init() {
+    renderMetaBadges();
     populateFilters();
     bindEvents();
     setCountryMode('chart');
