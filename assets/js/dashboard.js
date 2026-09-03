@@ -363,24 +363,29 @@
     });
   }
 
+  // Periodos de Performance ADS: se derivan dinámicamente de investment.history
+  // (siempre al día vía la sincronización automática desde Notion), en vez de una
+  // lista de meses fija — así un mes nuevo aparece solo, sin tocar código.
   function getPeriodsByYear(yearFilter = state.adsYear) {
-    const periods = [
-      { key:'dec', dataKey:'dic25', label:'Dic. 2025', year:2025, monthIndex:12 },
-      { key:'jan', dataKey:'ene', label:'Enero', year:2026, monthIndex:1 },
-      { key:'feb', dataKey:'feb', label:'Febrero', year:2026, monthIndex:2 },
-      { key:'mar', dataKey:'mar', label:'Marzo', year:2026, monthIndex:3 },
-      { key:'abr', dataKey:'abr', label:'Abril', year:2026, monthIndex:4 },
-      { key:'may', dataKey:'may', label:'Mayo', year:2026, monthIndex:5 },
-      { key:'jun', dataKey:'jun', label:'Junio', year:2026, monthIndex:6 },
-      { key:'jul', dataKey:'jul', label:'Julio', year:2026, monthIndex:7 },
-      { key:'aug', dataKey:'ago', label:'Agosto', year:2026, monthIndex:8 }
-    ];
+    const rows = (DATA.investment.history || [])
+      .slice()
+      .sort((a, b) => (a.year * 12 + a.monthIndex) - (b.year * 12 + b.monthIndex));
+    const periods = rows.map(row => ({
+      key: `${row.year}-${row.monthIndex}`,
+      dataKey: `${row.year}-${row.monthIndex}`,
+      label: row.month || monthNames[row.monthIndex],
+      year: row.year,
+      monthIndex: row.monthIndex
+    }));
     return yearFilter === 'all' ? periods : periods.filter(period => period.year === Number(yearFilter));
   }
 
   function periodRangeLabel(yearFilter = state.adsYear) {
-    if (yearFilter === 'all') return 'Dic. 2025–Ago. 2026';
-    return String(yearFilter);
+    if (yearFilter !== 'all') return String(yearFilter);
+    const periods = getPeriodsByYear('all');
+    if (!periods.length) return '';
+    const fmt = period => `${monthShortNames[period.monthIndex]}. ${String(period.year).slice(-2)}`;
+    return `${fmt(periods[0])}–${fmt(periods[periods.length - 1])}`;
   }
 
   function filterByYear(rows, yearFilter) {
@@ -404,35 +409,64 @@
     return yearText ? `${monthText} ${yearText}` : monthText;
   }
 
+  // Leads por periodo: SIEMPRE se totalizan desde commercial.opportunities
+  // (Listado de Leads entregados), la fuente correcta para totales por país,
+  // comercial, funnel y pipeline. La "Tabla de control Leads #" es un archivo
+  // de referencia manual y nunca debe sumarse aquí.
+  function leadCountsByPeriod() {
+    const map = {};
+    (DATA.commercial.opportunities || []).forEach(opportunity => {
+      if (opportunity.monthIndex == null || opportunity.year == null) return;
+      const key = `${opportunity.year}-${opportunity.monthIndex}`;
+      if (!map[key]) map[key] = { all: 0, byCountry: {} };
+      map[key].all += 1;
+      if (opportunity.country) {
+        map[key].byCountry[opportunity.country] = (map[key].byCountry[opportunity.country] || 0) + 1;
+      }
+    });
+    return map;
+  }
+
   function leadRowsForYear(yearFilter = state.adsYear, countryFilter = state.country) {
     const periods = getPeriodsByYear(yearFilter);
-    if (countryFilter === 'all') {
-      return DATA.ads.months
-        .filter(row => yearFilter === 'all' || row.year === Number(yearFilter))
-        .map(row => ({ ...row, label: formatPeriodLabel(row, yearFilter === 'all') }));
-    }
-    const country = DATA.ads.countries.find(row => row.country === countryFilter);
-    if (!country) return [];
-    return periods.map(period => ({
-      key: period.dataKey,
-      label: yearFilter === 'all' ? `${period.label} ${period.year}` : period.label,
-      leads: Number(country[period.key]) || 0,
-      year: period.year,
-      monthIndex: period.monthIndex
-    }));
+    const counts = leadCountsByPeriod();
+    return periods.map(period => {
+      const bucket = counts[period.key] || { all: 0, byCountry: {} };
+      const leads = countryFilter === 'all' ? bucket.all : (bucket.byCountry[countryFilter] || 0);
+      return {
+        key: period.key,
+        label: formatPeriodLabel(period, yearFilter === 'all'),
+        leads,
+        year: period.year,
+        monthIndex: period.monthIndex
+      };
+    });
+  }
+
+  // Lista de países con sus leads por periodo, también totalizados desde
+  // commercial.opportunities (ver leadCountsByPeriod). Reemplaza el antiguo
+  // DATA.ads.countries (tabla de control manual, congelada).
+  function countryLeadRows(yearFilter = state.adsYear) {
+    const periods = getPeriodsByYear(yearFilter);
+    const counts = leadCountsByPeriod();
+    const countries = Object.keys(DATA.commercial.funnelByCountry || {});
+    return countries.map(country => {
+      const row = { country };
+      periods.forEach(period => {
+        const bucket = counts[period.key];
+        row[period.key] = bucket ? (bucket.byCountry[country] || 0) : 0;
+      });
+      return row;
+    });
   }
 
   function investmentRowsForYear(yearFilter = state.adsYear, countryFilter = state.country) {
-    if (countryFilter === 'all') {
-      return DATA.ads.months
-        .filter(row => yearFilter === 'all' || row.year === Number(yearFilter))
-        .sort((a,b) => (a.year * 12 + (a.monthIndex || 0)) - (b.year * 12 + (b.monthIndex || 0)))
-        .map(row => ({ ...row, label: formatPeriodLabel(row, yearFilter === 'all') }));
-    }
-    return DATA.investment.countryHistory
-      .filter(row => row.country === countryFilter && ((row.year === 2025 && row.monthIndex === 12) || (row.year === 2026 && row.monthIndex >= 1 && row.monthIndex <= 8)))
+    const source = countryFilter === 'all'
+      ? (DATA.investment.history || [])
+      : (DATA.investment.countryHistory || []).filter(row => row.country === countryFilter);
+    return source
       .filter(row => yearFilter === 'all' || row.year === Number(yearFilter))
-      .sort((a,b) => (a.year * 12 + a.monthIndex) - (b.year * 12 + b.monthIndex))
+      .sort((a,b) => (a.year * 12 + (a.monthIndex || 0)) - (b.year * 12 + (b.monthIndex || 0)))
       .map(row => ({ ...row, label: formatPeriodLabel(row, yearFilter === 'all') }));
   }
 
@@ -1048,7 +1082,8 @@
   }
 
   function renderCountryLeads() {
-    const rows = state.country === 'all' ? DATA.ads.countries : DATA.ads.countries.filter(row=>row.country===state.country);
+    const allCountryRows = countryLeadRows(state.adsYear);
+    const rows = state.country === 'all' ? allCountryRows : allCountryRows.filter(row=>row.country===state.country);
     const periods = adsPeriods();
     const categories = periods.map(period => compactAxisLabel(period, state.adsYear === 'all'));
     const series = rows.map(row=>({name:row.country,data:periods.map(period=>row[period.key])}));
@@ -1858,7 +1893,8 @@
       downloadCsv('spira-resumen-comercial.csv',['Comercial','Mes','País','Pipeline generado USD','Pipeline activo USD','Pipeline perdido USD','Propuestas activas','Ticket promedio USD','Cierres','Ventas USD'],rows);
     } else if (state.view === 'ads') {
       const periods=adsPeriods();
-      const sourceRows=state.country==='all'?DATA.ads.countries:DATA.ads.countries.filter(row=>row.country===state.country);
+      const allCountryRows=countryLeadRows(state.adsYear);
+      const sourceRows=state.country==='all'?allCountryRows:allCountryRows.filter(row=>row.country===state.country);
       const rows=sourceRows.map(row=>{
         const totalLeads=periods.reduce((total,period)=>total+(Number(row[period.key])||0),0);
         const investment=DATA.investment.countryHistory
