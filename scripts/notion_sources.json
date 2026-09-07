@@ -1,0 +1,25 @@
+{
+  "repository": "SoulConcept/dashboard-spira",
+  "branch": "main",
+  "leads": {
+    "data_source": "collection://302662d9-fcba-8039-90e7-000b404c6c6e",
+    "view_url": "https://app.notion.com/302662d9fcba8027aabcf9933f452598?v=302662d9fcba8088b1f2000c03cdf37e"
+  },
+  "investment": {
+    "General": {
+      "view_url": "https://app.notion.com/p/36c662d9fcba8129b783c47fee80b5a3?v=36c662d9-fcba-81ea-abd7-000cce8a20eb"
+    },
+    "México": {
+      "view_url": "https://app.notion.com/p/39e662d9fcba806c87c3f3fe6dc6861a?v=0b6662d9-fcba-8200-bc6f-88275e5045b0"
+    },
+    "Colombia": {
+      "view_url": "https://app.notion.com/p/39e662d9fcba80f69ac7d64bd96881c1?v=e26662d9-fcba-836e-b738-0823e07b432b"
+    },
+    "Perú": {
+      "view_url": "https://app.notion.com/p/39e662d9fcba80469701f1b067be97b4?v=461662d9-fcba-833b-a16d-084111da1cb4"
+    },
+    "CAM": {
+      "view_url": "https://app.notion.com/p/39e662d9fcba808d8513f0bfc4e7cfeb?v=7a3662d9-fcba-8336-ada5-88258ae9ef6a"
+    }
+  }
+}
