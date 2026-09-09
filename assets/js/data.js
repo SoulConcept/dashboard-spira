@@ -182,9 +182,9 @@ window.SPIRA_DATA = {
     "pipelineActive": 740555.27,
     "pipelineLost": 567600,
     "validation": {
-      "sourceRows": 286,
-      "usableLeadRows": 279,
-      "blankRows": 7,
+      "sourceRows": 287,
+      "usableLeadRows": 283,
+      "blankRows": 4,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
       "numberedDetailedRows2026": 278,
@@ -917,6 +917,20 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "We Travel",
         "sentDate": "10 de abril de 2026"
+      },
+      {
+        "id": null,
+        "year": 2026,
+        "monthIndex": null,
+        "country": null,
+        "rawCountry": null,
+        "commercial": null,
+        "status": "",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": null,
+        "company": null,
+        "sentDate": null
       },
       {
         "id": 50,
@@ -4139,7 +4153,7 @@ window.SPIRA_DATA = {
         "sentDate": "7 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 280,
         "year": 2026,
         "monthIndex": 9,
         "country": "Perú",
@@ -4153,7 +4167,7 @@ window.SPIRA_DATA = {
         "sentDate": "8 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 281,
         "year": 2026,
         "monthIndex": 9,
         "country": "Colombia",
@@ -4167,7 +4181,7 @@ window.SPIRA_DATA = {
         "sentDate": "8 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 282,
         "year": 2026,
         "monthIndex": 9,
         "country": "México",
@@ -4181,7 +4195,7 @@ window.SPIRA_DATA = {
         "sentDate": "8 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 283,
         "year": 2026,
         "monthIndex": 9,
         "country": "México",
@@ -4576,7 +4590,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 3000,
         "linkedin": 0,
-        "google": 724.59,
+        "google": 867.35,
         "leads": null,
         "source": "Notion · sincronizado el 9 de septiembre de 2026"
       }
@@ -4841,7 +4855,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 198.82,
+        "google": 225.91,
         "leads": null,
         "source": "Notion · sincronizado el 9 de septiembre de 2026",
         "country": "Colombia"
@@ -4973,7 +4987,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 199.34,
+        "google": 236.21,
         "leads": null,
         "source": "Notion · sincronizado el 9 de septiembre de 2026",
         "country": "México"
@@ -5105,7 +5119,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 326.43,
+        "google": 405.24,
         "leads": null,
         "source": "Notion · sincronizado el 9 de septiembre de 2026",
         "country": "Perú"
