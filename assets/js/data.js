@@ -182,9 +182,9 @@ window.SPIRA_DATA = {
     "pipelineActive": 740555.27,
     "pipelineLost": 567600,
     "validation": {
-      "sourceRows": 292,
-      "usableLeadRows": 284,
-      "blankRows": 8,
+      "sourceRows": 291,
+      "usableLeadRows": 289,
+      "blankRows": 2,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
       "numberedDetailedRows2026": 278,
@@ -4103,7 +4103,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Stephanie Rincón Pulido",
-        "status": "A espera de agenda",
+        "status": "Reunión Inicial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4145,7 +4145,7 @@ window.SPIRA_DATA = {
         "country": "Perú",
         "rawCountry": "Perú",
         "commercial": "Geraldine Palacios",
-        "status": "Sin contacto",
+        "status": "En propuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4159,7 +4159,7 @@ window.SPIRA_DATA = {
         "country": "Perú",
         "rawCountry": "Perú",
         "commercial": "Geraldine Palacios",
-        "status": "A espera de agenda",
+        "status": "En propuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4173,7 +4173,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Stephanie Rincón Pulido",
-        "status": "Sin contacto",
+        "status": "En propuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4215,7 +4215,7 @@ window.SPIRA_DATA = {
         "country": "Perú",
         "rawCountry": "Perú",
         "commercial": "Geraldine Palacios",
-        "status": "Sin contacto",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4223,13 +4223,13 @@ window.SPIRA_DATA = {
         "sentDate": "10 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 285,
         "year": 2026,
         "monthIndex": 9,
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Stephanie Rincón Pulido",
-        "status": "Sin contacto",
+        "status": "Reunión Inicial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4237,7 +4237,7 @@ window.SPIRA_DATA = {
         "sentDate": "14 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 286,
         "year": 2026,
         "monthIndex": 9,
         "country": "Colombia",
@@ -4251,7 +4251,7 @@ window.SPIRA_DATA = {
         "sentDate": "14 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 287,
         "year": 2026,
         "monthIndex": 9,
         "country": "Colombia",
@@ -4265,7 +4265,7 @@ window.SPIRA_DATA = {
         "sentDate": "14 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 288,
         "year": 2026,
         "monthIndex": 9,
         "country": "Perú",
@@ -4279,31 +4279,17 @@ window.SPIRA_DATA = {
         "sentDate": "14 de septiembre de 2026"
       },
       {
-        "id": null,
+        "id": 289,
         "year": 2026,
         "monthIndex": 9,
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
+        "status": "Reunión Inicial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
         "company": "Grupo Gran Bodega",
-        "sentDate": "14 de septiembre de 2026"
-      },
-      {
-        "id": null,
-        "year": 2026,
-        "monthIndex": 9,
-        "country": null,
-        "rawCountry": null,
-        "commercial": null,
-        "status": "Sin contacto",
-        "proposalValue": 0,
-        "closeValue": 0,
-        "origin": "Pago",
-        "company": null,
         "sentDate": "14 de septiembre de 2026"
       }
     ]
@@ -4660,7 +4646,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 3000,
         "linkedin": 0,
-        "google": 1218.77,
+        "google": 1330.63,
         "leads": null,
         "source": "Notion · sincronizado el 15 de septiembre de 2026"
       }
@@ -4925,7 +4911,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 336.02,
+        "google": 378.61,
         "leads": null,
         "source": "Notion · sincronizado el 15 de septiembre de 2026",
         "country": "Colombia"
@@ -5057,7 +5043,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 347.02,
+        "google": 357.49,
         "leads": null,
         "source": "Notion · sincronizado el 15 de septiembre de 2026",
         "country": "México"
@@ -5189,7 +5175,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 535.73,
+        "google": 594.53,
         "leads": null,
         "source": "Notion · sincronizado el 15 de septiembre de 2026",
         "country": "Perú"
