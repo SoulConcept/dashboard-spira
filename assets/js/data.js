@@ -4,8 +4,8 @@ window.SPIRA_DATA = {
     "agency": "Soul Concept",
     "reportTitle": "Dashboard de performance comercial y ADS",
     "period": "2026",
-    "cutoff": "15 de septiembre de 2026 · actualización automática desde Notion",
-    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 15 de septiembre de 2026"
+    "cutoff": "16 de septiembre de 2026 · actualización automática desde Notion",
+    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 16 de septiembre de 2026"
   },
   "brand": {
     "red": "#E10613",
@@ -210,8 +210,8 @@ window.SPIRA_DATA = {
       },
       "qualifiedLeadsThroughAugust": 270,
       "qualifiedLeads2026": 280,
-      "investmentExportSnapshot": "15 de septiembre de 2026",
-      "commercialRowsSnapshot": "15 de septiembre de 2026",
+      "investmentExportSnapshot": "16 de septiembre de 2026",
+      "commercialRowsSnapshot": "16 de septiembre de 2026",
       "juneControlTotal": 35,
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
@@ -4527,7 +4527,7 @@ window.SPIRA_DATA = {
   "investment": {
     "sourceUrl": "https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link",
     "sourceLabel": "USD Total Inversión de Publicidad 2025–2026",
-    "snapshot": "15 de septiembre de 2026",
+    "snapshot": "16 de septiembre de 2026",
     "defaultBudget": 3000,
     "history": [
       {
@@ -4538,7 +4538,7 @@ window.SPIRA_DATA = {
         "linkedin": 90,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4548,7 +4548,7 @@ window.SPIRA_DATA = {
         "linkedin": 1192.93,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2025,
@@ -4558,7 +4558,7 @@ window.SPIRA_DATA = {
         "linkedin": 824.57,
         "google": 791.01,
         "leads": 18,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4568,7 +4568,7 @@ window.SPIRA_DATA = {
         "linkedin": 757.7,
         "google": 964.66,
         "leads": 9,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4578,7 +4578,7 @@ window.SPIRA_DATA = {
         "linkedin": 1390.55,
         "google": 940.96,
         "leads": 17,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4588,7 +4588,7 @@ window.SPIRA_DATA = {
         "linkedin": 612.65,
         "google": 1960.48,
         "leads": 18,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4598,7 +4598,7 @@ window.SPIRA_DATA = {
         "linkedin": 750.11,
         "google": 1461,
         "leads": 32,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4608,7 +4608,7 @@ window.SPIRA_DATA = {
         "linkedin": 130.28,
         "google": 1649.03,
         "leads": 55,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4618,7 +4618,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2985.84,
         "leads": 35,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4628,7 +4628,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2987.33,
         "leads": 45,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4638,7 +4638,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 3515.73,
         "leads": 61,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       },
       {
         "year": 2026,
@@ -4648,7 +4648,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1330.63,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026"
+        "source": "Notion · sincronizado el 16 de septiembre de 2026"
       }
     ],
     "countryHistory": [
@@ -4660,7 +4660,7 @@ window.SPIRA_DATA = {
         "linkedin": 9,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4671,7 +4671,7 @@ window.SPIRA_DATA = {
         "linkedin": 119.23,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4682,7 +4682,7 @@ window.SPIRA_DATA = {
         "linkedin": 88.11,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4693,7 +4693,7 @@ window.SPIRA_DATA = {
         "linkedin": 106,
         "google": 141.76,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4704,7 +4704,7 @@ window.SPIRA_DATA = {
         "linkedin": 263,
         "google": 158.2,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4715,7 +4715,7 @@ window.SPIRA_DATA = {
         "linkedin": 114,
         "google": 224.34,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4726,7 +4726,7 @@ window.SPIRA_DATA = {
         "linkedin": 75,
         "google": 127.05,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4737,7 +4737,7 @@ window.SPIRA_DATA = {
         "linkedin": 13,
         "google": 206.58,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4748,7 +4748,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 384.89,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4759,7 +4759,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 446.94,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4770,7 +4770,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 224.79,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4781,7 +4781,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "CAM"
       },
       {
@@ -4792,7 +4792,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4803,7 +4803,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4814,7 +4814,7 @@ window.SPIRA_DATA = {
         "linkedin": 460.16,
         "google": 333.72,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4825,7 +4825,7 @@ window.SPIRA_DATA = {
         "linkedin": 224,
         "google": 407.07,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4836,7 +4836,7 @@ window.SPIRA_DATA = {
         "linkedin": 422,
         "google": 430.92,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4847,7 +4847,7 @@ window.SPIRA_DATA = {
         "linkedin": 189,
         "google": 657.44,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4858,7 +4858,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 640.6,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4869,7 +4869,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 428.73,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4880,7 +4880,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 686.39,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4891,7 +4891,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 648.17,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4902,7 +4902,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1112.13,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4913,7 +4913,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 378.61,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Colombia"
       },
       {
@@ -4924,7 +4924,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4935,7 +4935,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4946,7 +4946,7 @@ window.SPIRA_DATA = {
         "linkedin": 122.79,
         "google": 333.73,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4957,7 +4957,7 @@ window.SPIRA_DATA = {
         "linkedin": 289,
         "google": 140.84,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4968,7 +4968,7 @@ window.SPIRA_DATA = {
         "linkedin": 431,
         "google": 159.63,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4979,7 +4979,7 @@ window.SPIRA_DATA = {
         "linkedin": 186,
         "google": 475.62,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -4990,7 +4990,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 369.49,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5001,7 +5001,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 535.44,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5012,7 +5012,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1323.48,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5023,7 +5023,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1211.04,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5034,7 +5034,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1198.94,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5045,7 +5045,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 357.49,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "México"
       },
       {
@@ -5056,7 +5056,7 @@ window.SPIRA_DATA = {
         "linkedin": 18,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5067,7 +5067,7 @@ window.SPIRA_DATA = {
         "linkedin": 238.586,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5078,7 +5078,7 @@ window.SPIRA_DATA = {
         "linkedin": 153.51,
         "google": 122.57,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5089,7 +5089,7 @@ window.SPIRA_DATA = {
         "linkedin": 139,
         "google": 273.87,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5100,7 +5100,7 @@ window.SPIRA_DATA = {
         "linkedin": 274,
         "google": 191.07,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5111,7 +5111,7 @@ window.SPIRA_DATA = {
         "linkedin": 124,
         "google": 600.61,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5122,7 +5122,7 @@ window.SPIRA_DATA = {
         "linkedin": 150,
         "google": 323.92,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5133,7 +5133,7 @@ window.SPIRA_DATA = {
         "linkedin": 26,
         "google": 467,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5144,7 +5144,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 591.08,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5155,7 +5155,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 681.18,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5166,7 +5166,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 979.92,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       },
       {
@@ -5177,7 +5177,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 594.53,
         "leads": null,
-        "source": "Notion · sincronizado el 15 de septiembre de 2026",
+        "source": "Notion · sincronizado el 16 de septiembre de 2026",
         "country": "Perú"
       }
     ]
