@@ -54,9 +54,14 @@ Los arrays del ejemplo deben contener las filas reales de Notion.
 
 - Los indicadores visibles se calculan en `dashboard.js` desde
   `commercial.opportunities`, `investment.history` y `investment.countryHistory`.
-- El mes comercial procede de la fecha de envío a comercial. Se conservan las
-  filas sin fecha y su asignación histórica de año cuando ya existía; no se
-  inventa una fecha comercial.
+- Solo cuentan como leads las filas con Número positivo, Empresa, País y fecha
+  de envío a comercial completos. Las filas vacías o incompletas se excluyen de
+  opportunities y de todos los indicadores; no se borran de Notion. Comercial,
+  origen, estado y valores monetarios pueden estar pendientes y no son requisitos.
+  El ID Lead automático no convierte una fila vacía en un lead válido.
+- El mes comercial procede de la fecha de envío a comercial. No se inventan fechas.
+- Informar usableLeadRows como leads, nunca sourceRows. sourceRows es el total
+  bruto; blankRows, incompleteRows y excludedRows explican las exclusiones.
 - Ecuador y Estados Unidos se asignan a Colombia, siguiendo la versión existente.
   Centroamérica se agrupa como CAM. Un país sin correspondencia detiene la publicación.
 - Los estados y valores se conservan para mantener las reglas de pipeline actuales.

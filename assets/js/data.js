@@ -215,7 +215,9 @@ window.SPIRA_DATA = {
       "juneControlTotal": 35,
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
-      "source": "Exportaciones descargadas de las tres páginas de Notion el 26 de agosto de 2026"
+      "source": "Exportaciones descargadas de las tres páginas de Notion el 26 de agosto de 2026",
+      "excludedRows": 3,
+      "incompleteRows": 0
     },
     "opportunities": [
       {
@@ -511,20 +513,6 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "Idea market Solutions",
         "sentDate": "26 de febrero de 2026"
-      },
-      {
-        "id": null,
-        "year": 2026,
-        "monthIndex": null,
-        "country": null,
-        "rawCountry": null,
-        "commercial": null,
-        "status": "",
-        "proposalValue": 0,
-        "closeValue": 0,
-        "origin": "Pago",
-        "company": null,
-        "sentDate": null
       },
       {
         "id": 22,
@@ -917,20 +905,6 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "We Travel",
         "sentDate": "10 de abril de 2026"
-      },
-      {
-        "id": null,
-        "year": 2026,
-        "monthIndex": null,
-        "country": null,
-        "rawCountry": null,
-        "commercial": null,
-        "status": "",
-        "proposalValue": 0,
-        "closeValue": 0,
-        "origin": null,
-        "company": null,
-        "sentDate": null
       },
       {
         "id": 50,
@@ -4361,20 +4335,6 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "Univerisdad INCCA de Colombia",
         "sentDate": "17 de septiembre de 2026"
-      },
-      {
-        "id": null,
-        "year": 2026,
-        "monthIndex": null,
-        "country": null,
-        "rawCountry": null,
-        "commercial": null,
-        "status": "",
-        "proposalValue": 0,
-        "closeValue": 0,
-        "origin": null,
-        "company": null,
-        "sentDate": null
       }
     ]
   },

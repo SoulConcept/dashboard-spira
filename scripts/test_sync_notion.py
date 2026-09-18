@@ -1,10 +1,21 @@
 import copy
 import datetime as dt
 import unittest
-from sync_notion import complete, investment, lead
+from sync_notion import complete, investment, lead, complete_lead
 
 
 class SyncTests(unittest.TestCase):
+    def test_only_complete_leads_count(self):
+        raw = {'Número ': 1, 'Empresa': 'Empresa', 'País': 'Colombia',
+               'date:Fecha de envío a comercial :start': '2026-09-18'}
+        self.assertTrue(complete_lead(lead(raw)))  # No assigned salesperson or revenue required.
+        for key in raw:
+            missing = dict(raw)
+            del missing[key]
+            self.assertFalse(complete_lead(lead(missing)), key)
+        self.assertFalse(complete_lead(lead({'ID Lead': '309', 'Origen del Lead': 'Pago'})))
+        self.assertFalse(complete_lead(lead(dict(raw, Empresa='<br> ** **'))))
+
     def test_budget_uses_previous_month_of_same_table_across_years(self):
         rows = [{'Mes': 'Enero', 'Año': 2026, 'Google': 20},
                 {'Mes': 'Diciembre', 'Año': 2025, 'Presupuesto Aprobado': 600}]

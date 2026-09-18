@@ -105,18 +105,19 @@ def investment(rows, stamp, country=None):
     return parsed
 
 
+def complete_lead(row):
+    """Count an identified, dated company lead; assignment and revenue are optional."""
+    return (row['id'] is not None and row['id'] > 0 and
+            all(row.get(k) for k in ('company', 'country', 'sentDate')))
+
+
 def sync(data, snapshot, today):
     source_leads = complete(snapshot['leads'])
-    opportunities = [lead(r) for r in source_leads]
-    # Keep the historical year assignment only for existing undated records.
-    old = {r['id']: r for r in data['commercial']['opportunities'] if r['id'] is not None}
-    blank_years = {r['year'] for r in data['commercial']['opportunities'] if r['id'] is None}
-    for row in opportunities:
-        if row['year'] is None:
-            if row['id'] in old:
-                row['year'] = old[row['id']]['year']
-            elif row['id'] is None and len(blank_years) == 1:
-                row['year'] = next(iter(blank_years))
+    parsed = [lead(r) for r in source_leads]
+    opportunities = [r for r in parsed if complete_lead(r)]
+    blank_rows = sum(not any(r.get(k) for k in ('id', 'company', 'country', 'sentDate')) for r in parsed)
+    if not opportunities:
+        raise ValueError('No complete leads; refusing to replace dashboard')
     stamp = date_es(today)
     tables = snapshot['investment']
     history = investment(complete(tables['General']), stamp)
@@ -133,8 +134,9 @@ def sync(data, snapshot, today):
     data['meta'].update(cutoff=f'{stamp} · actualización automática desde Notion',
                         source=f'Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el {stamp}')
     validation = data['commercial']['validation']
-    validation.update(sourceRows=len(source_leads), usableLeadRows=sum(r['id'] is not None for r in opportunities),
-                      blankRows=sum(r['id'] is None for r in opportunities), commercialRowsSnapshot=stamp,
+    validation.update(sourceRows=len(source_leads), usableLeadRows=len(opportunities),
+                      blankRows=blank_rows, excludedRows=len(parsed)-len(opportunities),
+                      incompleteRows=len(parsed)-len(opportunities)-blank_rows, commercialRowsSnapshot=stamp,
                       investmentExportSnapshot=stamp)
     # Legacy aggregates and manual control references are preserved. The frontend
     # recalculates the displayed metrics from opportunities/history/countryHistory.
