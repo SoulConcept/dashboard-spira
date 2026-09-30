@@ -182,8 +182,8 @@ window.SPIRA_DATA = {
     "pipelineActive": 740555.27,
     "pipelineLost": 567600,
     "validation": {
-      "sourceRows": 317,
-      "usableLeadRows": 307,
+      "sourceRows": 316,
+      "usableLeadRows": 306,
       "blankRows": 6,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
@@ -4468,20 +4468,6 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "country": "Colombia",
         "rawCountry": "Colombia",
-        "commercial": null,
-        "status": "Pendiente Asignación",
-        "proposalValue": 0,
-        "closeValue": 0,
-        "origin": "Pago",
-        "company": "Distoyota",
-        "sentDate": "28 de septiembre de 2026"
-      },
-      {
-        "id": 303,
-        "year": 2026,
-        "monthIndex": 9,
-        "country": "Colombia",
-        "rawCountry": "Colombia",
         "commercial": "Stephanie Rincón Pulido",
         "status": "Sin contacto",
         "proposalValue": 0,
@@ -4872,7 +4858,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 3000,
         "linkedin": 0,
-        "google": 2245.63,
+        "google": 2543.83,
         "leads": null,
         "source": "Notion · sincronizado el 30 de septiembre de 2026"
       }
@@ -5137,7 +5123,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 564.5,
+        "google": 644.1,
         "leads": null,
         "source": "Notion · sincronizado el 30 de septiembre de 2026",
         "country": "Colombia"
@@ -5269,7 +5255,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 634.94,
+        "google": 827.21,
         "leads": null,
         "source": "Notion · sincronizado el 30 de septiembre de 2026",
         "country": "México"
@@ -5401,7 +5387,7 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 1046.19,
+        "google": 1072.52,
         "leads": null,
         "source": "Notion · sincronizado el 30 de septiembre de 2026",
         "country": "Perú"
