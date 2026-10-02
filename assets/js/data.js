@@ -4914,7 +4914,17 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 3000,
         "linkedin": 0,
-        "google": 2543.83,
+        "google": 2904.17,
+        "leads": null,
+        "source": "Notion · sincronizado el 2 de octubre de 2026"
+      },
+      {
+        "year": 2026,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 3000,
+        "linkedin": 0,
+        "google": 51.97,
         "leads": null,
         "source": "Notion · sincronizado el 2 de octubre de 2026"
       }
@@ -5053,6 +5063,17 @@ window.SPIRA_DATA = {
         "country": "CAM"
       },
       {
+        "year": 2026,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 300,
+        "linkedin": 0,
+        "google": 0,
+        "leads": null,
+        "source": "Notion · sincronizado el 2 de octubre de 2026",
+        "country": "CAM"
+      },
+      {
         "year": 2025,
         "month": "Octubre",
         "monthIndex": 10,
@@ -5179,7 +5200,18 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 644.1,
+        "google": 717.77,
+        "leads": null,
+        "source": "Notion · sincronizado el 2 de octubre de 2026",
+        "country": "Colombia"
+      },
+      {
+        "year": 2026,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 1000,
+        "linkedin": 0,
+        "google": 14.04,
         "leads": null,
         "source": "Notion · sincronizado el 2 de octubre de 2026",
         "country": "Colombia"
@@ -5311,7 +5343,18 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 827.21,
+        "google": 996.59,
+        "leads": null,
+        "source": "Notion · sincronizado el 2 de octubre de 2026",
+        "country": "México"
+      },
+      {
+        "year": 2026,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 1000,
+        "linkedin": 0,
+        "google": 14.42,
         "leads": null,
         "source": "Notion · sincronizado el 2 de octubre de 2026",
         "country": "México"
@@ -5443,7 +5486,18 @@ window.SPIRA_DATA = {
         "monthIndex": 9,
         "budget": 1000,
         "linkedin": 0,
-        "google": 1072.52,
+        "google": 1189.81,
+        "leads": null,
+        "source": "Notion · sincronizado el 2 de octubre de 2026",
+        "country": "Perú"
+      },
+      {
+        "year": 2026,
+        "month": "Octubre",
+        "monthIndex": 10,
+        "budget": 1000,
+        "linkedin": 0,
+        "google": 23.51,
         "leads": null,
         "source": "Notion · sincronizado el 2 de octubre de 2026",
         "country": "Perú"
