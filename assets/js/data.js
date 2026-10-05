@@ -4924,7 +4924,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 3000,
         "linkedin": 0,
-        "google": 166.77,
+        "google": 177.36,
         "leads": null,
         "source": "Notion · sincronizado el 5 de octubre de 2026"
       }
@@ -5211,7 +5211,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 31.8,
+        "google": 35.81,
         "leads": null,
         "source": "Notion · sincronizado el 5 de octubre de 2026",
         "country": "Colombia"
@@ -5497,7 +5497,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 94.38,
+        "google": 100.96,
         "leads": null,
         "source": "Notion · sincronizado el 5 de octubre de 2026",
         "country": "Perú"
