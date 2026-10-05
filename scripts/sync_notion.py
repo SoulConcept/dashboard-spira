@@ -66,7 +66,7 @@ def lead(row):
     statuses = json.loads(statuses) if isinstance(statuses, str) else statuses
     if not isinstance(statuses, list) or not all(isinstance(s, str) for s in statuses):
         raise ValueError('Unexpected status format')
-    return dict(id=number(row.get('Número ')), year=date.year if date else None,
+    return dict(id=number(row.get('Número ')) or row.get('url'), year=date.year if date else None,
                 monthIndex=date.month if date else None, country=COUNTRY_MAP.get(raw),
                 rawCountry=raw, commercial=clean(row.get('Comercial')),
                 status=', '.join(statuses), proposalValue=number(row.get('VALOR USD PROPUESTA'), 0),
@@ -107,15 +107,14 @@ def investment(rows, stamp, country=None):
 
 def complete_lead(row):
     """Count an identified, dated company lead; assignment and revenue are optional."""
-    return (row['id'] is not None and row['id'] > 0 and
-            all(row.get(k) for k in ('company', 'country', 'sentDate')))
+    return all(row.get(k) for k in ('company', 'country', 'sentDate'))
 
 
 def sync(data, snapshot, today):
     source_leads = complete(snapshot['leads'])
     parsed = [lead(r) for r in source_leads]
     opportunities = [r for r in parsed if complete_lead(r)]
-    blank_rows = sum(not any(r.get(k) for k in ('id', 'company', 'country', 'sentDate')) for r in parsed)
+    blank_rows = sum(not any(r.get(k) for k in ('company', 'country', 'sentDate')) for r in parsed)
     if not opportunities:
         raise ValueError('No complete leads; refusing to replace dashboard')
     stamp = date_es(today)

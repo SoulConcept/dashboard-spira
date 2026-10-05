@@ -9,10 +9,15 @@ class SyncTests(unittest.TestCase):
         raw = {'Número ': 1, 'Empresa': 'Empresa', 'País': 'Colombia',
                'date:Fecha de envío a comercial :start': '2026-09-18'}
         self.assertTrue(complete_lead(lead(raw)))  # No assigned salesperson or revenue required.
-        for key in raw:
+        for key in ('Empresa', 'País', 'date:Fecha de envío a comercial :start'):
             missing = dict(raw)
             del missing[key]
             self.assertFalse(complete_lead(lead(missing)), key)
+        unnumbered = dict(raw, url='https://app.notion.com/p/lead')
+        del unnumbered['Número ']
+        self.assertTrue(complete_lead(lead(unnumbered)))
+        self.assertEqual(lead(unnumbered)['id'], unnumbered['url'])
+        self.assertFalse(complete_lead(lead({'url': 'page', 'ID Lead': '310'})))
         self.assertFalse(complete_lead(lead({'ID Lead': '309', 'Origen del Lead': 'Pago'})))
         self.assertFalse(complete_lead(lead(dict(raw, Empresa='<br> ** **'))))
 
