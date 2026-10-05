@@ -213,7 +213,8 @@
     }
 
     if (state.view === 'overview') {
-      const rows = (DATA.commercial.opportunities || []).filter(row => state.year === 'all' || Number(row.year) === Number(state.year));
+      const rows = [...(DATA.commercial.opportunities || []), ...(DATA.investment.history || [])]
+        .filter(row => state.year === 'all' || Number(row.year) === Number(state.year));
       const months = [...new Set(rows.map(row => Number(row.monthIndex)).filter(Boolean))].sort((a,b)=>a-b);
       if (state.overviewMonth !== 'all' && !months.includes(Number(state.overviewMonth))) state.overviewMonth = 'all';
       $('#monthFilter').innerHTML = `<option value="all">Todos</option>${months.map(index=>`<option value="${index}">${monthNames[index]}</option>`).join('')}`;
