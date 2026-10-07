@@ -183,8 +183,8 @@ window.SPIRA_DATA = {
     "pipelineLost": 567600,
     "validation": {
       "sourceRows": 325,
-      "usableLeadRows": 322,
-      "blankRows": 3,
+      "usableLeadRows": 323,
+      "blankRows": 2,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
       "numberedDetailedRows2026": 278,
@@ -216,7 +216,7 @@ window.SPIRA_DATA = {
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
       "source": "Exportaciones descargadas de las tres páginas de Notion el 26 de agosto de 2026",
-      "excludedRows": 3,
+      "excludedRows": 2,
       "incompleteRows": 0
     },
     "opportunities": [
@@ -4673,7 +4673,7 @@ window.SPIRA_DATA = {
         "sentDate": "1 de octubre de 2026"
       },
       {
-        "id": "https://app.notion.com/p/3ed662d9fcba80a7896cdf08a472fbb6",
+        "id": 318,
         "year": 2026,
         "monthIndex": 10,
         "country": "Colombia",
@@ -4687,7 +4687,7 @@ window.SPIRA_DATA = {
         "sentDate": "2 de octubre de 2026"
       },
       {
-        "id": "https://app.notion.com/p/3ed662d9fcba8076891cf76dea37fc4f",
+        "id": 319,
         "year": 2026,
         "monthIndex": 10,
         "country": "Colombia",
@@ -4701,7 +4701,7 @@ window.SPIRA_DATA = {
         "sentDate": "2 de octubre de 2026"
       },
       {
-        "id": "https://app.notion.com/p/3ed662d9fcba80ada4ebc7c057a9085b",
+        "id": 320,
         "year": 2026,
         "monthIndex": 10,
         "country": "México",
@@ -4715,7 +4715,7 @@ window.SPIRA_DATA = {
         "sentDate": "6 de octubre de 2026"
       },
       {
-        "id": "https://app.notion.com/p/3ed662d9fcba8037b3afe628634e076b",
+        "id": 321,
         "year": 2026,
         "monthIndex": 10,
         "country": "México",
@@ -4726,6 +4726,20 @@ window.SPIRA_DATA = {
         "closeValue": 0,
         "origin": "Pago",
         "company": "lotus Alliance Group",
+        "sentDate": "6 de octubre de 2026"
+      },
+      {
+        "id": 322,
+        "year": 2026,
+        "monthIndex": 10,
+        "country": "Colombia",
+        "rawCountry": "Colombia",
+        "commercial": null,
+        "status": "Pendiente Asignación",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": "Pago",
+        "company": "Novasoft",
         "sentDate": "6 de octubre de 2026"
       }
     ]
@@ -5092,7 +5106,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 3000,
         "linkedin": 0,
-        "google": 230.92,
+        "google": 290.73,
         "leads": null,
         "source": "Notion · sincronizado el 7 de octubre de 2026"
       }
@@ -5223,7 +5237,7 @@ window.SPIRA_DATA = {
         "year": 2026,
         "month": "Septiembre",
         "monthIndex": 9,
-        "budget": 300,
+        "budget": 0,
         "linkedin": 0,
         "google": 0,
         "leads": null,
@@ -5234,7 +5248,7 @@ window.SPIRA_DATA = {
         "year": 2026,
         "month": "Octubre",
         "monthIndex": 10,
-        "budget": 300,
+        "budget": 0,
         "linkedin": 0,
         "google": 0,
         "leads": null,
@@ -5379,7 +5393,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 51.46,
+        "google": 77.4,
         "leads": null,
         "source": "Notion · sincronizado el 7 de octubre de 2026",
         "country": "Colombia"
@@ -5522,7 +5536,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 61.79,
+        "google": 75.62,
         "leads": null,
         "source": "Notion · sincronizado el 7 de octubre de 2026",
         "country": "México"
@@ -5665,7 +5679,7 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 117.67,
+        "google": 137.71,
         "leads": null,
         "source": "Notion · sincronizado el 7 de octubre de 2026",
         "country": "Perú"
