@@ -143,6 +143,11 @@
     </article>`;
   }
 
+  // Regla de negocio: sin leads, el CPL muestra toda la inversión.
+  function costPerLead(spent, leads) {
+    return leads > 0 ? spent / leads : spent;
+  }
+
   function getYears() {
     return [...new Set(DATA.investment.history.map(row => row.year))].sort((a,b) => b-a);
   }
@@ -569,7 +574,7 @@
     const adsInvestment = commercialScoped ? 0 : investmentRows.reduce((total, row) => total + totalSpend(row), 0);
     const qualifiedLeadRows = filterByMonth(leadRowsForYear(state.year, state.country), state.overviewMonth);
     const qualifiedLeads = sum(qualifiedLeadRows, 'leads');
-    const cpl = !commercialScoped && qualifiedLeads ? adsInvestment / qualifiedLeads : 0;
+    const cpl = commercialScoped ? 0 : costPerLead(adsInvestment, qualifiedLeads);
     const roas = !commercialScoped && adsInvestment ? salesValue / adsInvestment : 0;
     const conversion = leads ? closes / leads * 100 : 0;
     const periodText = `${state.year === 'all' ? 'Todos' : state.year}${state.overviewMonth === 'all' ? '' : ` · ${monthShortNames[Number(state.overviewMonth)]}`}`;
@@ -584,7 +589,7 @@
       metricCard({ label:'Propuestas activas', value:number(proposals), icon:'ri-file-list-3-line', badge:'Potencial', foot:proposals ? `Ticket medio ${money(pipelineValue/proposals)}` : 'Sin propuestas activas en el periodo', tone:'red' }),
       commercialScoped
         ? metricCard({ label:'Costo por lead', value:'No atribuible', icon:'ri-focus-3-line', badge:'Por comercial', foot:'La inversión ADS no está etiquetada por comercial', tone:'gray' })
-        : metricCard({ label:'Costo por lead', value:qualifiedLeads ? money(cpl,2) : 'Sin dato', icon:'ri-focus-3-line', badge:'CPL', foot:`${number(qualifiedLeads)} leads calificados considerados`, tone:'gray' }),
+        : metricCard({ label:'Costo por lead', value:money(cpl,2), icon:'ri-focus-3-line', badge:'CPL', foot:`${number(qualifiedLeads)} leads calificados considerados`, tone:'gray' }),
       commercialScoped
         ? metricCard({ label:'ROAS publicitario', value:'No atribuible', icon:'ri-line-chart-line', badge:'Por comercial', foot:'La inversión ADS está disponible por país, no por comercial', tone:'gray' })
         : metricCard({ label:'ROAS publicitario', value:adsInvestment ? `${number(roas,2)}x` : 'Sin dato', icon:'ri-line-chart-line', badge:'ROAS', foot:adsInvestment ? `USD 1 invertido genera USD ${number(roas,2)} en ventas` : 'Ventas divididas entre inversión ADS', tone:roas >= 1 ? 'blue' : 'red', footTone:roas >= 1 ? 'positive' : 'negative' })
@@ -951,7 +956,7 @@
     const goal = monthlyGoal * Math.max(leadsRows.length,1);
     const attainment = goal ? leads/goal*100 : 0;
     const monthsHit = leadsRows.filter(row => Number(row.leads) >= monthlyGoal).length;
-    const cpl = leads ? investment/leads : 0;
+    const cpl = costPerLead(investment, leads);
     const best = leadsRows.reduce((best,row) => !best || row.leads > best.leads ? row : best, null);
     const countryScoped = state.country !== 'all';
     const metrics = $('#adsMetrics');
@@ -960,7 +965,7 @@
       metricCard({ label:'Leads generados', value:number(leads), icon:'ri-user-add-line', badge:countryScoped ? `${state.country} · ${adsPeriodLabel()}` : adsPeriodLabel(), foot:countryScoped ? `Aporte del país frente a meta global de ${monthlyGoal}/mes` : `Meta mensual: ${monthlyGoal} leads`, tone:'red' }),
       metricCard({ label:countryScoped ? 'Aporte a meta global' : 'Cumplimiento de meta', value:percent(attainment), icon:'ri-target-line', badge:countryScoped ? `Objetivo global ${monthlyGoal}/mes` : `${monthsHit}/${leadsRows.length} meses en meta`, foot:countryScoped ? 'Comparación contra la meta mensual global de SPIRA' : 'Cumplimiento acumulado de la meta mensual', tone:attainment>=100?'green':'blue', footTone:attainment>=100?'positive':'warning' }),
       metricCard({ label:'Inversión ejecutada', value:money(investment), icon:'ri-advertisement-line', badge:'Notion', foot:`Promedio ${money(investment/Math.max(investmentRows.length,1))} por mes`, tone:'blue' }),
-      metricCard({ label:'Costo por lead', value:money(cpl,2), icon:'ri-focus-2-line', badge:'CPL', foot:'Inversión dividida entre leads', tone:'yellow', footTone:'warning' }),
+      metricCard({ label:'Costo por lead', value:money(cpl,2), icon:'ri-focus-2-line', badge:'CPL', foot:'Inversión / leads; sin leads, inversión total', tone:'yellow', footTone:'warning' }),
       metricCard({ label:'Mejor mes', value:best ? best.label : '—', icon:'ri-trophy-line', badge:best ? `${best.leads} leads` : 'Sin datos', foot:best ? `${percent(best.leads/monthlyGoal*100)} de la meta mensual` : 'Sin datos', tone:'green', footTone:'positive' })
     ].join('');
   }
@@ -1022,7 +1027,7 @@
     const leadsRows = adsLeadRows();
     const investmentRows = adsInvestmentRows();
     const invMap = Object.fromEntries(investmentRows.map(row => [row.label || row.month,totalSpend(row)]));
-    const values = leadsRows.map(row => row.leads ? (invMap[row.label] || 0)/row.leads : 0);
+    const values = leadsRows.map(row => costPerLead(invMap[row.label] || 0, row.leads));
     const categories = leadsRows.map(row => compactAxisLabel(row, state.adsYear === 'all'));
     const options = baseChart('bar',320);
     Object.assign(options,{
@@ -1108,8 +1113,8 @@
         .filter(item=>item.country===row.country)
         .filter(item=>periods.some(period=>period.year===item.year&&period.monthIndex===item.monthIndex))
         .reduce((total,item)=>total+totalSpend(item),0);
-      const cpl = totalLeads ? investment/totalLeads : 0;
-      return `<tr><td><strong>${row.country}</strong></td>${periods.map(period=>`<td>${number(row[period.key])}</td>`).join('')}<td><strong>${number(totalLeads)}</strong></td><td>${totalLeads?money(cpl,2):'—'}</td></tr>`;
+      const cpl = costPerLead(investment, totalLeads);
+      return `<tr><td><strong>${row.country}</strong></td>${periods.map(period=>`<td>${number(row[period.key])}</td>`).join('')}<td><strong>${number(totalLeads)}</strong></td><td>${money(cpl,2)}</td></tr>`;
     }).join('');
     const periodTotals = periods.map(period=>rows.reduce((total,row)=>total+(Number(row[period.key])||0),0));
     const grandLeads = periodTotals.reduce((total,value)=>total+value,0);
@@ -1119,7 +1124,7 @@
       .filter(item=>periods.some(period=>period.year===item.year&&period.monthIndex===item.monthIndex))
       .reduce((total,item)=>total+totalSpend(item),0);
     const foot = $('#countryLeadsTableFoot');
-    if (foot) foot.innerHTML = rows.length ? `<tr><td>TOTAL</td>${periodTotals.map(value=>`<td>${number(value)}</td>`).join('')}<td>${number(grandLeads)}</td><td>${grandLeads?money(visibleInvestment/grandLeads,2):'—'}</td></tr>` : '';
+    if (foot) foot.innerHTML = rows.length ? `<tr><td>TOTAL</td>${periodTotals.map(value=>`<td>${number(value)}</td>`).join('')}<td>${number(grandLeads)}</td><td>${money(costPerLead(visibleInvestment,grandLeads),2)}</td></tr>` : '';
   }
 
   function renderInvestment() {
@@ -1144,7 +1149,7 @@
       metricCard({label:'Presupuesto aprobado',value:money(budget),icon:'ri-wallet-3-line',badge:investmentFilterBadge(),foot:`${rows.length} registro${rows.length===1?'':'s'} considerados`,tone:'blue'}),
       metricCard({label:'Inversión ejecutada',value:money(spent,2),icon:'ri-megaphone-line',badge:percent(consumption),foot:'Consumo del presupuesto bajo el filtro activo',tone:'red',footTone:consumption>100?'negative':'positive'}),
       metricCard({label:remaining>=0?'Saldo disponible':'Sobreejecución',value:money(Math.abs(remaining),2),icon:remaining>=0?'ri-safe-2-line':'ri-alarm-warning-line',badge:remaining>=0?'Disponible':'Exceso',foot:remaining>=0?'Presupuesto aún no ejecutado':'Inversión por encima del aprobado',tone:remaining>=0?'green':'yellow',footTone:remaining>=0?'positive':'negative'}),
-      metricCard({label:'Costo por lead',value:leads?money(spent/leads,2):'Sin dato',icon:'ri-focus-3-line',badge:`${number(leads)} leads`,foot:'CPL calculado con el mismo filtro activo',tone:'yellow',footTone:'warning'})
+      metricCard({label:'Costo por lead',value:money(costPerLead(spent,leads),2),icon:'ri-focus-3-line',badge:`${number(leads)} leads`,foot:'CPL calculado con el mismo filtro activo',tone:'yellow',footTone:'warning'})
     ].join('');
     $('#investmentYearBadge').textContent = `${investmentFilterBadge()} · ${state.country === 'all' ? 'Consolidado' : state.country}`;
   }
@@ -1902,7 +1907,7 @@
           .filter(item=>item.country===row.country)
           .filter(item=>periods.some(period=>period.year===item.year&&period.monthIndex===item.monthIndex))
           .reduce((total,item)=>total+totalSpend(item),0);
-        return [row.country,...periods.map(period=>row[period.key]),totalLeads,totalLeads?investment/totalLeads:''];
+        return [row.country,...periods.map(period=>row[period.key]),totalLeads,costPerLead(investment,totalLeads)];
       });
       downloadCsv(`spira-performance-ads-${state.adsYear}-${state.adsMonth}.csv`,['País',...periods.map(period=>period.label),'Total leads','CPL acumulado USD'],rows);
     } else if (state.view === 'digital') {
