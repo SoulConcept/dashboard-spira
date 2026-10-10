@@ -4,8 +4,8 @@ window.SPIRA_DATA = {
     "agency": "Soul Concept",
     "reportTitle": "Dashboard de performance comercial y ADS",
     "period": "2026",
-    "cutoff": "9 de octubre de 2026 · actualización automática desde Notion",
-    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 9 de octubre de 2026"
+    "cutoff": "10 de octubre de 2026 · actualización automática desde Notion",
+    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 10 de octubre de 2026"
   },
   "brand": {
     "red": "#E10613",
@@ -210,8 +210,8 @@ window.SPIRA_DATA = {
       },
       "qualifiedLeadsThroughAugust": 270,
       "qualifiedLeads2026": 280,
-      "investmentExportSnapshot": "9 de octubre de 2026",
-      "commercialRowsSnapshot": "9 de octubre de 2026",
+      "investmentExportSnapshot": "10 de octubre de 2026",
+      "commercialRowsSnapshot": "10 de octubre de 2026",
       "juneControlTotal": 35,
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
@@ -297,7 +297,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Estados Unidos",
         "commercial": "Lina Rosero",
-        "status": "STANBY, Propuesta Final",
+        "status": "Standby, Propuesta Final",
         "proposalValue": 6353,
         "closeValue": 0,
         "origin": "Pago",
@@ -353,7 +353,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin respuesta del cliente",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Orgánico",
@@ -521,7 +521,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Panamá",
         "commercial": "Lina Rosero",
-        "status": "Propuesta Final, STANBY",
+        "status": "Propuesta Final, Standby",
         "proposalValue": 2980,
         "closeValue": 0,
         "origin": "Pago",
@@ -535,7 +535,7 @@ window.SPIRA_DATA = {
         "country": "Perú",
         "rawCountry": "Perú",
         "commercial": "Geraldine Palacios",
-        "status": "CAMBIO NECESIDAD DEL CLIENTE",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 5300,
         "closeValue": 0,
         "origin": "Pago",
@@ -619,7 +619,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin respuesta del cliente",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -717,7 +717,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Guatemala",
         "commercial": "Amelia Gonzalez",
-        "status": "STANBY, Propuesta Final",
+        "status": "Standby, Propuesta Final",
         "proposalValue": 6000,
         "closeValue": 0,
         "origin": "Pago",
@@ -815,7 +815,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 7000,
         "closeValue": 0,
         "origin": "Pago",
@@ -899,7 +899,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "A espera de agenda",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -913,7 +913,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -983,7 +983,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 22000,
         "closeValue": 0,
         "origin": "Pago",
@@ -1067,7 +1067,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "El Salvador",
         "commercial": "Amelia Gonzalez",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1109,7 +1109,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1151,8 +1151,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Descartado por metodología",
-        "proposalValue": 15250,
+        "status": "Perdido - Cambio de necesidad del proyecto",
+        "proposalValue": 2500,
         "closeValue": 0,
         "origin": "Pago",
         "company": "Krafir",
@@ -1305,7 +1305,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Panamá",
         "commercial": "Amelia Gonzalez",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1375,7 +1375,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 3500,
         "closeValue": 0,
         "origin": "Pago",
@@ -1417,7 +1417,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin respuesta del cliente",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1627,7 +1627,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Costa Rica",
         "commercial": "Amelia Gonzalez",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1655,7 +1655,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 12800,
         "closeValue": 0,
         "origin": "Pago",
@@ -1739,7 +1739,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 34500,
         "closeValue": 0,
         "origin": "Pago",
@@ -1753,7 +1753,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por presupuesto",
         "proposalValue": 4500,
         "closeValue": 0,
         "origin": "Pago",
@@ -1837,7 +1837,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin respuesta del cliente",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1893,7 +1893,7 @@ window.SPIRA_DATA = {
         "country": "Perú",
         "rawCountry": "Perú",
         "commercial": "Geraldine Palacios",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -1907,7 +1907,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 5475,
         "closeValue": 0,
         "origin": "Pago",
@@ -1963,7 +1963,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin respuesta del cliente",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2047,7 +2047,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2061,7 +2061,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 9200,
         "closeValue": 0,
         "origin": "Pago",
@@ -2075,7 +2075,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Descartado por presupuesto",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 4300,
         "closeValue": 0,
         "origin": "Pago",
@@ -2103,7 +2103,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "A espera de agenda",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2173,7 +2173,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 25997,
         "closeValue": 0,
         "origin": "Pago",
@@ -2201,7 +2201,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Descartado por presupuesto",
         "proposalValue": 6275,
         "closeValue": 0,
         "origin": "Pago",
@@ -2243,7 +2243,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 15400,
         "closeValue": 0,
         "origin": "Pago",
@@ -2285,7 +2285,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2369,7 +2369,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Descartado por presupuesto",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 7250,
         "closeValue": 0,
         "origin": "Pago",
@@ -2467,7 +2467,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 59000,
         "closeValue": 0,
         "origin": "Orgánico",
@@ -2481,7 +2481,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "En propuesta",
+        "status": "Pérdido - Elección de otro proveedor",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Orgánico",
@@ -2565,7 +2565,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2691,7 +2691,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 3889,
         "closeValue": 0,
         "origin": "Pago",
@@ -2817,7 +2817,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2831,7 +2831,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 3000,
         "closeValue": 0,
         "origin": "Pago",
@@ -2887,7 +2887,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 12667,
         "closeValue": 0,
         "origin": "Pago",
@@ -2916,7 +2916,7 @@ window.SPIRA_DATA = {
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
         "status": "Propuesta Final",
-        "proposalValue": 7480,
+        "proposalValue": 23718,
         "closeValue": 0,
         "origin": "Pago",
         "company": "Securesoft Colombia",
@@ -2929,7 +2929,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Honduras",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 3000,
         "closeValue": 0,
         "origin": "Pago",
@@ -2943,7 +2943,7 @@ window.SPIRA_DATA = {
         "country": "CAM",
         "rawCountry": "Costa Rica",
         "commercial": "Luis Medina",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -2999,7 +2999,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "A espera de agenda",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3027,7 +3027,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3041,7 +3041,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "A espera de agenda",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3055,7 +3055,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "A espera de agenda",
+        "status": "Lead Descartado por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3069,7 +3069,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Descartado por presupuesto",
         "proposalValue": 2480,
         "closeValue": 0,
         "origin": "Pago",
@@ -3083,7 +3083,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 2000,
         "closeValue": 0,
         "origin": "Pago",
@@ -3097,7 +3097,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3223,7 +3223,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 6000,
         "closeValue": 0,
         "origin": "Pago",
@@ -3293,7 +3293,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Descartado por presupuesto",
         "proposalValue": 4245,
         "closeValue": 0,
         "origin": "Pago",
@@ -3405,7 +3405,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Pérdido - Elección de otro proveedor",
         "proposalValue": 2667,
         "closeValue": 0,
         "origin": "Pago",
@@ -3433,7 +3433,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Propuesta Final",
+        "status": "Descartado por metodología",
         "proposalValue": 8333,
         "closeValue": 0,
         "origin": "Pago",
@@ -3447,7 +3447,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Perdido - Cambio de necesidad del proyecto",
         "proposalValue": 9400,
         "closeValue": 0,
         "origin": "Pago",
@@ -3461,7 +3461,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "DESCARTADO POR CLIENTE",
+        "status": "Descartado por el cliente",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3475,7 +3475,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Stephanie Rincón Pulido",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3699,7 +3699,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 3000,
         "closeValue": 0,
         "origin": "Pago",
@@ -3825,7 +3825,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Propuesta Final",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 8000,
         "closeValue": 0,
         "origin": "Pago",
@@ -3853,7 +3853,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -3993,7 +3993,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Propuesta Final",
+        "status": "Descartado por presupuesto",
         "proposalValue": 3550,
         "closeValue": 0,
         "origin": "Pago",
@@ -4049,7 +4049,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Reunión Inicial",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4175,7 +4175,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Reunión Inicial",
+        "status": "Lead Descartado por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4189,7 +4189,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Reunión Inicial",
+        "status": "Abandonado por tiempo sin respuesta",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4287,11 +4287,11 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
-        "status": "En propuesta",
-        "proposalValue": 0,
+        "status": "Propuesta Final",
+        "proposalValue": 22950,
         "closeValue": 0,
         "origin": "Pago",
-        "company": "1010115856 Genfar",
+        "company": "GENFAR",
         "sentDate": "17 de septiembre de 2026"
       },
       {
@@ -4385,8 +4385,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Reunión Inicial",
-        "proposalValue": 0,
+        "status": "Propuesta Final",
+        "proposalValue": 8000,
         "closeValue": 0,
         "origin": "Pago",
         "company": "PLASTICOS BAJACAL",
@@ -4399,7 +4399,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Lina Rosero",
-        "status": "IDENTIFICACION DE NECESIDADES",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4413,7 +4413,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Reunión Inicial",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4427,7 +4427,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "No registra contacto por comercial",
+        "status": "Identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4483,8 +4483,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
-        "proposalValue": 0,
+        "status": "Propuesta Final",
+        "proposalValue": 5775,
         "closeValue": 0,
         "origin": "Pago",
         "company": "Peñoles",
@@ -4497,8 +4497,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Sin contacto",
-        "proposalValue": 0,
+        "status": "Propuesta Final",
+        "proposalValue": 12000,
         "closeValue": 0,
         "origin": "Pago",
         "company": "HOBART DAYTON MEXICANA",
@@ -4511,7 +4511,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4525,7 +4525,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4539,7 +4539,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin contacto",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4567,7 +4567,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4581,7 +4581,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4595,7 +4595,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin contacto",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4609,7 +4609,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4623,7 +4623,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4637,7 +4637,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4651,7 +4651,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
+        "status": "Lead Descartado por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4665,8 +4665,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
-        "proposalValue": 0,
+        "status": "Propuesta Final",
+        "proposalValue": 3295,
         "closeValue": 0,
         "origin": "Pago",
         "company": "CAMFRI SA DE CV",
@@ -4707,7 +4707,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Iván Jimenez",
-        "status": "Sin contacto",
+        "status": "No registra contacto por comercial",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -4721,7 +4721,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Luis Medina",
-        "status": "Sin contacto",
+        "status": "A espera de agenda",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -5005,7 +5005,7 @@ window.SPIRA_DATA = {
   "investment": {
     "sourceUrl": "https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link",
     "sourceLabel": "USD Total Inversión de Publicidad 2025–2026",
-    "snapshot": "9 de octubre de 2026",
+    "snapshot": "10 de octubre de 2026",
     "defaultBudget": 3000,
     "history": [
       {
@@ -5016,7 +5016,7 @@ window.SPIRA_DATA = {
         "linkedin": 90,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2025,
@@ -5026,7 +5026,7 @@ window.SPIRA_DATA = {
         "linkedin": 1192.93,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2025,
@@ -5036,7 +5036,7 @@ window.SPIRA_DATA = {
         "linkedin": 824.57,
         "google": 791.01,
         "leads": 18,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5046,7 +5046,7 @@ window.SPIRA_DATA = {
         "linkedin": 757.7,
         "google": 964.66,
         "leads": 9,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5056,7 +5056,7 @@ window.SPIRA_DATA = {
         "linkedin": 1390.55,
         "google": 940.96,
         "leads": 17,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5066,7 +5066,7 @@ window.SPIRA_DATA = {
         "linkedin": 612.65,
         "google": 1960.48,
         "leads": 18,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5076,7 +5076,7 @@ window.SPIRA_DATA = {
         "linkedin": 750.11,
         "google": 1461,
         "leads": 32,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5086,7 +5086,7 @@ window.SPIRA_DATA = {
         "linkedin": 130.28,
         "google": 1649.03,
         "leads": 55,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5096,7 +5096,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2985.84,
         "leads": 35,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5106,7 +5106,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2987.33,
         "leads": 45,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5116,7 +5116,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 3515.73,
         "leads": 61,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5126,7 +5126,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2904.17,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       },
       {
         "year": 2026,
@@ -5134,9 +5134,9 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 3000,
         "linkedin": 0,
-        "google": 393.48,
+        "google": 497.55,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026"
+        "source": "Notion · sincronizado el 10 de octubre de 2026"
       }
     ],
     "countryHistory": [
@@ -5148,7 +5148,7 @@ window.SPIRA_DATA = {
         "linkedin": 9,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5159,7 +5159,7 @@ window.SPIRA_DATA = {
         "linkedin": 119.23,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5170,7 +5170,7 @@ window.SPIRA_DATA = {
         "linkedin": 88.11,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5181,7 +5181,7 @@ window.SPIRA_DATA = {
         "linkedin": 106,
         "google": 141.76,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5192,7 +5192,7 @@ window.SPIRA_DATA = {
         "linkedin": 263,
         "google": 158.2,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5203,7 +5203,7 @@ window.SPIRA_DATA = {
         "linkedin": 114,
         "google": 224.34,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5214,7 +5214,7 @@ window.SPIRA_DATA = {
         "linkedin": 75,
         "google": 127.05,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5225,7 +5225,7 @@ window.SPIRA_DATA = {
         "linkedin": 13,
         "google": 206.58,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5236,7 +5236,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 384.89,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5247,7 +5247,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 446.94,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5258,7 +5258,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 224.79,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5269,7 +5269,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5280,7 +5280,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "CAM"
       },
       {
@@ -5291,7 +5291,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5302,7 +5302,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5313,7 +5313,7 @@ window.SPIRA_DATA = {
         "linkedin": 460.16,
         "google": 333.72,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5324,7 +5324,7 @@ window.SPIRA_DATA = {
         "linkedin": 224,
         "google": 407.07,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5335,7 +5335,7 @@ window.SPIRA_DATA = {
         "linkedin": 422,
         "google": 430.92,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5346,7 +5346,7 @@ window.SPIRA_DATA = {
         "linkedin": 189,
         "google": 657.44,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5357,7 +5357,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 640.6,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5368,7 +5368,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 428.73,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5379,7 +5379,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 686.39,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5390,7 +5390,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 648.17,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5401,7 +5401,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1112.13,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5412,7 +5412,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 717.77,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5421,9 +5421,9 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 112.65,
+        "google": 209.16,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Colombia"
       },
       {
@@ -5434,7 +5434,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5445,7 +5445,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5456,7 +5456,7 @@ window.SPIRA_DATA = {
         "linkedin": 122.79,
         "google": 333.73,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5467,7 +5467,7 @@ window.SPIRA_DATA = {
         "linkedin": 289,
         "google": 140.84,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5478,7 +5478,7 @@ window.SPIRA_DATA = {
         "linkedin": 431,
         "google": 159.63,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5489,7 +5489,7 @@ window.SPIRA_DATA = {
         "linkedin": 186,
         "google": 475.62,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5500,7 +5500,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 369.49,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5511,7 +5511,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 535.44,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5522,7 +5522,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1323.48,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5533,7 +5533,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1211.04,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5544,7 +5544,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1198.94,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5555,7 +5555,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 996.59,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5564,9 +5564,9 @@ window.SPIRA_DATA = {
         "monthIndex": 10,
         "budget": 1000,
         "linkedin": 0,
-        "google": 108.31,
+        "google": 115.87,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "México"
       },
       {
@@ -5577,7 +5577,7 @@ window.SPIRA_DATA = {
         "linkedin": 18,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5588,7 +5588,7 @@ window.SPIRA_DATA = {
         "linkedin": 238.586,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5599,7 +5599,7 @@ window.SPIRA_DATA = {
         "linkedin": 153.51,
         "google": 122.57,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5610,7 +5610,7 @@ window.SPIRA_DATA = {
         "linkedin": 139,
         "google": 273.87,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5621,7 +5621,7 @@ window.SPIRA_DATA = {
         "linkedin": 274,
         "google": 191.07,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5632,7 +5632,7 @@ window.SPIRA_DATA = {
         "linkedin": 124,
         "google": 600.61,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5643,7 +5643,7 @@ window.SPIRA_DATA = {
         "linkedin": 150,
         "google": 323.92,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5654,7 +5654,7 @@ window.SPIRA_DATA = {
         "linkedin": 26,
         "google": 467,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5665,7 +5665,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 591.08,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5676,7 +5676,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 681.18,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5687,7 +5687,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 979.92,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5698,7 +5698,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1189.81,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       },
       {
@@ -5709,7 +5709,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 172.52,
         "leads": null,
-        "source": "Notion · sincronizado el 9 de octubre de 2026",
+        "source": "Notion · sincronizado el 10 de octubre de 2026",
         "country": "Perú"
       }
     ]
