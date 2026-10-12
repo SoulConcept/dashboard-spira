@@ -183,8 +183,8 @@ window.SPIRA_DATA = {
     "pipelineLost": 567600,
     "validation": {
       "sourceRows": 329,
-      "usableLeadRows": 325,
-      "blankRows": 4,
+      "usableLeadRows": 326,
+      "blankRows": 3,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
       "numberedDetailedRows2026": 278,
@@ -216,7 +216,7 @@ window.SPIRA_DATA = {
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
       "source": "Exportaciones descargadas de las tres páginas de Notion el 26 de agosto de 2026",
-      "excludedRows": 4,
+      "excludedRows": 3,
       "incompleteRows": 0
     },
     "opportunities": [
@@ -4755,6 +4755,20 @@ window.SPIRA_DATA = {
         "origin": "Pago",
         "company": "Distribuidora Hesed",
         "sentDate": "6 de octubre de 2026"
+      },
+      {
+        "id": "https://app.notion.com/p/3f2662d9fcba8089801ac55d880bc0dd",
+        "year": 2026,
+        "monthIndex": 10,
+        "country": "Colombia",
+        "rawCountry": "Colombia",
+        "commercial": "Lina Rosero",
+        "status": "Sin contacto",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": "Pago",
+        "company": "Sodexo",
+        "sentDate": "9 de octubre de 2026"
       },
       {
         "id": 322,
