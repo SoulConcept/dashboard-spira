@@ -210,7 +210,7 @@
 
     if (state.view === 'ads') {
       const periods = getPeriodsByYear(state.adsYear);
-      const months = [...new Map(periods.map(period => [period.monthIndex, monthNames[period.monthIndex]])).entries()];
+      const months = [...new Map(periods.map(period => [period.monthIndex, monthNames[period.monthIndex]])).entries()].sort((a,b) => a[0]-b[0]);
       if (state.adsMonth !== 'all' && !months.some(([index]) => Number(index) === Number(state.adsMonth))) state.adsMonth = 'all';
       $('#monthFilter').innerHTML = `<option value="all">Todos</option>${months.map(([index,label])=>`<option value="${index}">${label}</option>`).join('')}`;
       $('#monthFilter').value = String(state.adsMonth);
