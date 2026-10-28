@@ -1,8 +1,6 @@
 name: SPIRA Talks — sincronización
 on:
   workflow_dispatch:
-  push:
-    branches: [codex/spira-talks-20261027]
 permissions:
   contents: write
 concurrency:

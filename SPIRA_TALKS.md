@@ -12,7 +12,7 @@ Fuente: https://www.youtube.com/playlist?list=PLFXSG0xBg5S9yx4loZHUBVfgaoyqw33gx
 
 ## Metodología y cobertura
 
-Solo vídeos de la playlist pertenecientes al canal autorizado, on-demand (sin liveStreamingDetails), duración mínima 600 segundos y publicación desde el 13/01/2026. No se usa la fecha de incorporación a la playlist. Las ventanas comprenden el día de publicación y los siguientes 6/29/59 días de YouTube (America/Los_Angeles), no intervalos exactos de 168/720 horas. Se aplica un corte conservador de tres días por latencia de Analytics. Los episodios cuya ventana no está completa quedan marcados como parciales y fuera del ranking de 30 días.
+Solo vídeos de la playlist pertenecientes al canal autorizado, on-demand o Estreno confirmado en scripts/spira-talks-config.json, duración mínima 600 segundos y publicación desde el 13/01/2026. No se usa la fecha de incorporación a la playlist. Las ventanas comprenden el día de publicación y los siguientes 6/29/59 días de YouTube (America/Los_Angeles), no intervalos exactos de 168/720 horas. Se aplica un corte conservador de tres días por latencia de Analytics. Los episodios cuya ventana no está completa quedan marcados como parciales y fuera del ranking de 30 días.
 
 KPI y tabla muestran acumulados hasta el corte de Analytics. La línea del gráfico utiliza retención de los mismos primeros 30 días que las barras. Retención y duración media se ponderan por views; CTR por impresiones. Los filtros siempre seleccionan episodios por publicación, no actividad del mes.
 
@@ -22,3 +22,6 @@ No se han cargado las cifras de referencia del brief como métricas de producci�
 
 Pruebas: `node --test scripts/test-spira-talks.mjs`.
 Documentación: https://developers.google.com/youtube/analytics/channel_reports ; https://developers.google.com/youtube/reporting/v1/reports ; https://developers.google.com/youtube/reporting/v1/reports/channel_reports
+
+## Primera lectura validada
+El 28/10/2026 se validaron 12 episodios con 6.847 views y 1.002,2 horas hasta el 25/10/2026. Los seis Estrenos fueron confirmados por el propietario. No se fuerza el baseline de 6.936 views a coincidir con un corte distinto.
