@@ -1,0 +1,45 @@
+name: SPIRA Talks — sincronización
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/spira-talks-20261027]
+permissions:
+  contents: write
+concurrency:
+  group: spira-talks-sync
+  cancel-in-progress: false
+jobs:
+  youtube:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar cálculos
+        run: node --test scripts/test-spira-talks.mjs
+      - name: Consultar YouTube
+        id: fetch
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_SPIRA_TALKS_PLAYLIST_ID: ${{ secrets.YOUTUBE_SPIRA_TALKS_PLAYLIST_ID }}
+        run: node scripts/fetch-spira-talks.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: spira-talks-data
+          path: assets/data/spira-talks.json
+      - name: Publicar datos o conservar último resultado con marca stale
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/publish_talks.py --expected-head "$(git rev-parse HEAD)"
+      - name: Informar fallo de lectura
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo 'YouTube no respondió o falta configuración. Se conservan los datos anteriores.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1
