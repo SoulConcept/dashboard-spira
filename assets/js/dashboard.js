@@ -240,6 +240,7 @@
   }
 
   function setView(view, options = {}) {
+    if (view === 'digital') { location.assign('canales.html'); return; }
     if (!viewMeta[view]) return;
     state.view = view;
     $$('.nav-link').forEach(button => button.classList.toggle('active', button.dataset.view === view));

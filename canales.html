@@ -1,1 +1,95 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=index.html?view=digital"><title>SPIRA | Canales digitales</title></head><body><p><a href="index.html?view=digital">Abrir resultados de canales digitales</a></p><script>location.replace('index.html?view=digital')</script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard comercial, ADS y resultados de canales digitales de SPIRA, desarrollado por Soul Concept sobre la plantilla WowDash.">
+  <meta name="theme-color" content="#E10613">
+  <title>SPIRA | SPIRA Talks</title>
+  <link rel="icon" href="assets/images/spira-logo.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/remixicon.css">
+  <link rel="stylesheet" href="assets/css/lib/apexcharts.css">
+  <link rel="stylesheet" href="assets/css/wowdash.css">
+  <link rel="stylesheet" href="assets/css/spira-wowdash.css?v=8.9.0">
+<link rel="stylesheet" href="assets/css/spira-talks.css?v=20261028"></head>
+<body class="talks-page">
+  <div class="spira-app">
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+
+    <aside class="spira-sidebar" id="sidebar" aria-label="Navegación principal">
+      <div class="sidebar-brand">
+        <div class="brand-logos">
+          <img src="assets/images/soul-concept-logo.png" alt="Soul Concept" class="logo-soul">
+          <span class="brand-separator" aria-hidden="true"></span>
+          <img src="assets/images/spira-logo.png" alt="SPIRA" class="logo-spira">
+        </div>
+        <button class="sidebar-close mobile-only" id="sidebarClose" type="button" aria-label="Cerrar navegación"><i class="ri-close-line"></i></button>
+      </div>
+
+      <div class="client-card">
+        <span class="client-card-label">Dashboard ejecutivo</span>
+        <strong>SPIRA 2026</strong>
+        <small>YouTube Analytics</small>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Secciones del dashboard">
+        <p class="nav-section-label">ANÁLISIS</p>
+        <button class="nav-link" type="button" data-view="overview">
+          <span class="nav-link-icon"><i class="ri-dashboard-3-line"></i></span>
+          <span><strong>Resumen comercial</strong><small>Funnel, pipeline y cierres</small></span>
+        </button>
+        <button class="nav-link" type="button" data-view="ads">
+          <span class="nav-link-icon"><i class="ri-line-chart-line"></i></span>
+          <span><strong>Performance ADS</strong><small>Leads, inversión y eficiencia</small></span>
+        </button>
+        <button class="nav-link" type="button" data-view="investment">
+          <span class="nav-link-icon"><i class="ri-funds-box-line"></i></span>
+          <span><strong>Inversión ADS</strong><small>Presupuesto y consumo por país</small></span>
+        </button>
+        <button class="nav-link active" type="button" data-view="digital">
+          <span class="nav-link-icon"><i class="ri-video-line"></i></span>
+          <span><strong>SPIRA Talks</strong><small>YouTube · Formato pregrabado</small></span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span>Diseñado por</span>
+        <strong>SOUL CONCEPT</strong>
+        <small>Build 8.9 · WowDash UI</small>
+      </div>
+    </aside>
+
+    <main class="spira-main">
+      <header class="spira-topbar">
+        <div class="topbar-title-group">
+          <button class="menu-toggle mobile-only" id="menuToggle" type="button" aria-label="Abrir navegación"><i class="ri-menu-2-line"></i></button>
+          <div>
+            <div class="breadcrumb"><span>SPIRA</span><i class="ri-arrow-right-s-line"></i><span id="breadcrumbCurrent">SPIRA Talks</span></div>
+            <h1 id="pageTitle">SPIRA Talks</h1>
+            <p id="pageSubtitle">Evolución del formato pregrabado y desempeño de los episodios.</p>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <label class="control-field" id="yearControl">
+            <span>Año</span>
+            <select id="yearFilter" aria-label="Filtrar por año"></select>
+          </label>
+          <label class="control-field" id="monthControl">
+            <span>Mes de publicación</span>
+            <select id="monthFilter" aria-label="Filtrar por mes"></select>
+          </label>
+          <label class="control-field"><span>Episodio</span><select id="episodeFilter" aria-label="Filtrar por episodio"><option value="all">Todos los episodios</option></select></label>
+          
+          <button class="topbar-button" id="exportButton" type="button" title="Exportar datos visibles"><i class="ri-download-2-line"></i><span>Exportar</span></button>
+          <button class="topbar-button icon-only" id="printButton" type="button" title="Imprimir o guardar como PDF"><i class="ri-printer-line"></i></button>
+        </div>
+      </header>
+
+<div class="spira-content"><section class="view-section active">
+<div class="section-intro"><div><span class="section-kicker">FORMATO PREGRABADO</span><h2>SPIRA Talks</h2><p>Episodios largos · Comparación a igual tiempo desde publicación</p></div><div class="source-chip">YouTube Analytics · <span id="talksUpdated">Sin sincronización</span></div></div>
+<div id="talksStatus" class="talks-status" role="status">Cargando datos…</div>
+<div id="talksKpis" class="talks-kpis"></div>
+<article class="panel"><div class="panel-header"><div><h3>Desempeño de los episodios pregrabados</h3><p class="panel-support">Barras: visualizaciones a 30 días · Línea: porcentaje medio visto durante esos mismos días.</p></div></div><div id="talksChart"></div><p class="talks-note">Las barras ámbar indican un período parcial. Estos episodios se excluyen de los rankings a 30 días.</p></article>
+<div id="talksInsights" class="talks-insights"></div>
+<article class="panel"><div class="panel-header"><h3>Performance por episodio</h3><label>Ordenar por <select id="talksSort" class="talks-sort"><option value="publishedAt">Fecha: más reciente</option><option value="views30d">Views 30d</option><option value="averageViewPercentage">Retención</option><option value="thumbnailCTR">CTR</option><option value="watchHours">Horas visualizadas</option></select></label></div><div class="talks-table"><table><thead><tr><th scope="col">Fecha</th><th scope="col">Episodio / título</th><th scope="col">Duración</th><th scope="col">Views acumuladas</th><th scope="col">Views 7 días</th><th scope="col">Views 30 días</th><th scope="col">Horas visualizadas</th><th scope="col">Duración media</th><th scope="col">% medio visto</th><th scope="col">Impresiones miniatura</th><th scope="col">CTR miniatura</th><th scope="col">Suscriptores ganados</th></tr></thead><tbody id="talksRows"></tbody></table></div><p id="reachCoverage" class="talks-note"></p></article>
+</section></div></main></div><script src="assets/js/lib/apexcharts.min.js"></script><script type="module" src="assets/js/spira-talks.mjs?v=20261028"></script></body></html>
