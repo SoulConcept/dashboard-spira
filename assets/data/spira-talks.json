@@ -6,18 +6,18 @@
     "stale": false,
     "status": "ready",
     "unclassifiedBroadcasts": [],
-    "analyticsThrough": "2026-10-25",
-    "reachStatus": "pending",
-    "reachCoverage": "Impresiones y CTR pendientes de los informes de YouTube Reporting.",
+    "analyticsThrough": "2026-10-26",
+    "reachStatus": "available",
+    "reachCoverage": "Impresiones y CTR: cobertura disponible 20260929 – 20261027.",
     "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics."
   },
   "summary": {
     "episodes": 12,
-    "views": 6847,
-    "watchHours": 1002.1999999999999,
-    "averageViewDurationSeconds": 563.5996786913977,
-    "averageViewPercentage": 20.51212063677523,
-    "thumbnailCTR": null
+    "views": 6932,
+    "watchHours": 1014.5,
+    "averageViewDurationSeconds": 563.4600403923831,
+    "averageViewPercentage": 20.49911713791114,
+    "thumbnailCTR": 0.008411082838563753
   },
   "episodes": [
     {
@@ -29,22 +29,22 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=-x8vtHAiDLM",
       "publicStatistics": {
-        "viewCount": "1687",
+        "viewCount": "1692",
         "likeCount": "17",
         "dislikeCount": "1",
         "favoriteCount": "0",
         "commentCount": "1"
       },
-      "views": 1602,
+      "views": 1667,
       "views7d": 115,
       "views30d": 930,
-      "views60d": 1602,
-      "watchHours": 185.45,
-      "averageViewDurationSeconds": 453,
-      "averageViewPercentage": 16.05,
+      "views60d": 1667,
+      "watchHours": 194.95,
+      "averageViewDurationSeconds": 457,
+      "averageViewPercentage": 16.18,
       "averageViewPercentage30d": 17.94,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 9523,
+      "thumbnailCTR": 0.008925758689488606,
       "subscribersGained": 3,
       "subscribersLost": 0,
       "likes": 17,
@@ -63,22 +63,22 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=is31PpNqJI4",
       "publicStatistics": {
-        "viewCount": "1122",
+        "viewCount": "1130",
         "likeCount": "5",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 1094,
+      "views": 1111,
       "views7d": 25,
       "views30d": 214,
       "views60d": 922,
-      "watchHours": 169.35,
-      "averageViewDurationSeconds": 602,
-      "averageViewPercentage": 22.4,
+      "watchHours": 171.26666666666668,
+      "averageViewDurationSeconds": 599,
+      "averageViewPercentage": 22.28,
       "averageViewPercentage30d": 24.65,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 4005,
+      "thumbnailCTR": 0.006991260923845194,
       "subscribersGained": 0,
       "subscribersLost": 0,
       "likes": 5,
@@ -111,8 +111,8 @@
       "averageViewDurationSeconds": 490,
       "averageViewPercentage": 17.83,
       "averageViewPercentage30d": 18.45,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 12,
+      "thumbnailCTR": 0,
       "subscribersGained": 0,
       "subscribersLost": 0,
       "likes": 0,
@@ -131,7 +131,7 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=cIgNsOPrLdo",
       "publicStatistics": {
-        "viewCount": "629",
+        "viewCount": "630",
         "likeCount": "4",
         "dislikeCount": "0",
         "favoriteCount": "0",
@@ -145,8 +145,8 @@
       "averageViewDurationSeconds": 617,
       "averageViewPercentage": 27.55,
       "averageViewPercentage30d": 29.23,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 111,
+      "thumbnailCTR": 0.018018018018018018,
       "subscribersGained": 4,
       "subscribersLost": 0,
       "likes": 4,
@@ -171,7 +171,7 @@
         "favoriteCount": "0",
         "commentCount": "1"
       },
-      "views": 424,
+      "views": 425,
       "views7d": 14,
       "views30d": 241,
       "views60d": 405,
@@ -179,8 +179,8 @@
       "averageViewDurationSeconds": 636,
       "averageViewPercentage": 23.71,
       "averageViewPercentage30d": 23.99,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 50,
+      "thumbnailCTR": 0,
       "subscribersGained": 2,
       "subscribersLost": 0,
       "likes": 1,
@@ -199,7 +199,7 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=J0tTT2jL_0M",
       "publicStatistics": {
-        "viewCount": "2025",
+        "viewCount": "2026",
         "likeCount": "8",
         "dislikeCount": "1",
         "favoriteCount": "0",
@@ -213,8 +213,8 @@
       "averageViewDurationSeconds": 498,
       "averageViewPercentage": 17.05,
       "averageViewPercentage30d": 27.169999999999998,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 127,
+      "thumbnailCTR": 0,
       "subscribersGained": 1,
       "subscribersLost": 0,
       "likes": 8,
@@ -247,8 +247,8 @@
       "averageViewDurationSeconds": 957,
       "averageViewPercentage": 33.2,
       "averageViewPercentage30d": 35.34,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 11,
+      "thumbnailCTR": 0,
       "subscribersGained": 0,
       "subscribersLost": 0,
       "likes": 3,
@@ -281,8 +281,8 @@
       "averageViewDurationSeconds": 748,
       "averageViewPercentage": 25.96,
       "averageViewPercentage30d": 23.95,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 30,
+      "thumbnailCTR": 0.03333333333333333,
       "subscribersGained": 1,
       "subscribersLost": 0,
       "likes": 6,
@@ -315,8 +315,8 @@
       "averageViewDurationSeconds": 372,
       "averageViewPercentage": 12.91,
       "averageViewPercentage30d": 14.01,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 6,
+      "thumbnailCTR": 0,
       "subscribersGained": 2,
       "subscribersLost": 0,
       "likes": 5,
@@ -349,8 +349,8 @@
       "averageViewDurationSeconds": 692,
       "averageViewPercentage": 24,
       "averageViewPercentage30d": 24.7,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 5,
+      "thumbnailCTR": 0,
       "subscribersGained": 3,
       "subscribersLost": 0,
       "likes": 4,
@@ -383,8 +383,8 @@
       "averageViewDurationSeconds": 508,
       "averageViewPercentage": 17.69,
       "averageViewPercentage30d": 6.94,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 2,
+      "thumbnailCTR": 0,
       "subscribersGained": 0,
       "subscribersLost": 0,
       "likes": 1,
@@ -403,22 +403,22 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=a383EGc0Xyw",
       "publicStatistics": {
-        "viewCount": "324",
+        "viewCount": "327",
         "likeCount": "3",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 322,
+      "views": 324,
       "views7d": 62,
       "views30d": 127,
       "views60d": 129,
-      "watchHours": 73.65,
-      "averageViewDurationSeconds": 996,
-      "averageViewPercentage": 35.2,
+      "watchHours": 74.53333333333333,
+      "averageViewDurationSeconds": 1000,
+      "averageViewPercentage": 35.36,
       "averageViewPercentage30d": 16.62,
-      "thumbnailImpressions": null,
-      "thumbnailCTR": null,
+      "thumbnailImpressions": 266,
+      "thumbnailCTR": 0.011278195488721804,
       "subscribersGained": 1,
       "subscribersLost": 0,
       "likes": 3,
@@ -429,6 +429,1359 @@
       "isPartial60d": false
     }
   ],
-  "timeSeries": [],
-  "updatedAt": "2026-10-28T12:10:59.386Z"
+  "timeSeries": [
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 167,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 17,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "is31PpNqJI4",
+      "impressions": 193,
+      "ctr": 0.010362694300518135,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261011",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694466549"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 375,
+      "ctr": 0.010666666666666666,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 8,
+      "ctr": 0,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 13,
+      "ctr": 0,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 17,
+      "ctr": 0,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "is31PpNqJI4",
+      "impressions": 196,
+      "ctr": 0.00510204081632653,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261018",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694452343"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 87,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "is31PpNqJI4",
+      "impressions": 120,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261006",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694435724"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 424,
+      "ctr": 0.007075471698113208,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 10,
+      "ctr": 0,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "is31PpNqJI4",
+      "impressions": 404,
+      "ctr": 0.0049504950495049506,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261003",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0.5,
+      "reportId": "20694432591"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 256,
+      "ctr": 0.00390625,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 12,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "is31PpNqJI4",
+      "impressions": 325,
+      "ctr": 0.003076923076923077,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261001",
+      "videoId": "voKw2nx2Vj8",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694409568"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 702,
+      "ctr": 0.009971509971509971,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 16,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "is31PpNqJI4",
+      "impressions": 75,
+      "ctr": 0.013333333333333334,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261016",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694417464"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 361,
+      "ctr": 0.01662049861495845,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 10,
+      "ctr": 0,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20261017",
+      "videoId": "is31PpNqJI4",
+      "impressions": 133,
+      "ctr": 0.007518796992481203,
+      "reportId": "20694411593"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 299,
+      "ctr": 0.006688963210702341,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 9,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20260929",
+      "videoId": "is31PpNqJI4",
+      "impressions": 154,
+      "ctr": 0.01948051948051948,
+      "reportId": "20694389436"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 56,
+      "ctr": 0.017857142857142856,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 7,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "is31PpNqJI4",
+      "impressions": 108,
+      "ctr": 0.009259259259259259,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "moGOE2ZtjUc",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261007",
+      "videoId": "voKw2nx2Vj8",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694388765"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 502,
+      "ctr": 0.0099601593625498,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 17,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "is31PpNqJI4",
+      "impressions": 194,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261023",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694380078"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 131,
+      "ctr": 0.007633587786259542,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "is31PpNqJI4",
+      "impressions": 140,
+      "ctr": 0.014285714285714285,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261004",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694340115"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 504,
+      "ctr": 0.00992063492063492,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 7,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 13,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261019",
+      "videoId": "is31PpNqJI4",
+      "impressions": 214,
+      "ctr": 0.009345794392523364,
+      "reportId": "20694262114"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 95,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 9,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "is31PpNqJI4",
+      "impressions": 198,
+      "ctr": 0.015151515151515152,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261008",
+      "videoId": "voKw2nx2Vj8",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694205855"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 1088,
+      "ctr": 0.009191176470588236,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 10,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "WvxHxgmVwyo",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 5,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "is31PpNqJI4",
+      "impressions": 367,
+      "ctr": 0.010899182561307902,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "moGOE2ZtjUc",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261020",
+      "videoId": "voKw2nx2Vj8",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694194086"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 1004,
+      "ctr": 0.010956175298804782,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 15,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0.25,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "is31PpNqJI4",
+      "impressions": 92,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261015",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694192633"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 1145,
+      "ctr": 0.007860262008733625,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 19,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "is31PpNqJI4",
+      "impressions": 427,
+      "ctr": 0.00468384074941452,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261021",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694187455"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 253,
+      "ctr": 0.011857707509881422,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 15,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 21,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "is31PpNqJI4",
+      "impressions": 70,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20261012",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694103658"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 202,
+      "ctr": 0.01485148514851485,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 12,
+      "ctr": 0,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 8,
+      "ctr": 0,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20260930",
+      "videoId": "is31PpNqJI4",
+      "impressions": 136,
+      "ctr": 0.022058823529411766,
+      "reportId": "20694083629"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 91,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 7,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "is31PpNqJI4",
+      "impressions": 134,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261005",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20693957944"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 568,
+      "ctr": 0.0017605633802816902,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 4,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "OAj0xNdEG90",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 9,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "eVMykVYYFkQ",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261027",
+      "videoId": "is31PpNqJI4",
+      "impressions": 175,
+      "ctr": 0,
+      "reportId": "20693856987"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 1213,
+      "ctr": 0.010717230008244023,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 6,
+      "ctr": 0,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "Z2X73m3A2Vw",
+      "impressions": 1,
+      "ctr": 0,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 11,
+      "ctr": 0,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "is31PpNqJI4",
+      "impressions": 150,
+      "ctr": 0,
+      "reportId": "17740355802"
+    },
+    {
+      "type": "reach",
+      "date": "20261024",
+      "videoId": "n8WeUcOCX9E",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "17740355802"
+    }
+  ],
+  "updatedAt": "2026-10-29T13:33:14.716Z"
 }
