@@ -3,13 +3,14 @@
     "source": "YouTube Analytics",
     "channelId": "UChGVsHDZuguyoJjGprlqUCQ",
     "playlistId": "PLFXSG0xBg5S9yx4loZHUBVfgaoyqw33gx",
-    "stale": false,
+    "stale": true,
     "status": "ready",
     "unclassifiedBroadcasts": [],
     "analyticsThrough": "2026-10-27",
     "reachStatus": "available",
     "reachCoverage": "Impresiones y CTR: cobertura disponible 20260928 – 20261027.",
-    "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics."
+    "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics.",
+    "lastAttemptAt": "2026-11-03T22:54:18.223Z"
   },
   "summary": {
     "episodes": 12,
