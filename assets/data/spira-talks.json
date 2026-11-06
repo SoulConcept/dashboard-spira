@@ -6,17 +6,17 @@
     "stale": false,
     "status": "ready",
     "unclassifiedBroadcasts": [],
-    "analyticsThrough": "2026-11-02",
+    "analyticsThrough": "2026-11-03",
     "reachStatus": "available",
     "reachCoverage": "Impresiones y CTR: cobertura disponible 20260928 – 20261103.",
     "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics."
   },
   "summary": {
     "episodes": 12,
-    "views": 7287,
-    "watchHours": 1053.45,
-    "averageViewDurationSeconds": 558.6009331686565,
-    "averageViewPercentage": 20.320384245917385,
+    "views": 7395,
+    "watchHours": 1065.7500000000002,
+    "averageViewDurationSeconds": 556.7901284651791,
+    "averageViewPercentage": 20.256317782285326,
     "thumbnailCTR": 0.008887008040626322
   },
   "episodes": [
@@ -29,19 +29,19 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=-x8vtHAiDLM",
       "publicStatistics": {
-        "viewCount": "2004",
+        "viewCount": "2009",
         "likeCount": "17",
         "dislikeCount": "1",
         "favoriteCount": "0",
         "commentCount": "1"
       },
-      "views": 1907,
+      "views": 2000,
       "views7d": 115,
       "views30d": 930,
-      "views60d": 1907,
-      "watchHours": 216.31666666666666,
-      "averageViewDurationSeconds": 444,
-      "averageViewPercentage": 15.7,
+      "views60d": 2000,
+      "watchHours": 224.85,
+      "averageViewDurationSeconds": 439,
+      "averageViewPercentage": 15.54,
       "averageViewPercentage30d": 17.94,
       "thumbnailImpressions": 15608,
       "thumbnailCTR": 0.009546386468477703,
@@ -63,19 +63,19 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=is31PpNqJI4",
       "publicStatistics": {
-        "viewCount": "1209",
+        "viewCount": "1210",
         "likeCount": "5",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 1196,
+      "views": 1205,
       "views7d": 25,
       "views30d": 214,
       "views60d": 922,
-      "watchHours": 185.61666666666667,
-      "averageViewDurationSeconds": 602,
-      "averageViewPercentage": 22.42,
+      "watchHours": 188.35,
+      "averageViewDurationSeconds": 606,
+      "averageViewPercentage": 22.57,
       "averageViewPercentage30d": 24.65,
       "thumbnailImpressions": 6840,
       "thumbnailCTR": 0.007017543859649123,
@@ -97,7 +97,7 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=WvxHxgmVwyo",
       "publicStatistics": {
-        "viewCount": "88",
+        "viewCount": "89",
         "likeCount": "0",
         "dislikeCount": "0",
         "favoriteCount": "0",
@@ -199,7 +199,7 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=J0tTT2jL_0M",
       "publicStatistics": {
-        "viewCount": "2033",
+        "viewCount": "2034",
         "likeCount": "8",
         "dislikeCount": "1",
         "favoriteCount": "0",
@@ -403,19 +403,19 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=a383EGc0Xyw",
       "publicStatistics": {
-        "viewCount": "345",
+        "viewCount": "348",
         "likeCount": "3",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 338,
+      "views": 344,
       "views7d": 62,
       "views30d": 127,
       "views60d": 129,
-      "watchHours": 77.36666666666666,
-      "averageViewDurationSeconds": 1016,
-      "averageViewPercentage": 35.9,
+      "watchHours": 78.4,
+      "averageViewDurationSeconds": 1014,
+      "averageViewPercentage": 35.85,
       "averageViewPercentage30d": 16.62,
       "thumbnailImpressions": 453,
       "thumbnailCTR": 0.006622516556291391,
@@ -2823,5 +2823,5 @@
       "reportId": "20701648115"
     }
   ],
-  "updatedAt": "2026-11-05T13:26:16.993Z"
+  "updatedAt": "2026-11-06T10:13:39.137Z"
 }
