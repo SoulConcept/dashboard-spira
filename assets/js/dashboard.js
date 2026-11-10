@@ -507,7 +507,13 @@
     const source = state.country === 'all'
       ? DATA.investment.history
       : DATA.investment.countryHistory.filter(row => row.country === state.country);
+    const counts = leadCountsByPeriod();
     return filterByMonth(filterByYear(source, state.year), state.month)
+      .map(row => {
+        const bucket = counts[`${row.year}-${row.monthIndex}`];
+        const leads = state.country === 'all' ? (bucket?.all || 0) : (bucket?.byCountry[state.country] || 0);
+        return { ...row, leads };
+      })
       .sort((a,b) => (a.year * 12 + a.monthIndex) - (b.year * 12 + b.monthIndex));
   }
 
