@@ -6,18 +6,18 @@
     "stale": false,
     "status": "ready",
     "unclassifiedBroadcasts": [],
-    "analyticsThrough": "2026-11-07",
+    "analyticsThrough": "2026-11-08",
     "reachStatus": "available",
-    "reachCoverage": "Impresiones y CTR: cobertura disponible 20260928 – 20261107.",
+    "reachCoverage": "Impresiones y CTR: cobertura disponible 20260928 – 20261108.",
     "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics."
   },
   "summary": {
     "episodes": 12,
-    "views": 7459,
-    "watchHours": 1073.5166666666667,
-    "averageViewDurationSeconds": 557.6231398310765,
-    "averageViewPercentage": 20.272112883764578,
-    "thumbnailCTR": 0.008932298188496536
+    "views": 7476,
+    "watchHours": 1077.9166666666667,
+    "averageViewDurationSeconds": 558.6326912787587,
+    "averageViewPercentage": 20.31618780096308,
+    "thumbnailCTR": 0.00893743793445879
   },
   "episodes": [
     {
@@ -43,8 +43,8 @@
       "averageViewDurationSeconds": 438,
       "averageViewPercentage": 15.479999999999999,
       "averageViewPercentage30d": 17.94,
-      "thumbnailImpressions": 15650,
-      "thumbnailCTR": 0.009584664536741214,
+      "thumbnailImpressions": 15657,
+      "thumbnailCTR": 0.009580379383023568,
       "subscribersGained": 4,
       "subscribersLost": 0,
       "likes": 17,
@@ -63,23 +63,23 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=is31PpNqJI4",
       "publicStatistics": {
-        "viewCount": "1275",
+        "viewCount": "1282",
         "likeCount": "5",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 1241,
+      "views": 1257,
       "views7d": 25,
       "views30d": 214,
       "views60d": 922,
-      "watchHours": 193.8,
-      "averageViewDurationSeconds": 608,
-      "averageViewPercentage": 22.61,
+      "watchHours": 198.2,
+      "averageViewDurationSeconds": 613,
+      "averageViewPercentage": 22.83,
       "averageViewPercentage30d": 24.65,
-      "thumbnailImpressions": 7056,
-      "thumbnailCTR": 0.007086167800453515,
-      "subscribersGained": 2,
+      "thumbnailImpressions": 7246,
+      "thumbnailCTR": 0.0071763731714049135,
+      "subscribersGained": 3,
       "subscribersLost": 1,
       "likes": 5,
       "comments": 0,
@@ -145,8 +145,8 @@
       "averageViewDurationSeconds": 615,
       "averageViewPercentage": 27.47,
       "averageViewPercentage30d": 29.23,
-      "thumbnailImpressions": 163,
-      "thumbnailCTR": 0.018404907975460124,
+      "thumbnailImpressions": 165,
+      "thumbnailCTR": 0.01818181818181818,
       "subscribersGained": 5,
       "subscribersLost": 0,
       "likes": 4,
@@ -213,8 +213,8 @@
       "averageViewDurationSeconds": 498,
       "averageViewPercentage": 17.06,
       "averageViewPercentage30d": 27.169999999999998,
-      "thumbnailImpressions": 357,
-      "thumbnailCTR": 0.011204481792717087,
+      "thumbnailImpressions": 360,
+      "thumbnailCTR": 0.011111111111111112,
       "subscribersGained": 1,
       "subscribersLost": 0,
       "likes": 8,
@@ -403,13 +403,13 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=a383EGc0Xyw",
       "publicStatistics": {
-        "viewCount": "355",
+        "viewCount": "359",
         "likeCount": "3",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 353,
+      "views": 354,
       "views7d": 62,
       "views30d": 127,
       "views60d": 129,
@@ -417,8 +417,8 @@
       "averageViewDurationSeconds": 1014,
       "averageViewPercentage": 35.83,
       "averageViewPercentage30d": 16.62,
-      "thumbnailImpressions": 490,
-      "thumbnailCTR": 0.006122448979591836,
+      "thumbnailImpressions": 498,
+      "thumbnailCTR": 0.006024096385542169,
       "subscribersGained": 1,
       "subscribersLost": 0,
       "likes": 3,
@@ -3053,7 +3053,47 @@
       "impressions": 131,
       "ctr": 0.015267175572519083,
       "reportId": "20758943885"
+    },
+    {
+      "type": "reach",
+      "date": "20261108",
+      "videoId": "-x8vtHAiDLM",
+      "impressions": 7,
+      "ctr": 0,
+      "reportId": "20764676055"
+    },
+    {
+      "type": "reach",
+      "date": "20261108",
+      "videoId": "J0tTT2jL_0M",
+      "impressions": 3,
+      "ctr": 0,
+      "reportId": "20764676055"
+    },
+    {
+      "type": "reach",
+      "date": "20261108",
+      "videoId": "a383EGc0Xyw",
+      "impressions": 8,
+      "ctr": 0,
+      "reportId": "20764676055"
+    },
+    {
+      "type": "reach",
+      "date": "20261108",
+      "videoId": "cIgNsOPrLdo",
+      "impressions": 2,
+      "ctr": 0,
+      "reportId": "20764676055"
+    },
+    {
+      "type": "reach",
+      "date": "20261108",
+      "videoId": "is31PpNqJI4",
+      "impressions": 190,
+      "ctr": 0.010526315789473684,
+      "reportId": "20764676055"
     }
   ],
-  "updatedAt": "2026-11-10T14:32:21.960Z"
+  "updatedAt": "2026-11-11T12:16:20.200Z"
 }
