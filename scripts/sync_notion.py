@@ -16,7 +16,7 @@ MONTHS = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio',
           'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 COUNTRIES = ['Colombia', 'México', 'Perú', 'CAM']
 COUNTRY_MAP = {c: c for c in COUNTRIES}
-COUNTRY_MAP.update({'Mexico': 'México', 'Peru': 'Perú', 'Ecuador': 'Colombia',
+COUNTRY_MAP.update({'Mexico': 'México', 'Peru': 'Perú', 'Perù': 'Perú', 'Ecuador': 'Colombia',
                     'Estados Unidos': 'Colombia', 'Panamá': 'CAM', 'Honduras': 'CAM',
                     'Guatemala': 'CAM', 'Costa Rica': 'CAM', 'El Salvador': 'CAM',
                     'Nicaragua': 'CAM', 'Belice': 'CAM'})
@@ -56,6 +56,29 @@ def complete(page):
     return rows
 
 
+def dashboard_state(row, statuses):
+    def resolved(key):
+        value = clean(row.get(key))
+        return None if value and value.startswith('formulaResult://') else value
+    stage = resolved('Etapa (dashboard)') or clean(row.get('Etapa'))
+    source = 'Etapa (dashboard)' if resolved('Etapa (dashboard)') else 'Etapa'
+    if not stage:
+        if not any(clean(row.get(k)) for k in ('Empresa', 'País')):
+            return None, None, None, None
+        if statuses == ['Pendiente Asignación']:
+            stage, source = '1. Pendiente asignación', 'Estado histórico: pendiente asignación'
+        else:
+            raise ValueError('Etapa no disponible: no inferir desde Estado histórico')
+    match = re.match(r'^(10|[1-9])\.', stage)
+    if not match:
+        raise ValueError(f'Etapa desconocida: {stage}')
+    code = int(match.group(1))
+    if code == 6 and number(row.get('VALOR USD PROPUESTA'), 0) <= 0:
+        code, stage = 5, '5. Propuesta en preparación'
+    reason = (resolved('Motivo (dashboard)') or clean(row.get('Motivo de caída'))) if code in (9, 10) else None
+    return stage, code, reason, source
+
+
 def lead(row):
     raw = clean(row.get('País'))
     if raw and raw not in COUNTRY_MAP:
@@ -66,10 +89,16 @@ def lead(row):
     statuses = json.loads(statuses) if isinstance(statuses, str) else statuses
     if not isinstance(statuses, list) or not all(isinstance(s, str) for s in statuses):
         raise ValueError('Unexpected status format')
-    return dict(id=number(row.get('Número ')) or row.get('url'), year=date.year if date else None,
+    stage, stage_code, reason, stage_source = dashboard_state(row, statuses)
+    return dict(stage=stage, stageCode=stage_code, lossReason=reason, stageSource=stage_source,
+                historicalStatus=', '.join(statuses), channel=clean(row.get('Canal ')),
+                ropofySyncDate=row.get('date:Fecha sync Ropofy:start'),
+                serviceCategory=clean(row.get('Categoría de servicio')),
+                requestedTopic=clean(row.get('Tema solicitado')),
+                id=number(row.get('Número ')) or row.get('url'), year=date.year if date else None,
                 monthIndex=date.month if date else None, country=COUNTRY_MAP.get(raw),
                 rawCountry=raw, commercial=clean(row.get('Comercial')),
-                status=', '.join(statuses), proposalValue=number(row.get('VALOR USD PROPUESTA'), 0),
+                status=stage or '', proposalValue=number(row.get('VALOR USD PROPUESTA'), 0),
                 closeValue=number(row.get('VALOR USD CIERRE'), 0), origin=clean(row.get('Origen del Lead')),
                 company=clean(row.get('Empresa')), sentDate=date_es(date) if date else None)
 

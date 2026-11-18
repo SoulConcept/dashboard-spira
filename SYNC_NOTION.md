@@ -66,7 +66,22 @@ Los arrays del ejemplo deben contener las filas reales de Notion.
   bruto; blankRows, incompleteRows y excludedRows explican las exclusiones.
 - Ecuador y Estados Unidos se asignan a Colombia, siguiendo la versión existente.
   Centroamérica se agrupa como CAM. Un país sin correspondencia detiene la publicación.
-- Los estados y valores se conservan para mantener las reglas de pipeline actuales.
+- Los estados siguen las notas de https://app.notion.com/p/302662d9fcba8005aba2ebb9a905f89d.
+  Leer esta página en cada sincronización. Usar Etapa (dashboard) y Motivo (dashboard).
+  Si el conector entrega referencias formulaResult://, usar Etapa y Motivo de caída.
+  Sin etapa, solo se admite la traducción conocida Pendiente Asignación → 1;
+  cualquier otra traducción histórica desconocida bloquea la publicación.
+  Estado se conserva como historicalStatus, sin dirigir los indicadores.
+- Etapas: 1 pendiente asignación; 2 sin contacto; 3 contactado/agendando;
+  4 reunión/necesidades; 5 propuesta en preparación; 6 propuesta final con importe;
+  7 negociación; 8 ganado; 9 perdido; 10 descartado/no calificaba.
+  Etapa 6 sin importe positivo pasa a 5. Motivo solo se conserva en 9 y 10.
+  Pipeline activo: etapas 6 y 7 con importe. Ganado: etapa 8. Perdido: etapa 9;
+  descartados no se confunden con perdidos. Los importes no determinan por sí solos el estado.
+- Perù se normaliza a Perú conservando rawCountry. Las notas de comité y la fecha
+  de sincronización Ropofy contextualizan la información; no inventar estados o fechas.
+  Google/Pago, formularios recibidos y todos los leads son universos distintos.
+  No copiar los totales narrativos de la página como cifras actuales.
 - El presupuesto ausente usa el último presupuesto de un mes anterior de la misma
   tabla, incluso del año anterior. Un presupuesto cero es válido. Sin antecedente,
   se detiene la actualización. `Leads #` ausente queda en null.

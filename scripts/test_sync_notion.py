@@ -6,7 +6,7 @@ from sync_notion import complete, investment, lead, complete_lead
 
 class SyncTests(unittest.TestCase):
     def test_only_complete_leads_count(self):
-        raw = {'Número ': 1, 'Empresa': 'Empresa', 'País': 'Colombia',
+        raw = {'Número ': 1, 'Empresa': 'Empresa', 'País': 'Colombia', 'Etapa': '2. Sin contacto del comercial',
                'date:Fecha de envío a comercial :start': '2026-09-18'}
         self.assertTrue(complete_lead(lead(raw)))  # No assigned salesperson or revenue required.
         for key in ('Empresa', 'País', 'date:Fecha de envío a comercial :start'):
@@ -20,6 +20,26 @@ class SyncTests(unittest.TestCase):
         self.assertFalse(complete_lead(lead({'url': 'page', 'ID Lead': '310'})))
         self.assertFalse(complete_lead(lead({'ID Lead': '309', 'Origen del Lead': 'Pago'})))
         self.assertFalse(complete_lead(lead(dict(raw, Empresa='<br> ** **'))))
+
+    def test_canonical_stages_and_reasons(self):
+        raw = {'Empresa': 'Ejemplo', 'País': 'Perù', 'Etapa': '7. Negociación',
+               'VALOR USD PROPUESTA': 100, 'Motivo de caída': 'Precio'}
+        self.assertEqual(lead(raw)['country'], 'Perú')
+        self.assertEqual(lead(raw)['stageCode'], 7)
+        self.assertIsNone(lead(raw)['lossReason'])
+        raw['Etapa (dashboard)'] = '9. Perdido'
+        self.assertEqual(lead(raw)['lossReason'], 'Precio')
+        self.assertEqual(lead(raw)['stageCode'], 9)
+        raw['Etapa (dashboard)'] = 'formulaResult://unresolved'
+        self.assertEqual(lead(raw)['stageCode'], 7)
+        raw['Etapa'] = '6. Propuesta final (con $)'
+        raw['VALOR USD PROPUESTA'] = 0
+        self.assertEqual(lead(raw)['stageCode'], 5)
+        del raw['Etapa']
+        with self.assertRaises(ValueError):
+            lead(raw)
+        raw['Estado'] = ['Pendiente Asignación']
+        self.assertEqual(lead(raw)['stageCode'], 1)
 
     def test_budget_uses_previous_month_of_same_table_across_years(self):
         rows = [{'Mes': 'Enero', 'Año': 2026, 'Google': 20},
@@ -50,12 +70,13 @@ class SyncTests(unittest.TestCase):
 
     def test_lead_business_mapping_and_missing_values(self):
         row = lead({'País': '**Ecuador**', 'Empresa': '• [Empresa](url)',
-                    'Estado': '["STANBY", "Propuesta Final"]',
+                    'Estado': '["STANBY", "Propuesta Final"]', 'Etapa': '5. Propuesta en preparación',
                     'date:Fecha de envío a comercial :start': '2026-09-02'})
         self.assertEqual(row['country'], 'Colombia')
         self.assertEqual(row['company'], 'Empresa')
         self.assertEqual(row['sentDate'], '2 de septiembre de 2026')
-        self.assertEqual(row['status'], 'STANBY, Propuesta Final')
+        self.assertEqual(row['status'], '5. Propuesta en preparación')
+        self.assertEqual(row['historicalStatus'], 'STANBY, Propuesta Final')
         self.assertEqual(row['closeValue'], 0)
         with self.assertRaises(ValueError):
             lead({'País': 'País sin asignación'})

@@ -283,16 +283,13 @@
   function opportunityFlags(row) {
     const proposalValue = Number(row.proposalValue) || 0;
     const closeValue = Number(row.closeValue) || 0;
-    const status = row.status || '';
-    const final = proposalValue > 0 || closeValue > 0;
-    const proposal = final || status === 'En propuesta' || status === 'No avanzo propuesta';
-    const meeting = proposal || status === 'Reunión Inicial' || status === 'IDENTIFICACION DE NECESIDADES';
-    const active = status.includes('Propuesta Final');
-    // Regla de conciliación comercial: toda oportunidad cotizada que ya no está activa
-    // se considera perdida. Las propuestas sin cotizar en "No avanzo propuesta" también
-    // cuentan como perdidas, pero no suman valor al pipeline perdido.
-    const lost = status === 'No avanzo propuesta' || (proposalValue > 0 && !active && closeValue <= 0);
-    const close = closeValue > 0;
+    const stage = Number(row.stageCode);
+    const final = proposalValue > 0 && [6, 7, 8, 9].includes(stage);
+    const proposal = [5, 6, 7, 8].includes(stage) || (stage === 9 && proposalValue > 0);
+    const meeting = [4, 5, 6, 7, 8].includes(stage) || (stage === 9 && proposalValue > 0);
+    const active = [6, 7].includes(stage) && proposalValue > 0;
+    const lost = stage === 9;
+    const close = stage === 8;
     return { meeting, proposal, final, active, lost, close };
   }
 
@@ -622,7 +619,7 @@
       { base: meetingsCount || 1, label: 'Cálculo', formula: 'Propuestas / reuniones' },
       { base: meetingsCount || 1, label: 'Cálculo', formula: 'Propuesta final / reuniones' },
       { base: meetingsCount || 1, label: 'Cálculo', formula: 'Propuestas activas / reuniones' },
-      { base: proposalsCount || 1, label: 'Cálculo', formula: 'Perdidos / propuestas' },
+      { base: leadCount || 1, label: 'Cálculo', formula: 'Etapa Perdido / leads entregados' },
       { base: proposalsCount || 1, label: 'Cálculo', formula: 'Cierres / propuestas' }
     ];
 
