@@ -6,17 +6,17 @@
     "stale": false,
     "status": "ready",
     "unclassifiedBroadcasts": [],
-    "analyticsThrough": "2026-11-15",
+    "analyticsThrough": "2026-11-16",
     "reachStatus": "available",
     "reachCoverage": "Impresiones y CTR: cobertura disponible 20260928 – 20261115.",
     "methodology": "On-demand y Estrenos confirmados ≥600 s, publicación desde 2026-01-13. Ventanas de 7/30/60 días de YouTube (America/Los_Angeles), publicación incluida; corte conservador de 3 días por latencia de Analytics."
   },
   "summary": {
     "episodes": 12,
-    "views": 7585,
-    "watchHours": 1096.8666666666668,
-    "averageViewDurationSeconds": 561.401713909031,
-    "averageViewPercentage": 20.423554383651947,
+    "views": 7593,
+    "watchHours": 1096.8500000000001,
+    "averageViewDurationSeconds": 561.2449624654287,
+    "averageViewPercentage": 20.420110628210193,
     "thumbnailCTR": 0.00871477113731761
   },
   "episodes": [
@@ -29,19 +29,19 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=-x8vtHAiDLM",
       "publicStatistics": {
-        "viewCount": "2022",
+        "viewCount": "2023",
         "likeCount": "17",
         "dislikeCount": "1",
         "favoriteCount": "0",
         "commentCount": "1"
       },
-      "views": 2019,
+      "views": 2020,
       "views7d": 115,
       "views30d": 930,
       "views60d": 2019,
       "watchHours": 225.5,
       "averageViewDurationSeconds": 437,
-      "averageViewPercentage": 15.47,
+      "averageViewPercentage": 15.46,
       "averageViewPercentage30d": 17.94,
       "thumbnailImpressions": 15696,
       "thumbnailCTR": 0.0095565749235474,
@@ -63,19 +63,19 @@
       "isConfirmedPremiere": false,
       "url": "https://www.youtube.com/watch?v=is31PpNqJI4",
       "publicStatistics": {
-        "viewCount": "1358",
+        "viewCount": "1361",
         "likeCount": "5",
         "dislikeCount": "0",
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 1350,
+      "views": 1355,
       "views7d": 25,
       "views30d": 214,
       "views60d": 922,
-      "watchHours": 213.31666666666666,
-      "averageViewDurationSeconds": 617,
-      "averageViewPercentage": 22.95,
+      "watchHours": 213.76666666666668,
+      "averageViewDurationSeconds": 616,
+      "averageViewPercentage": 22.94,
       "averageViewPercentage30d": 24.65,
       "thumbnailImpressions": 7998,
       "thumbnailCTR": 0.006751687921980495,
@@ -171,7 +171,7 @@
         "favoriteCount": "0",
         "commentCount": "1"
       },
-      "views": 425,
+      "views": 426,
       "views7d": 14,
       "views30d": 241,
       "views60d": 405,
@@ -205,11 +205,11 @@
         "favoriteCount": "0",
         "commentCount": "0"
       },
-      "views": 2036,
+      "views": 2037,
       "views7d": 14,
       "views30d": 184,
       "views60d": 643,
-      "watchHours": 271.45,
+      "watchHours": 271.5,
       "averageViewDurationSeconds": 498,
       "averageViewPercentage": 17.06,
       "averageViewPercentage30d": 27.169999999999998,
@@ -301,7 +301,7 @@
       "isConfirmedPremiere": true,
       "url": "https://www.youtube.com/watch?v=Z2X73m3A2Vw",
       "publicStatistics": {
-        "viewCount": "160",
+        "viewCount": "161",
         "likeCount": "5",
         "dislikeCount": "0",
         "favoriteCount": "0",
@@ -413,7 +413,7 @@
       "views7d": 62,
       "views30d": 127,
       "views60d": 129,
-      "watchHours": 82.88333333333334,
+      "watchHours": 82.36666666666666,
       "averageViewDurationSeconds": 1039,
       "averageViewPercentage": 36.71,
       "averageViewPercentage30d": 16.62,
@@ -3359,5 +3359,5 @@
       "reportId": "17808357684"
     }
   ],
-  "updatedAt": "2026-11-18T21:01:52.441Z"
+  "updatedAt": "2026-11-19T08:03:25.030Z"
 }
