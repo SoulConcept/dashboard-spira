@@ -4,8 +4,8 @@ window.SPIRA_DATA = {
     "agency": "Soul Concept",
     "reportTitle": "Dashboard de performance comercial y ADS",
     "period": "2026",
-    "cutoff": "19 de noviembre de 2026 · actualización automática desde Notion",
-    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 19 de noviembre de 2026"
+    "cutoff": "20 de noviembre de 2026 · actualización automática desde Notion",
+    "source": "Listado de Leads entregados + USD Total Inversión de Publicidad 2025–2026 · sincronizado el 20 de noviembre de 2026"
   },
   "brand": {
     "red": "#E10613",
@@ -182,8 +182,8 @@ window.SPIRA_DATA = {
     "pipelineActive": 740555.27,
     "pipelineLost": 567600,
     "validation": {
-      "sourceRows": 356,
-      "usableLeadRows": 356,
+      "sourceRows": 359,
+      "usableLeadRows": 359,
       "blankRows": 0,
       "qualifiedLeads2026Control": 280,
       "detailedRows2026": 280,
@@ -210,8 +210,8 @@ window.SPIRA_DATA = {
       },
       "qualifiedLeadsThroughAugust": 270,
       "qualifiedLeads2026": 280,
-      "investmentExportSnapshot": "19 de noviembre de 2026",
-      "commercialRowsSnapshot": "19 de noviembre de 2026",
+      "investmentExportSnapshot": "20 de noviembre de 2026",
+      "commercialRowsSnapshot": "20 de noviembre de 2026",
       "juneControlTotal": 35,
       "juneCountryRowsSum": 36,
       "juneControlDifference": 1,
@@ -3901,13 +3901,13 @@ window.SPIRA_DATA = {
         "sentDate": "23 de junio de 2026"
       },
       {
-        "stage": "9. Perdido",
-        "stageCode": 9,
-        "lossReason": "Cambio de necesidad",
+        "stage": "3. Contactado / agendando",
+        "stageCode": 3,
+        "lossReason": null,
         "stageSource": "Etapa",
         "historicalStatus": "Perdido - Cambio de necesidad del proyecto",
         "channel": "Google",
-        "ropofySyncDate": "2026-11-18",
+        "ropofySyncDate": "2026-11-20",
         "serviceCategory": null,
         "requestedTopic": null,
         "id": 161,
@@ -3916,8 +3916,8 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "9. Perdido",
-        "proposalValue": 59000,
+        "status": "3. Contactado / agendando",
+        "proposalValue": 0,
         "closeValue": 0,
         "origin": "Orgánico",
         "company": "Liverpool",
@@ -7926,13 +7926,13 @@ window.SPIRA_DATA = {
         "sentDate": "26 de octubre de 2026"
       },
       {
-        "stage": "3. Contactado / agendando",
-        "stageCode": 3,
+        "stage": "4. Reunión / identificación de necesidades",
+        "stageCode": 4,
         "lossReason": null,
         "stageSource": "Etapa",
         "historicalStatus": "A espera de agenda",
         "channel": "Google",
-        "ropofySyncDate": "2026-11-18",
+        "ropofySyncDate": "2026-11-20",
         "serviceCategory": "Learning – Formación / capacitación",
         "requestedTopic": "Capacitación en seguridad y renta de equipo para impartirla",
         "id": 335,
@@ -7941,7 +7941,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "3. Contactado / agendando",
+        "status": "4. Reunión / identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -8087,13 +8087,13 @@ window.SPIRA_DATA = {
         "sentDate": "27 de octubre de 2026"
       },
       {
-        "stage": "4. Reunión / identificación de necesidades",
-        "stageCode": 4,
+        "stage": "5. Propuesta en preparación",
+        "stageCode": 5,
         "lossReason": null,
         "stageSource": "Etapa",
         "historicalStatus": "Identificación de necesidades",
         "channel": "Google",
-        "ropofySyncDate": "2026-11-18",
+        "ropofySyncDate": "2026-11-20",
         "serviceCategory": "Factory – Contenidos virtuales / e-learning",
         "requestedTopic": "Plataforma para adiestramiento de personal interno",
         "id": 342,
@@ -8102,7 +8102,7 @@ window.SPIRA_DATA = {
         "country": "México",
         "rawCountry": "México",
         "commercial": "Arantxa Gonzalez",
-        "status": "4. Reunión / identificación de necesidades",
+        "status": "5. Propuesta en preparación",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -8363,13 +8363,13 @@ window.SPIRA_DATA = {
         "sentDate": "16 de noviembre de 2026"
       },
       {
-        "stage": "2. Sin contacto del comercial",
-        "stageCode": 2,
+        "stage": "4. Reunión / identificación de necesidades",
+        "stageCode": 4,
         "lossReason": null,
         "stageSource": "Etapa",
         "historicalStatus": "Sin contacto",
         "channel": "Google",
-        "ropofySyncDate": "2026-11-18",
+        "ropofySyncDate": "2026-11-20",
         "serviceCategory": "Factory – Contenidos virtuales / e-learning",
         "requestedTopic": "Realizar videos educativos",
         "id": 354,
@@ -8378,7 +8378,7 @@ window.SPIRA_DATA = {
         "country": "Colombia",
         "rawCountry": "Colombia",
         "commercial": "Daniela Hormizda",
-        "status": "2. Sin contacto del comercial",
+        "status": "4. Reunión / identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
@@ -8386,27 +8386,96 @@ window.SPIRA_DATA = {
         "sentDate": "17 de noviembre de 2026"
       },
       {
-        "stage": "1. Pendiente asignación",
-        "stageCode": 1,
+        "stage": "4. Reunión / identificación de necesidades",
+        "stageCode": 4,
         "lossReason": null,
-        "stageSource": "Estado histórico: pendiente asignación",
-        "historicalStatus": "Pendiente Asignación",
+        "stageSource": "Etapa",
+        "historicalStatus": "Sin contacto",
         "channel": "Google",
-        "ropofySyncDate": null,
-        "serviceCategory": null,
-        "requestedTopic": null,
+        "ropofySyncDate": "2026-11-20",
+        "serviceCategory": "Learning – Formación / capacitación",
+        "requestedTopic": "Taller de team building de 2 horas para 20 personas (trabajo en equipo, comunicación, escucha activa), 18 de diciembre, Mosquera",
         "id": 355,
         "year": 2026,
         "monthIndex": 11,
         "country": "Colombia",
         "rawCountry": "Colombia",
-        "commercial": null,
-        "status": "1. Pendiente asignación",
+        "commercial": "Stephanie Rincón Pulido",
+        "status": "4. Reunión / identificación de necesidades",
         "proposalValue": 0,
         "closeValue": 0,
         "origin": "Pago",
         "company": "OCADE SAS",
         "sentDate": "18 de noviembre de 2026"
+      },
+      {
+        "stage": "2. Sin contacto del comercial",
+        "stageCode": 2,
+        "lossReason": null,
+        "stageSource": "Etapa",
+        "historicalStatus": "Sin contacto",
+        "channel": "Google",
+        "ropofySyncDate": "2026-11-20",
+        "serviceCategory": "Learning – Formación / capacitación",
+        "requestedTopic": "Curso de ventas con metodología Sandler (en línea o presencial) para 2 empleados",
+        "id": 356,
+        "year": 2026,
+        "monthIndex": 11,
+        "country": "México",
+        "rawCountry": "México",
+        "commercial": "Luis Medina",
+        "status": "2. Sin contacto del comercial",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": "Pago",
+        "company": "Grupo SACA",
+        "sentDate": "18 de noviembre de 2026"
+      },
+      {
+        "stage": "2. Sin contacto del comercial",
+        "stageCode": 2,
+        "lossReason": null,
+        "stageSource": "Etapa",
+        "historicalStatus": "Sin contacto",
+        "channel": "Google",
+        "ropofySyncDate": "2026-11-20",
+        "serviceCategory": "Learning – Formación / capacitación",
+        "requestedTopic": "Sensibilización en autocuidado para \\~2.700 personas de planta, en grupos de 50–70 por turno, con enfoque distinto al de seguridad tradicional",
+        "id": 357,
+        "year": 2026,
+        "monthIndex": 11,
+        "country": "México",
+        "rawCountry": "México",
+        "commercial": "Arantxa Gonzalez",
+        "status": "2. Sin contacto del comercial",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": "Pago",
+        "company": "Weg México S.A. de C.V.",
+        "sentDate": "20 de noviembre de 2026"
+      },
+      {
+        "stage": "5. Propuesta en preparación",
+        "stageCode": 5,
+        "lossReason": null,
+        "stageSource": "Etapa",
+        "historicalStatus": "Sin contacto",
+        "channel": "Google",
+        "ropofySyncDate": "2026-11-20",
+        "serviceCategory": "Learning – Formación / capacitación",
+        "requestedTopic": "Escuela de liderazgo experiencial de 8 horas para 80 personas (integración, trabajo en equipo, liderazgo participativo), 11 de diciembre, Bogotá",
+        "id": "https://app.notion.com/p/41e662d9fcba8048b29cfb1903184358",
+        "year": 2026,
+        "monthIndex": 11,
+        "country": "Colombia",
+        "rawCountry": "Colombia",
+        "commercial": "Lina Rosero",
+        "status": "5. Propuesta en preparación",
+        "proposalValue": 0,
+        "closeValue": 0,
+        "origin": "Pago",
+        "company": "FEDEPAPA-FNFP",
+        "sentDate": "20 de noviembre de 2026"
       }
     ]
   },
@@ -8643,7 +8712,7 @@ window.SPIRA_DATA = {
   "investment": {
     "sourceUrl": "https://app.notion.com/p/soulcreative/USD-Total-Inversi-n-de-Publicidad-2025-2026-36c662d9fcba8015a715d35a4a01ae49?source=copy_link",
     "sourceLabel": "USD Total Inversión de Publicidad 2025–2026",
-    "snapshot": "19 de noviembre de 2026",
+    "snapshot": "20 de noviembre de 2026",
     "defaultBudget": 3000,
     "history": [
       {
@@ -8654,7 +8723,7 @@ window.SPIRA_DATA = {
         "linkedin": 90,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2025,
@@ -8664,7 +8733,7 @@ window.SPIRA_DATA = {
         "linkedin": 1192.93,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2025,
@@ -8674,7 +8743,7 @@ window.SPIRA_DATA = {
         "linkedin": 824.57,
         "google": 791.01,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8684,7 +8753,7 @@ window.SPIRA_DATA = {
         "linkedin": 757.7,
         "google": 964.66,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8694,7 +8763,7 @@ window.SPIRA_DATA = {
         "linkedin": 1390.55,
         "google": 940.96,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8704,7 +8773,7 @@ window.SPIRA_DATA = {
         "linkedin": 612.65,
         "google": 1960.48,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8714,7 +8783,7 @@ window.SPIRA_DATA = {
         "linkedin": 750.11,
         "google": 1461,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8724,7 +8793,7 @@ window.SPIRA_DATA = {
         "linkedin": 130.28,
         "google": 1649.03,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8734,7 +8803,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2985.84,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8744,7 +8813,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2987.33,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8754,7 +8823,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 3515.73,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8764,7 +8833,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 2904.17,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8774,7 +8843,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 3029.83,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       },
       {
         "year": 2026,
@@ -8782,9 +8851,9 @@ window.SPIRA_DATA = {
         "monthIndex": 11,
         "budget": 2000,
         "linkedin": 0,
-        "google": 2308.51,
+        "google": 2388.74,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026"
+        "source": "Notion · sincronizado el 20 de noviembre de 2026"
       }
     ],
     "countryHistory": [
@@ -8796,7 +8865,7 @@ window.SPIRA_DATA = {
         "linkedin": 9,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8807,7 +8876,7 @@ window.SPIRA_DATA = {
         "linkedin": 119.23,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8818,7 +8887,7 @@ window.SPIRA_DATA = {
         "linkedin": 88.11,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8829,7 +8898,7 @@ window.SPIRA_DATA = {
         "linkedin": 106,
         "google": 141.76,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8840,7 +8909,7 @@ window.SPIRA_DATA = {
         "linkedin": 263,
         "google": 158.2,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8851,7 +8920,7 @@ window.SPIRA_DATA = {
         "linkedin": 114,
         "google": 224.34,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8862,7 +8931,7 @@ window.SPIRA_DATA = {
         "linkedin": 75,
         "google": 127.05,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8873,7 +8942,7 @@ window.SPIRA_DATA = {
         "linkedin": 13,
         "google": 206.58,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8884,7 +8953,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 384.89,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8895,7 +8964,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 446.94,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8906,7 +8975,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 224.79,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8917,7 +8986,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8928,7 +8997,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8939,7 +9008,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "CAM"
       },
       {
@@ -8950,7 +9019,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -8961,7 +9030,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 21.35,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -8972,7 +9041,7 @@ window.SPIRA_DATA = {
         "linkedin": 460.16,
         "google": 333.72,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -8983,7 +9052,7 @@ window.SPIRA_DATA = {
         "linkedin": 224,
         "google": 407.07,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -8994,7 +9063,7 @@ window.SPIRA_DATA = {
         "linkedin": 422,
         "google": 430.92,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9005,7 +9074,7 @@ window.SPIRA_DATA = {
         "linkedin": 189,
         "google": 657.44,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9016,7 +9085,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 640.6,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9027,7 +9096,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 428.73,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9038,7 +9107,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 686.39,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9049,7 +9118,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 648.17,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9060,7 +9129,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1112.13,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9071,7 +9140,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 717.77,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9082,7 +9151,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1011.04,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9091,9 +9160,9 @@ window.SPIRA_DATA = {
         "monthIndex": 11,
         "budget": 1000,
         "linkedin": 0,
-        "google": 1080.63,
+        "google": 1125.52,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Colombia"
       },
       {
@@ -9104,7 +9173,7 @@ window.SPIRA_DATA = {
         "linkedin": 31.5,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9115,7 +9184,7 @@ window.SPIRA_DATA = {
         "linkedin": 417.5255,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9126,7 +9195,7 @@ window.SPIRA_DATA = {
         "linkedin": 122.79,
         "google": 333.73,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9137,7 +9206,7 @@ window.SPIRA_DATA = {
         "linkedin": 289,
         "google": 140.84,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9148,7 +9217,7 @@ window.SPIRA_DATA = {
         "linkedin": 431,
         "google": 159.63,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9159,7 +9228,7 @@ window.SPIRA_DATA = {
         "linkedin": 186,
         "google": 475.62,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9170,7 +9239,7 @@ window.SPIRA_DATA = {
         "linkedin": 262.5,
         "google": 369.49,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9181,7 +9250,7 @@ window.SPIRA_DATA = {
         "linkedin": 45.5,
         "google": 535.44,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9192,7 +9261,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1323.48,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9203,7 +9272,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1211.04,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9214,7 +9283,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1198.94,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9225,7 +9294,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 996.59,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9236,7 +9305,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 999.28,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9245,9 +9314,9 @@ window.SPIRA_DATA = {
         "monthIndex": 11,
         "budget": 1000,
         "linkedin": 0,
-        "google": 1202.58,
+        "google": 1237.92,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "México"
       },
       {
@@ -9258,7 +9327,7 @@ window.SPIRA_DATA = {
         "linkedin": 18,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9269,7 +9338,7 @@ window.SPIRA_DATA = {
         "linkedin": 238.586,
         "google": 0,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9280,7 +9349,7 @@ window.SPIRA_DATA = {
         "linkedin": 153.51,
         "google": 122.57,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9291,7 +9360,7 @@ window.SPIRA_DATA = {
         "linkedin": 139,
         "google": 273.87,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9302,7 +9371,7 @@ window.SPIRA_DATA = {
         "linkedin": 274,
         "google": 191.07,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9313,7 +9382,7 @@ window.SPIRA_DATA = {
         "linkedin": 124,
         "google": 600.61,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9324,7 +9393,7 @@ window.SPIRA_DATA = {
         "linkedin": 150,
         "google": 323.92,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9335,7 +9404,7 @@ window.SPIRA_DATA = {
         "linkedin": 26,
         "google": 467,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9346,7 +9415,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 591.08,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9357,7 +9426,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 681.18,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9368,7 +9437,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 979.92,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9379,7 +9448,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1189.81,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9390,7 +9459,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 1019.51,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       },
       {
@@ -9401,7 +9470,7 @@ window.SPIRA_DATA = {
         "linkedin": 0,
         "google": 25.3,
         "leads": null,
-        "source": "Notion · sincronizado el 19 de noviembre de 2026",
+        "source": "Notion · sincronizado el 20 de noviembre de 2026",
         "country": "Perú"
       }
     ]
