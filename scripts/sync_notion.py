@@ -67,6 +67,8 @@ def dashboard_state(row, statuses):
             return None, None, None, None
         if statuses == ['Pendiente Asignación']:
             stage, source = '1. Pendiente asignación', 'Estado histórico: pendiente asignación'
+        elif statuses == ['Sin contacto']:
+            stage, source = '2. Sin contacto del comercial', 'Estado histórico: sin contacto'
         else:
             raise ValueError('Etapa no disponible: no inferir desde Estado histórico')
     match = re.match(r'^(10|[1-9])\.', stage)

@@ -69,7 +69,9 @@ Los arrays del ejemplo deben contener las filas reales de Notion.
 - Los estados siguen las notas de https://app.notion.com/p/302662d9fcba8005aba2ebb9a905f89d.
   Leer esta página en cada sincronización. Usar Etapa (dashboard) y Motivo (dashboard).
   Si el conector entrega referencias formulaResult://, usar Etapa y Motivo de caída.
-  Sin etapa, solo se admite la traducción conocida Pendiente Asignación → 1;
+  Sin etapa, se admiten las traducciones autorizadas Pendiente Asignación → 1
+  y Sin contacto → 2. Sin contacto del comercial (confirmado el 23-nov-2026).
+  Solo aplicar a un estado histórico único, sin sobrescribir etapas explícitas;
   cualquier otra traducción histórica desconocida bloquea la publicación.
   Estado se conserva como historicalStatus, sin dirigir los indicadores.
 - Etapas: 1 pendiente asignación; 2 sin contacto; 3 contactado/agendando;

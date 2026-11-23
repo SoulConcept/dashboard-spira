@@ -41,6 +41,18 @@ class SyncTests(unittest.TestCase):
         raw['Estado'] = ['Pendiente Asignación']
         self.assertEqual(lead(raw)['stageCode'], 1)
 
+    def test_authorized_no_contact_fallback(self):
+        raw = {'Empresa': 'Ejemplo', 'País': 'Colombia', 'Estado': ['Sin contacto']}
+        self.assertEqual(lead(raw)['stageCode'], 2)
+        self.assertEqual(lead(raw)['historicalStatus'], 'Sin contacto')
+        self.assertIsNone(raw.get('Etapa'))
+        raw['Etapa'] = '7. Negociación'
+        self.assertEqual(lead(raw)['stageCode'], 7)
+        del raw['Etapa']
+        raw['Estado'] = ['Sin contacto', 'Propuesta Final']
+        with self.assertRaises(ValueError):
+            lead(raw)
+
     def test_budget_uses_previous_month_of_same_table_across_years(self):
         rows = [{'Mes': 'Enero', 'Año': 2026, 'Google': 20},
                 {'Mes': 'Diciembre', 'Año': 2025, 'Presupuesto Aprobado': 600}]
